@@ -1,0 +1,410 @@
+
+% Remember to rename this template to something unique to your article.
+% We recommend using the article ID assigned to your article in EditFlow if applicable.
+
+% Use this AIMS template to prepare your tex file after your article is accepted by an AIMS journal.
+% Read all information including that which is proceeded by a \% sign. These are important instructions and explanations.
+% Please refer to the Template FAQ for more information.
+% Thank you for your cooperation.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                    1. PREAMBLE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{aims} % Use the aims.cls file to compile your paper
+\usepackage{amsmath}
+\usepackage{paralist}
+\usepackage[misc]{ifsym}
+\usepackage{epsfig} %For pictures: screened artwork should be set up with an 85 or 100 line screen
+\usepackage{epstopdf} %This is to transfer .eps figure to .pdf figure; please compile your article using PDFLaTex or PDFTeXify.
+\usepackage[colorlinks=true]{hyperref}
+   % Warning: when you first run your tex file, some errors might occur,
+   % please just press enter key to end the compilation process, then it will be fine if you run your tex file again.
+   % Note that it is highly recommended by AIMS to use this package.
+\hypersetup{urlcolor=blue, citecolor=red}
+%\usepackage{hyperref}
+\allowdisplaybreaks
+
+% Do not change or remove the page specifications below.
+\textheight=8.2 true in
+ \textwidth=5.0 true in
+  \topmargin 30pt
+   \setcounter{page}{1}
+
+% The next 6 lines will be entered by AIMS production staff.
+\def\currentvolume{X}
+ \def\currentissue{X}
+  \def\currentyear{200X}
+   \def\currentmonth{XX}
+    \def\ppages{X-XX}
+     \def\DOI{10.3934/xx.xxxxxxx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          2. CUSTOM COMMANDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PLEASE NOTE: The AIMS cls file is updated regularly with the standard AMS usepackages - you do NOT need to insert custom commands for AMS symbols,
+
+% Insert your custom commands in this section.
+% Please minimize the use of "newtheorem", "newcommand", and use equation numbers only in situations where they provide essential convenience.
+% Use \usepackage{amssymb}, \usepackage{amsthm}, etc, but please do not define individual mathematical symbols unless it is completely necessary.
+% Try to avoid defining your own macros.
+
+% Do not change or remove the commands below.
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem*{main}{Main Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem*{problem}{Problem}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem*{notation}{Notation}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\eps}[1]{{#1}_{\varepsilon}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%         3. HEADER AND FOOTER SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Place the running head in [], and the full title of the article in {}.
+\title[Running head]
+% Running head is the full title or shortened version of the full title. This will appear at the top of odd pages. It should be no more than 40 characters to fit within the width limit.
+{The full title of your article} % Only the first word and proper nouns should be capitalized.
+
+% Place all authors' names in []. This will be shown as the running head on even pages. Leave {} empty.
+% Please use `and' to connect the last two authors' names if applicable.
+% List full names if possible. If all authors' full names will not fit, use FirstNameInitial. MiddleNameInitial. LastName, only last names, or full names of first few authors, et al.
+\author[First-name1 Last-name1 and First-name2 Last-name2]{}
+
+% 2020 MSC numbers are required.
+\subjclass{Primary: 58F15, 58F17; Secondary: 53C35.}
+% Please provide a minimum of 5 keywords or phrases.
+\keywords{Dimension theory, Poincar\'e recurrences, multifractal analysis, discrete-time model, singular Hopf bifurcation.}
+
+% Put your short thanks below. For thanks/acknowledgments over 30 words, please place them in \section*{Acknowledgments} located above the reference section.
+% Remove \thanks{The first author is supported by NSF grant xx-xxxx} if nothing is added here.
+\thanks{The first author is supported by [insert grant information here]}
+
+
+% Add corresponding author in the footnote of the first page if necessary.
+% Add $^*$ adjacent to the corresponding author's name on the first page if necessary.
+% The corresponding author in your article should match the corresponding author listed for your article in EditFlow (if applicable).
+% In the example shown below, the first author is the corresponding author. Please move or remove $^*$ as needed for your article.
+\thanks{$^*$Corresponding author: First-name1 Last-name1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      4. AUTHOR NAMES/ADDRESSES/AFFILIATIONS SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\maketitle
+
+% Enter the first author's name and email address; email addresses are required for each author.
+% Use footnote notations to indicate address and affiliations with commas between numbers if more than one address applies; see below for examples.
+\centerline{\scshape
+First-name1 Last-name1$^{{\href{mailto:author1@domain.com}{\textrm{\Letter}}}*1}$
+and First-name2 Last-name2$^{{\href{mailto:author2@domain.com}{\textrm{\Letter}}}1,2}$}
+
+\medskip
+
+{\footnotesize
+% Enter the full affiliation and country name:
+% Do not insert commas or periods at the end of lines.
+ \centerline{$^1$Affiliation, Country}
+} % Do not forget to end {\footnotesize with the sign }
+
+\medskip
+
+{\footnotesize
+ % Enter the full affiliation and country name:
+ \centerline{$^2$Affiliation, Country}
+}
+
+\bigskip
+
+% The name of the handling editor will be entered by AIMS production staff.
+% "Communicated by Handling Editor" is not needed for special issue.
+ \centerline{(Communicated by Handling Editor)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%             5. ABSTRACT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstract}
+This is the abstract of your article. It should not exceed \textbf{200} words and needs to be concise and factual. State the purpose of the research, the principal results, and conclusion.
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                   6. BODY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Only the first word and proper nouns of section titles should be capitalized.
+% The title of section 1:
+\section{Introduction}
+
+Use this AIMS template to prepare your tex file after your article is accepted by an AIMS journal. Read all information including that which is proceeded by a \% sign. These are important instructions and explanations. Thank you for your cooperation.
+
+
+% The title of section 2:
+\section{Examples}
+
+% The title of the first subsection in section 2:
+\subsection{A sample Theorem}
+
+\begin{theorem} \label{result1}
+Content of your theorem.
+\end{theorem}
+
+\begin{proof}
+To refer to equations in your article, use the commands:
+\eqref{Quotient}, \eqref{Eqn2} and \eqref{Eqn4}.
+\end{proof}
+
+%The title of your second subsection in section 2:
+\subsection{A sample Lemma}
+
+\begin{lemma} \label{L: Lyapunov exponents}
+Content of your lemma.
+\end{lemma}
+
+\begin{proof}
+Your proof statements.
+\end{proof}
+
+% The text in definitions and remarks should not be italicized.
+% The title of your third subsection in section 2:
+\subsection{A sample Remark}
+
+\begin{remark}
+Content of your remark.
+\end{remark}
+
+%The title of your fourth subsection in section 2:
+\subsection{A sample Definition}
+
+\begin{definition} Sample: Let $\phi_{t}$ be an Anosmia flow on a
+        compact space $V$ and $A \subset V$ a dense set. Say
+        that the upper Lacunae exponents are
+        \emph{$\frac{1}{2}$-pinched} on $A$ if
+% Make sure all equations fit within the margins and all equation numbers are continuous.
+  \begin{equation}\label{Quotient}
+        \sup_{x \in A} \frac{\max \{ |\bar{\lambda}|: \bar{\lambda} \
+        \text{is a nonzero upper Lyapunov exponent at} \ x \}}
+        {\min \{ |\bar{\lambda}|: \bar{\lambda} \ \text{is a
+        nonzero upper Lyapunov exponent at} \ x\}}
+         \leq 2.
+  \end{equation}
+\end{definition}
+
+\subsection{A sample Proposition}
+
+\begin{proposition}
+Content of your proposition.
+\end{proposition}
+
+\subsection{A sample Corollary}
+
+\begin{corollary}
+Content of your corollary.
+\end{corollary}
+
+\subsection{A sample Assumption}
+
+\begin{assumption}
+Content of your assumption.
+\end{assumption}
+
+\subsection{Example of inserting a Figure}
+Make sure all figures and tables fit within the margins.
+% Make sure all figures are clear, legible, and look good when printed in black and white.
+% Figures can be in .eps, .png, .jpg, or .pdf format
+\begin{figure}[htp]
+\begin{center}
+  % replace aims_logo.pdf by your figure file name
+  \includegraphics[width=0.5\textwidth]{AIMS_Logo.pdf}
+  \caption{Here is the Caption of your figure}\label{AIMS}
+  \end{center}
+\end{figure}
+
+% The title of your section 3:
+\section{How to align the math formulas}
+
+\begin{theorem} \label{result2}
+  Content of your theorem.
+\end{theorem}
+
+In the proof below, we will to show you how to align the math formulas:
+\begin{proof}[Proof of Theorem \ref{result2}]
+    Please refer to the following example to align your math formulas:
+% Make sure all equations fit within the margins and all equation numbers are continuous.
+\begin{equation}\label{Eqn2}
+  \begin{split}
+    \eps{\theta} \wedge d\eps{\theta}^{n-1}
+    & = (\theta_0 + \ep \alpha) \wedge (d(\theta_0 + \ep \alpha))^{n-1}
+      \quad \text{since } d\alpha = 0 \\
+    & = (\theta_0 + \ep \alpha) \wedge (d\theta_0)^{n-1} + \theta_0 \wedge d\theta_0^{n-1}
+      - \ep d(\alpha \wedge \theta_0 \wedge d\theta_0^{n-2}) \\
+    & \quad  + \theta_0 \wedge d\theta_0^{n-1} + \ep \alpha \wedge d\theta_0^{n-1}  \\
+    & = \theta_0 \wedge d\theta_0^{n-1}
+      - \ep d(\alpha \wedge \theta_0 \wedge d\theta_0^{n-2}),
+  \end{split}
+\end{equation}
+
+It can also be aligned in the following way:
+\begin{equation}\label{Eqn3}
+  \begin{split}
+    & \eps{\theta} \wedge d\eps{\theta}^{n-1} \\
+    & = (\theta_0 + \ep \alpha) \wedge (d(\theta_0 + \ep \alpha))^{n-1}
+      \quad \text{since } d\alpha = 0 \\
+    & = (\theta_0 + \ep \alpha) \wedge (d\theta_0)^{n-1} + \theta_0 \wedge d\theta_0^{n-1}
+      - \ep d(\alpha \wedge \theta_0 \wedge d\theta_0^{n-2}) \\
+    & \quad + \theta_0 \wedge d\theta_0^{n-1} + \ep \alpha \wedge d\theta_0^{n-1} \\
+    & = \theta_0 \wedge d\theta_0^{n-1}
+      - \ep d(\alpha \wedge \theta_0 \wedge d\theta_0^{n-2}),
+  \end{split}
+\end{equation}
+
+Here is another example for if the math expression in [ ] must be split to a new line:
+\begin{equation}\label{Eqn4}
+  \begin{split}
+    \int_0^T |u_0(t)|^2dt
+    & \leq \delta^{-1} \left[\int_0^T (\beta(t)+\gamma(t)) dt \right.\\
+    & \quad \left.+ T^{\frac{2(p-1)}{p}}
+      \left(\int_0^T |\dot{u}_0(t)|^p dt\right)^{\frac{2}{p}}
+      + T^{\frac{2(p-1)}{p}}
+      \left(\int_0^T |\dot{u}_0(t)|^p dt\right)^{\frac{2}{p}}\right].
+  \end{split}
+\end{equation}
+
+Please use displaystyle if your formulas fully occupy a paragraph and use textstyle for formulas among text.
+
+For two equations:
+\begin{align*}
+  A & = \theta_0 \wedge d\theta_0^{n-1}
+      - \ep d(\alpha \wedge \theta_0 \wedge d\theta_0^{n-2}) \\
+  B & =\theta_1 \wedge d\theta_1^{n-1}
+      - \ep d(\alpha \wedge \theta_1 \wedge d\theta_1^{n-2})
+\end{align*}
+Please align your formulas nicely according to the above examples. Thank you.
+\end{proof}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Disclosure Instructions for the Use of Generative-AI Tools
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%We follow COPE's guidelines and policies regarding the use of Artificial Intelligence (AI) tools. COPE Policy on AI tools can be found at https://publicationethics.org/cope-position-statements/ai-author.
+
+%The use of artificial intelligence (AI) tools such as ChatGPT or Large Language Models in research publications is expanding rapidly. COPE joins organizations, such as WAME and the JAMA Network among others, to state that AI tools cannot be listed as an author of a paper. - COPE
+
+%AI tools cannot meet the requirements for authorship as they cannot take responsibility for the submitted work. As non-legal entities, they cannot assert the presence or absence of conflicts of interest nor manage copyright and license agreements. - COPE
+
+%Please disclose the use of any generative-AI tools in the writing of a manuscript, the production of images or graphical elements, or the collection and analysis of data. In the “Use of AI tools declaration” we ask that you disclose which tool was used as well as a description of how the tool was used.  Authors are fully responsible for the content of their manuscript, including any portion produced by an AI tool, and are thus liable for any breach of publication ethics.
+
+%If there is nothing to disclose, there is no need to add a declaration (Remember, there is no need to disclose the use of Assistive-AI). If there is generative-AI use to disclose, here is a guide for an acceptable disclosure.
+
+%\section*{Use of Generative-AI tools declaration}
+%The author(s) declare(s) they have used Artificial Intelligence (AI) tools in the creation of this article.
+%AI tools used:
+%How were the AI tools used? 
+%Where in the article is the information located?
+
+
+%The acknowledgments section should not be numbered.
+\section*{Acknowledgments}
+We would like to thank you for \textbf{following
+the instructions above} very closely. It will save us lot of time and expedite the
+process of your article's publication.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          7. REFERENCES SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%       READ THIS SECTION CAREFULLY
+
+% Each of the references below MUST be cited in your article above. Do not include references that are not cited in your article.
+
+% Follow the examples below carefully. We strongly suggest that you copy and paste your reference information directly into our examples.
+
+% List all references in alphabetical order according to the first author's last name.
+
+% Verify each URL works correctly and can be accessed properly. Your URL links should be to reputable websites. The command line for a website link begins with: \url{ }
+
+% Do not add MR or DOI numbers to your references. AIMS production staff will add this information.
+
+% Using BibTex is not recommended but can be handled.
+
+\begin{thebibliography}{99}
+
+% Work in Progress Example:
+\bibitem{1}
+\newblock F. Abergel and R. Tachet,
+\newblock
+\newblock work in progress.
+
+% Accepted to a Journal Example:
+\bibitem{2}
+\newblock S. Arora, M. T. Mohan and J. Dabas,
+\newblock Approximate controllability of the non-autonomous impulsive evolution equation with state-dependent delay in Banach space,
+\newblock to appear, \emph{Nonlinear Anal. Hybrid System}.
+
+% Chapter or Article in a Book with a Volume Example:
+\bibitem{3}
+\newblock S. Ball,
+\newblock Polynomials in finite geometries,
+\newblock \emph{Surveys in Combinatorics, 1999 (Canterbury)}, London Math. Soc. Lecture Note Ser., 267, Cambridge University Press, Cambridge, 1999, 17-35.
+
+% Journal Article Example:
+\bibitem{4}
+\newblock Y. Benoist, P. Foulon and F. Labourie,
+\newblock \doititle{Flots d'Anosov a distributions stable et instable differentiables},
+\newblock \emph{J. Amer. Math. Soc.}, \textbf{5} (1992), 33-74.
+
+% Proceedings from a Conference Example:
+\bibitem{5}
+\newblock T. Pang and A. Hussain,
+\newblock \doititle{An application of functional Ito's formula to stochastic portfolio optimization with bounded memory},
+\newblock \emph{Proceedings of the SIAM Conference on Control and Its Applications}, Paris, France, 2015, 159-166.
+
+% No Author Example / URL Link Example:
+\bibitem{6}
+\newblock
+\newblock \emph{SARS Expert Committee, SARS in Hong Kong: From Experience to Action}, Report of Hong Kong SARS Expert Committee,
+\newblock 2003. Available from: \url{http://www.sars-expertcom.gov.hk/english/reports/reports.html}.
+
+% Chapter or Article in a Academic Press Example:
+\bibitem{7}
+\newblock J. Serrin,
+\newblock Gradient estimates for solutions of nonlinear elliptic and parabolic equations,
+\newblock in \emph{Contributions to Nonlinear Functional Analysis}, Academic Press, 1971, 33-75.
+
+% Book Example:
+\bibitem{8}
+\newblock J. Smoller,
+\newblock \emph{Shock Waves and Reaction-Diffusion Equations},
+\newblock 2$^{nd}$ edition, Springer-Verlag, New York, 1994.
+
+% Preprint Article Example:
+\bibitem{9}
+\newblock A. Teplinsky,
+\newblock Herman's theory revisited,
+\newblock preprint, 2012, \arXiv{0707.0078}.
+
+% Thesis or Dissertation Example:
+\bibitem{10}
+\newblock K. Wei,
+\newblock \emph{Torsion Cycles and Set Theoretic Complete Intersection},
+\newblock Ph.D thesis, Washington University in St. Louis, 2006.
+
+\end{thebibliography}
+
+\medskip
+% The information below will be filled in by AIMS production staff.
+Received xxxx 20xx; revised xxxx 20xx; early access xxxx 20xx.
+\medskip
+
+\end{document}
+

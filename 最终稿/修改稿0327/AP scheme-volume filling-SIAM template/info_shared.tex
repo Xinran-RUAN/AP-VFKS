@@ -1,0 +1,53 @@
+% SIAM Shared Information Template
+% This is information that is shared between the main document and any
+% supplement. If no supplement is required, then this information can
+% be included directly in the main document.
+
+
+% Packages and macros go here
+\usepackage{lipsum}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{algorithmic}
+\ifpdf
+  \DeclareGraphicsExtensions{.eps,.pdf,.png,.jpg}
+\else
+  \DeclareGraphicsExtensions{.eps}
+\fi
+
+% Add a serial/Oxford comma by default.
+\newcommand{\creflastconjunction}{, and~}
+
+% Used for creating new theorem and remark environments
+\newsiamremark{remark}{Remark}
+\newsiamremark{hypothesis}{Hypothesis}
+\crefname{hypothesis}{Hypothesis}{Hypotheses}
+\newsiamthm{claim}{Claim}
+
+% Sets running headers as well as PDF title and authors
+\headers{AP methods for volume-exclusion chemotaxis}{G. Estrada-Rodriguez, D. Peurichard and X. Ruan}
+
+% Title. If the supplement option is on, then "Supplementary Material"
+% is automatically inserted before the title.
+%\title{An asymptotic preserving scheme for a nonlinear kinetic equation leading to volume-exclusion chemotaxis in the diffusive limit\thanks{Submitted to the journal’s Multiscale Modeling and Simulations.
+\title{From a nonlinear kinetic equation to a volume-exclusion chemotaxis via asymptotic preserving methods}
+
+
+% Authors: full names plus addresses.
+\author{Gissell Estrada-Rodriguez\thanks{Mathematical Institute, University of Oxford, Oxford, U.K. 
+  (\email{estradarodri@maths.ox.ac.uk}).}
+\and Diane Peurichard\thanks{Inria Paris - MAMBA project team; 
+Laboratoire Jacques-Louis Lions, Sorbonne Universit\'e, Paris, France
+  (\email{diane.a.peurichard@inria.fr}).}
+\and Xinran Ruan\thanks{(corresponding author) School of Mathematical Sciences, Capital Normal University, Beijing, China}
+(\email{xinran.ruan@cnu.edu.cn}).}
+
+\usepackage{amsopn}
+\DeclareMathOperator{\diag}{diag}
+
+
+%%% Local Variables: 
+%%% mode:latex
+%%% TeX-master: "ex_article"
+%%% End: 

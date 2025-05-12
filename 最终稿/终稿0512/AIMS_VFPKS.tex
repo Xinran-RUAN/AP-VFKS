@@ -1,0 +1,443 @@
+
+% Remember to rename this template to something unique to your article.
+% We recommend using the article ID assigned to your article in EditFlow if applicable.
+
+% Use this AIMS template to prepare your tex file after your article is accepted by an AIMS journal.
+% Read all information including that which is proceeded by a \% sign. These are important instructions and explanations.
+% Please refer to the Template FAQ for more information.
+% Thank you for your cooperation.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                    1. PREAMBLE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{aims} % Use the aims.cls file to compile your paper
+\usepackage{amsmath}
+\usepackage{paralist}
+\usepackage[misc]{ifsym}
+\usepackage{epsfig} %For pictures: screened artwork should be set up with an 85 or 100 line screen
+\usepackage{epstopdf} %This is to transfer .eps figure to .pdf figure; please compile your article using PDFLaTex or PDFTeXify.
+\usepackage[colorlinks=true]{hyperref}
+   % Warning: when you first run your tex file, some errors might occur,
+   % please just press enter key to end the compilation process, then it will be fine if you run your tex file again.
+   % Note that it is highly recommended by AIMS to use this package.
+\hypersetup{urlcolor=blue, citecolor=red}
+%\usepackage{hyperref}
+\allowdisplaybreaks
+
+% Do not change or remove the page specifications below.
+\textheight=8.2 true in
+ \textwidth=5.0 true in
+  \topmargin 30pt
+   \setcounter{page}{1}
+
+% The next 6 lines will be entered by AIMS production staff.
+\def\currentvolume{X}
+ \def\currentissue{X}
+  \def\currentyear{200X}
+   \def\currentmonth{XX}
+    \def\ppages{X-XX}
+     \def\DOI{10.3934/xx.xxxxxxx}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          2. CUSTOM COMMANDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PLEASE NOTE: The AIMS cls file is updated regularly with the standard AMS usepackages - you do NOT need to insert custom commands for AMS symbols,
+
+% Insert your custom commands in this section.
+% Please minimize the use of "newtheorem", "newcommand", and use equation numbers only in situations where they provide essential convenience.
+% Use \usepackage{amssymb}, \usepackage{amsthm}, etc, but please do not define individual mathematical symbols unless it is completely necessary.
+% Try to avoid defining your own macros.
+
+% Do not change or remove the commands below.
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem*{main}{Main Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem*{problem}{Problem}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem*{notation}{Notation}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\eps}[1]{{#1}_{\varepsilon}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%         3. HEADER AND FOOTER SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Place the running head in [], and the full title of the article in {}.
+\title[AP Method for Volume-Exclusion Chemotaxis]
+% Running head is the full title or shortened version of the full title. This will appear at the top of odd pages. It should be no more than 40 characters to fit within the width limit.
+{From a nonlinear kinetic equation to a volume-exclusion chemotaxis model via asymptotic preserving methods} % Only the first word and proper nouns should be capitalized.
+
+% Place all authors' names in []. This will be shown as the running head on even pages. Leave {} empty.
+% Please use `and' to connect the last two authors' names if applicable.
+% List full names if possible. If all authors' full names will not fit, use FirstNameInitial. MiddleNameInitial. LastName, only last names, or full names of first few authors, et al.
+\author[Gissell Estrada-Rodriguez,  Diane Peurichard and Xinran Ruan]{}
+
+% 2020 MSC numbers are required.
+\subjclass{Primary: 35Q70, 76M45,  35Q20, 92C17, 35K55, 35Q92, 92B05; Secondary: 35B36, 65M06.}
+% Please provide a minimum of 5 keywords or phrases. 
+\keywords{Kinetic equations, asymptotic preserving (AP) methods, chemotaxis equations, diffusion approximation, velocity-jump processes.}
+
+% Put your short thanks below. For thanks/acknowledgments over 30 words, please place them in \section*{Acknowledgments} located above the reference section.
+% Remove \thanks{The first author is supported by NSF grant xx-xxxx} if nothing is added here.
+%\thanks{The first author is supported by [insert grant information here]}
+
+
+% Add corresponding author in the footnote of the first page if necessary.
+% Add $^*$ adjacent to the corresponding author's name on the first page if necessary.
+% The corresponding author in your article should match the corresponding author listed for your article in EditFlow (if applicable).
+% In the example shown below, the first author is the corresponding author. Please move or remove $^*$ as needed for your article.
+\thanks{$^*$Corresponding author: Xinran Ruan}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%      4. AUTHOR NAMES/ADDRESSES/AFFILIATIONS SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\maketitle
+
+% Enter the first author's name and email address; email addresses are required for each author.
+% Use footnote notations to indicate address and affiliations with commas between numbers if more than one address applies; see below for examples.
+\centerline{\scshape
+Gissell Estrada-Rodriguez$^{{\href{mailto:estradarodri@maths.ox.ac.uk}{\textrm{\Letter}}}1}$, 
+Diane Peurichard$^{{\href{mailto:diane.a.peurichard@inria.fr}{\textrm{\Letter}}}2}$
+and Xinran Ruan$^{{\href{mailto:xinran.ruan@cnu.edu.cn}{\textrm{\Letter}}}*3}$}
+
+\medskip
+
+{\footnotesize
+% Enter the full affiliation and country name:
+% Do not insert commas or periods at the end of lines.
+ \centerline{$^1$Mathematical Institute, University of Oxford, Oxford, U.K}
+} % Do not forget to end {\footnotesize with the sign }
+
+\medskip
+
+{\footnotesize
+ % Enter the full affiliation and country name:
+ \centerline{$^2$Sorbonne Universit\'e, Inria Paris - MUSCLEES project team, Universit\'e de Paris, CNRS, Laboratoire Jacques-Louis Lions UMR7598, Paris, France}
+}
+
+{\footnotesize
+ % Enter the full affiliation and country name:
+ \centerline{$^3$Capital Normal University, School of Mathematical Sciences, Beijing 100048, Peoples R China}
+}
+
+\bigskip
+
+% The name of the handling editor will be entered by AIMS production staff.
+% "Communicated by Handling Editor" is not needed for special issue.
+ \centerline{(Communicated by Handling Editor)}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%             5. ABSTRACT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{abstract}
+In this work we first prove, by formal arguments, that the diffusion limit of nonlinear kinetic equations, where both the \textit{transport term and the turning operator are density-dependent}, leads to volume-exclusion chemotactic equations. We then numerically study this diffusive limit via an asymptotic preserving scheme based on a micro-macro decomposition. By properly discretizing the nonlinear term implicitly-explicitly in an upwind manner, the scheme produces accurate approximations also in the case of strong chemosensitivity. We show, via detailed calculations, that the scheme is asymptotic preserving and {{bound preserving}} and show numerically an {energy dissipation} property, which are essential for practical applications. We extend this scheme to two dimensional kinetic models and we  validate its efficiency by means of 1D and 2D numerical experiments of pattern formation in biological systems.
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                   6. BODY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Only the first word and proper nouns of section titles should be capitalized.
+% The title of section 1:
+\section{Introduction}
+
+Chemotaxis is the mechanism by which cells and organisms adapt their movement in response to a chemical stimulus present in their environment. This phenomenon has been observed in many biological systems \cite{Alt1980,Kaupp2012,Jin2008,Roussos2011}. 
+
+{The mathematical study of chemotaxis started from the seminal contributions of Patlak \cite{patlak1953random}, Keller, Segel and Alt \cite{keller1970initiation,keller1971model,Alt1980}, where the authors introduced the celebrated Patlak-Keller-Segel-Alt (PKSA) model. This model was originally proposed for pattern formation in bacterial populations through an advection-diffusion system of two coupled parabolic equations describing the evolution of the cell density and the chemoattractant. The PKSA model has become the prevailing method for representing chemotactic behaviour in biological systems at population level (see Ref.~\cite{Hillen2009} for a review about Keller-Segel type models). A drawback of studying biological systems directly at the continuous level, i.e. through partial differential equations (PDEs), is that the interactions comprised in such models can be difficult to interpret in terms of mechanisms at the cellular level. Therefore it is fundamental to explain the origin of these macroscopic models from a mechanistic/microscopic description of motion. In the case of the PKSA model, tremendous amount of works in this direction have been made by various authors (see reviews of Horstmann \cite{horstmann2003,horstmann2004}). Among other approaches, several authors showed that the chemotaxis models could be obtained from biased random walk approaches \cite{Alt1980, Othmer1997}, or as the parabolic limit of velocity-jump processes / transport models \cite{othmer2000diffusion,othmer2002diffusion,chalub2004kinetic}. For instance in \cite{othmer2002diffusion}, the authors study the diffusion-limit of transport equations under a variety of external biases imposed on the turning operator. Depending on the strength of the bias, the authors show that this leads to anisotropic diffusion, drift term in the flux, or both. In particular, they show that the PKSA model only arises if the perturbation of the turning kernel is sufficiently small. They consider several examples of prototype models for chemotaxis of bacteria, of slime molds and of myxobacteria and present a general discussion of the derivation of diffusion approximations from various stochastic processes that model chemotaxis (see \cite{othmer2000diffusion} and references therein). These works not only give insights into how the continuum PKSA model relates to models at the microscopic scale, but also enable to understand the link between different microscopic models and modeling assumptions.
+
+The PKSA model has also been extensively studied in the literature from a theoretical viewpoint. Of particular interest is the tendency of solutions to exhibit finite-time blow-up \cite{Brener1999,Herrero1998,Nagai1997,Othmer1997,chalub2004kinetic}. It is now well established that in dimension $n\geq 2$, finite-time blow-up may occur if the initial condition exceeds some threshold. However, under the biologically relevant cases for aggregation to occur, initial conditions typically lie {above} this threshold. For these cases, the solutions of the PKSA model would correctly predict pattern formation {but in the form of blow-up, i.e. the model will not be relevant for later stages following aggregation in real systems.} Therefore, it is necessary to modify the model to allow pattern formation without blow-up. In this direction, the PKSA original model has been modified by various authors with the aim of improving its consistency with biological systems (see \cite{Hillen2009} for a comprehensive review). One example is the volume-exclusion chemotactic system (VEPKS) introduced by Hillen and Painter \cite{painter2002volume} to take into account the finite size of cells and volume limitations. In such models the chemotactic sensitivity (i.e. the term leading to cell aggregation) depends on both the chemical concentration in the medium and the local cell density, thus, the population directly modulates its own sensitivity response. The coupled system reads, in its parabolic-elliptic form as
+\begin{equation}
+\begin{aligned}
+    \partial_t\rho-\nabla\cdot\bigg(D_0(q(\rho)-\rho q'(\rho))\nabla\rho-\chi_0q(\rho)\rho\nabla c\bigg)&=h(\rho,c)\ , \ \quad t\geq 0\ , \mathbf{x}\in \Omega\subset\mathbb{R}^n\ ,\\
+    D_c\Delta c+g(\rho,c)& = 0\ .
+    \label{eq: starting model equation}
+\end{aligned}
+\end{equation}
+Here, $\rho(t,\mathbf{x})$ is the cell density, $c(t,\mathbf{x})$ is the chemoattractant concentration and  $q(\rho)$ is a function that describes the packing capacity of the cell aggregates.  The diffusion coefficients for the cells and chemoattractant are $D_0$ and $D_c$, respectively, and $\chi_0$ is the chemotactic sensitivity. The proliferation (or death) of the cells is described by $h(\rho,c)$,  and the production and consumption of the chemoattractant is given by $g(\rho,c)$. The dependency of $h$ and $g$ on the cell density $\rho$ enables to account for density-limited phenomena such as the logistic-growth function for $h$ commonly used in the literature \cite{murray2002introduction,murray2003mathematical}. Note that from \eqref{eq: starting model equation}, we recover the classical PKSA model by taking $q(\rho) = 1$.  It has been shown \cite{wrzosek2010volume,calvez2006volume,zheng2015boundedness} that such volume-exclusion effects prevent blow-ups in finite time compared to the model without density effects (with $q(\rho) = 1$). The volume-exclusion chemotactic equation has been widely studied in the literature, from a modeling \cite{painter2002volume,wang2010chemotaxis}, analytic \cite{wrzosek2010volume,han2017pattern,ma2012stationary,dolak2005keller} and numerical perspectives \cite{ibrahim2014efficacy}. A relevant example where volume-exclusion effects play a crucial role is in the modeling of glioblastoma (GBM) aggregates  \cite{Vital2011}. In particular, the  system \eqref{eq: starting model equation} was used in \cite{almeida2020treatment} to explain the mechanical changes at the cell level  due to the presence of a chemical treatment. In \cite{almeida2020treatment}, the cell's elasticity is modeled through the term $q(\rho)$ which incorporates the cell-cell interactions \cite{wang2007classical}. This function $q(\rho)$ was chosen to be $q(\rho)=1-(\rho/\bar{\rho})^\gamma$ where $\gamma$ is a parameter that depends on the concentration of the treatment and $\bar{\rho}$ is the maximum cell density in each aggregate. For $\gamma=1$ the cells were considered as solid particles while {$\gamma>1$  corresponded to semi-elastic particles} that can squeeze into empty spaces. 
+
+In one dimension, Hillen and Painter \cite{painter2002volume} derived the VEPKS from a discrete-space random walk. The derivation begins with a master equation for a continuous-time and discrete space random walk model as in \cite{Othmer1997}, but including the volume-filling effect by making the probability of making a jump depend on the availability of space into which cells can move.  A natural question that arises is whether the VEPKS model can be obtained as the limit of a kinetic velocity-jump model as done for the PKSA model. 
+In this paper, our first aim is to provide an interpretation of the volume-exclusion chemotactic system \eqref{eq: starting model equation} as the diffusion limit of a kinetic {{velocity-jump}} model.
+
+Inspired by the approach in \cite{othmer2002diffusion,othmer2000diffusion}, we first show, by formal arguments, that the system \eqref{eq: starting model equation} can be obtained in the diffusion limit of a nonlinear kinetic equation, provided that both the transport term and the turning operator are density-dependent { (Theorem \ref{theorem1} in Section \ref{sec:macroscopic derivation})}. The corresponding kinetic velocity-jump model we propose reads 
+\begin{equation}
+    \partial_t f+\mathbf{v}\cdot \nabla \big(F[\rho](t,\mathbf{x},\mathbf{v}) f\big)= \lambda q(\rho)\big(-f+\rho T(\mathbf{v},\rho,\nabla c)\big) {\ +\ r_0f\Bigl(1-\frac{\rho}{\rho_{\textnormal{max}}} \Bigr)_+}\ ,\label{eq: inital model without scaling}
+\end{equation} where $f(t,\mathbf{x},\mathbf{v}) \geq 0$ is the phase space cell density,  $\mathbf{x}\in \Omega \subset \mathbb{R}^n$ denotes the position, $\mathbf{v} \in V \subset \mathbb{R}^n$ is the velocity where $V$ denotes the unit sphere  $V=\{\mathbf{x}\in\mathbb{R}^n:\ |\mathbf{x}|=1 \}$ and $t \in \mathbb{R}^+$ the time. {Note that we have considered that cells proliferate according to a logistic-growth law $h(\rho,c) \equiv h(\rho) =  r_0f\Bigl(1-\frac{\rho}{\rho_{\textnormal{max}}} \Bigr)_+$ where $\rho_{\textnormal{max}}$ is the carrying capacity and $r_0$ is the proliferation rate.} In \eqref{eq: inital model without scaling}, $\lambda$ is the constant turning rate, with $1/\lambda$ giving a measure of the mean run length between velocity jumps, \textcolor{blue}{$T(\mathbf{v},\rho,\nabla c)$ gives the probability of a velocity jump to velocity $\mathbf{v}$, which accounts for cell preference to move up the chemotactic gradient $\nabla c$}, and the term $F[\rho](t,\mathbf{x},\mathbf{v})$ describes the anisotropic transport due to the density limited motion. \textcolor{blue}{The fact that the turning operator $T(\mathbf{v},\rho,c,\nabla c)$ depends on the gradient of chemical concentration $\nabla c$ is necessary to obtain the chemotactic behavior described by \eqref{eq: inital model without scaling}, as discussed thoroughly in \cite{othmer2002diffusion}. For simplicity, we have assumed here that the turning rate only depends on $\nabla c$ but the derivation extends to more general choices $T(\mathbf{v},\rho,c,\nabla c)$, as briefly discussed in remark \ref{remark}}. While similar models have been considered in the literature,  \cite{othmer2002diffusion,othmer2000diffusion}, ours extends to higher dimensions and includes an extra nonlinearity in the transport term.
+
+In model \eqref{eq: inital model without scaling}, it is noteworthy that cell motion is not only biased by external factors (leading to chemotactic motion) but also biased to account for density-limited motion/crowding effects. Model \eqref{eq: inital model without scaling} shows that the minimal hypothesis on the run-and-tumble process enabling to obtain the VEPKS system \eqref{eq: starting model equation} in the diffusion limit are density-dependent transport term and turning kernel. The first hypothesis (density-dependent transport) is the most natural in terms of a modeling viewpoint, and expresses that cells will only be able to move in not already crowded regions. The second hypothesis (density-dependent turning kernel) is a more `active' mechanism expressing that cells have less probability to turn towards crowding regions. Applied to bacteria, these hypothesis are consistent with experimental evidence showing that tightly packed colonies could collectively move faster by reducing the speed of their individual bacteria \cite{Meacock2021}.} 
+
+The second goal in this paper is to numerically investigate whether the relevant macroscopic volume exclusion equation corresponds to the underlying physical system described by the kinetic equation {in the diffusion limit}. These methods are widely known as asymptotic preserving schemes (AP) \cite{filbet2010class,jin1999efficient} since they mimic the asymptotic behaviour of the kinetic equation when the scaling parameter approaches to zero and the mesh size and time steps are fixed. In this paper, we use a micro-macro decomposition of the unknown in the sense of  \cite{LemouMieussens} as detailed in Section \ref{sec:micro-macro}. {The finite difference discretization is explained in Section  \ref{sec: implicit-explicit scheme}, where a proper implicit-explicit discretization of the nonlinear terms, including the chemosensitivity term, is applied to improve the efficiency and stability of our numerical scheme.} This decomposition of the solution of the kinetic equation is analogous to a Chapman-Enskog expansion in the case of the classical Boltzmann equation. It uses the properties of the ``collisional operator'', which in our formulation describes the run and tumble movement of the individual. For the kinetic counterpart of the classical PKSA equation we refer to \cite{carrillo2013asymptotic}, where the authors used an odd-even splitting at the kinetic level and studied {the blow-up behaviour of solutions.}
+Other related works can be found in \cite{emako2016well,wang2019asymptotic,jin2011class,chertock2019high}. 
+
+\paragraph{Outline of the paper} This paper is organized as follows. In Section \ref{sec:model} we {introduce the new version of the kinetic velocity-jump model given by \eqref{eq: inital model without scaling}} and consider its diffusion limit using a Hilbert expansion method as in Ref.~\cite{othmer2002diffusion} under appropriate scaling assumptions for the turning operator. We show that the limiting system has a dissipating free energy and we derive an energy estimate used to validate the numerical method. {In Section \ref{sec:micro-macro}, we present the micro-macro decomposition of the kinetic model that we use to build the AP scheme presented, and analyzed various properties (positivity preserving, AP etc) in Section \ref{sec: implicit-explicit scheme}.} Finally, we present the numerical experiments and draw conclusions in Section \ref{numerical results}. 
+
+
+% The title of section 2:
+\section{Examples}
+
+% The title of the first subsection in section 2:
+\subsection{A sample Theorem}
+
+\begin{theorem} \label{result1}
+Content of your theorem.
+\end{theorem}
+
+\begin{proof}
+To refer to equations in your article, use the commands:
+\eqref{Quotient}, \eqref{Eqn2} and \eqref{Eqn4}.
+\end{proof}
+
+%The title of your second subsection in section 2:
+\subsection{A sample Lemma}
+
+\begin{lemma} \label{L: Lyapunov exponents}
+Content of your lemma.
+\end{lemma}
+
+\begin{proof}
+Your proof statements.
+\end{proof}
+
+% The text in definitions and remarks should not be italicized.
+% The title of your third subsection in section 2:
+\subsection{A sample Remark}
+
+\begin{remark}
+Content of your remark.
+\end{remark}
+
+%The title of your fourth subsection in section 2:
+\subsection{A sample Definition}
+
+\begin{definition} Sample: Let $\phi_{t}$ be an Anosmia flow on a
+        compact space $V$ and $A \subset V$ a dense set. Say
+        that the upper Lacunae exponents are
+        \emph{$\frac{1}{2}$-pinched} on $A$ if
+% Make sure all equations fit within the margins and all equation numbers are continuous.
+  \begin{equation}\label{Quotient}
+        \sup_{x \in A} \frac{\max \{ |\bar{\lambda}|: \bar{\lambda} \
+        \text{is a nonzero upper Lyapunov exponent at} \ x \}}
+        {\min \{ |\bar{\lambda}|: \bar{\lambda} \ \text{is a
+        nonzero upper Lyapunov exponent at} \ x\}}
+         \leq 2.
+  \end{equation}
+\end{definition}
+
+\subsection{A sample Proposition}
+
+\begin{proposition}
+Content of your proposition.
+\end{proposition}
+
+\subsection{A sample Corollary}
+
+\begin{corollary}
+Content of your corollary.
+\end{corollary}
+
+\subsection{A sample Assumption}
+
+\begin{assumption}
+Content of your assumption.
+\end{assumption}
+
+\subsection{Example of inserting a Figure}
+Make sure all figures and tables fit within the margins.
+% Make sure all figures are clear, legible, and look good when printed in black and white.
+% Figures can be in .eps, .png, .jpg, or .pdf format
+\begin{figure}[htp]
+\begin{center}
+  % replace aims_logo.pdf by your figure file name
+  \includegraphics[width=0.5\textwidth]{AIMS_Logo.pdf}
+  \caption{Here is the Caption of your figure}\label{AIMS}
+  \end{center}
+\end{figure}
+
+% The title of your section 3:
+\section{How to align the math formulas}
+
+\begin{theorem} \label{result2}
+  Content of your theorem.
+\end{theorem}
+
+In the proof below, we will to show you how to align the math formulas:
+\begin{proof}[Proof of Theorem \ref{result2}]
+    Please refer to the following example to align your math formulas:
+% Make sure all equations fit within the margins and all equation numbers are continuous.
+\begin{equation}\label{Eqn2}
+  \begin{split}
+    \eps{\theta} \wedge d\eps{\theta}^{n-1}
+    & = (\theta_0 + \ep \alpha) \wedge (d(\theta_0 + \ep \alpha))^{n-1}
+      \quad \text{since } d\alpha = 0 \\
+    & = (\theta_0 + \ep \alpha) \wedge (d\theta_0)^{n-1} + \theta_0 \wedge d\theta_0^{n-1}
+      - \ep d(\alpha \wedge \theta_0 \wedge d\theta_0^{n-2}) \\
+    & \quad  + \theta_0 \wedge d\theta_0^{n-1} + \ep \alpha \wedge d\theta_0^{n-1}  \\
+    & = \theta_0 \wedge d\theta_0^{n-1}
+      - \ep d(\alpha \wedge \theta_0 \wedge d\theta_0^{n-2}),
+  \end{split}
+\end{equation}
+
+It can also be aligned in the following way:
+\begin{equation}\label{Eqn3}
+  \begin{split}
+    & \eps{\theta} \wedge d\eps{\theta}^{n-1} \\
+    & = (\theta_0 + \ep \alpha) \wedge (d(\theta_0 + \ep \alpha))^{n-1}
+      \quad \text{since } d\alpha = 0 \\
+    & = (\theta_0 + \ep \alpha) \wedge (d\theta_0)^{n-1} + \theta_0 \wedge d\theta_0^{n-1}
+      - \ep d(\alpha \wedge \theta_0 \wedge d\theta_0^{n-2}) \\
+    & \quad + \theta_0 \wedge d\theta_0^{n-1} + \ep \alpha \wedge d\theta_0^{n-1} \\
+    & = \theta_0 \wedge d\theta_0^{n-1}
+      - \ep d(\alpha \wedge \theta_0 \wedge d\theta_0^{n-2}),
+  \end{split}
+\end{equation}
+
+Here is another example for if the math expression in [ ] must be split to a new line:
+\begin{equation}\label{Eqn4}
+  \begin{split}
+    \int_0^T |u_0(t)|^2dt
+    & \leq \delta^{-1} \left[\int_0^T (\beta(t)+\gamma(t)) dt \right.\\
+    & \quad \left.+ T^{\frac{2(p-1)}{p}}
+      \left(\int_0^T |\dot{u}_0(t)|^p dt\right)^{\frac{2}{p}}
+      + T^{\frac{2(p-1)}{p}}
+      \left(\int_0^T |\dot{u}_0(t)|^p dt\right)^{\frac{2}{p}}\right].
+  \end{split}
+\end{equation}
+
+Please use displaystyle if your formulas fully occupy a paragraph and use textstyle for formulas among text.
+
+For two equations:
+\begin{align*}
+  A & = \theta_0 \wedge d\theta_0^{n-1}
+      - \ep d(\alpha \wedge \theta_0 \wedge d\theta_0^{n-2}) \\
+  B & =\theta_1 \wedge d\theta_1^{n-1}
+      - \ep d(\alpha \wedge \theta_1 \wedge d\theta_1^{n-2})
+\end{align*}
+Please align your formulas nicely according to the above examples. Thank you.
+\end{proof}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Disclosure Instructions for the Use of Generative-AI Tools
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%We follow COPE's guidelines and policies regarding the use of Artificial Intelligence (AI) tools. COPE Policy on AI tools can be found at https://publicationethics.org/cope-position-statements/ai-author.
+
+%The use of artificial intelligence (AI) tools such as ChatGPT or Large Language Models in research publications is expanding rapidly. COPE joins organizations, such as WAME and the JAMA Network among others, to state that AI tools cannot be listed as an author of a paper. - COPE
+
+%AI tools cannot meet the requirements for authorship as they cannot take responsibility for the submitted work. As non-legal entities, they cannot assert the presence or absence of conflicts of interest nor manage copyright and license agreements. - COPE
+
+%Please disclose the use of any generative-AI tools in the writing of a manuscript, the production of images or graphical elements, or the collection and analysis of data. In the “Use of AI tools declaration” we ask that you disclose which tool was used as well as a description of how the tool was used.  Authors are fully responsible for the content of their manuscript, including any portion produced by an AI tool, and are thus liable for any breach of publication ethics.
+
+%If there is nothing to disclose, there is no need to add a declaration (Remember, there is no need to disclose the use of Assistive-AI). If there is generative-AI use to disclose, here is a guide for an acceptable disclosure.
+
+%\section*{Use of Generative-AI tools declaration}
+%The author(s) declare(s) they have used Artificial Intelligence (AI) tools in the creation of this article.
+%AI tools used:
+%How were the AI tools used? 
+%Where in the article is the information located?
+
+
+%The acknowledgments section should not be numbered.
+\section*{Acknowledgments}
+The authors wish to thank L. Almeida and K. J. Painter for helpful discussions and guidance. This work was supported by Sorbonne Alliance University with an Emergence project MATHREGEN, grant number S29-05Z101, by Agence Nationale de la Recherche (ANR) under the project grant number ANR-22-CE45-0024-01, the Fondation Sciences Mathématiques de Paris (FSMP), the Advanced Grant Nonlocal-CPD (Nonlocal PDEs for Complex Particle Dynamics: Phase Transitions, Patterns and Synchronization) of the European Research Council Executive Agency (ERC), the project MoGlimaging, Plan Cancer THE Call, from INSERM, France, 
+the R\&D Program of Beijing Municipal Education Commission from China, grant number KM202310028016, 
+and the National Natural Science Foundation of China, grant number 12201436.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          7. REFERENCES SECTION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%       READ THIS SECTION CAREFULLY
+
+% Each of the references below MUST be cited in your article above. Do not include references that are not cited in your article.
+
+% Follow the examples below carefully. We strongly suggest that you copy and paste your reference information directly into our examples.
+
+% List all references in alphabetical order according to the first author's last name.
+
+% Verify each URL works correctly and can be accessed properly. Your URL links should be to reputable websites. The command line for a website link begins with: \url{ }
+
+% Do not add MR or DOI numbers to your references. AIMS production staff will add this information.
+
+% Using BibTex is not recommended but can be handled.
+
+\begin{thebibliography}{99}
+
+% Work in Progress Example:
+\bibitem{1}
+\newblock F. Abergel and R. Tachet,
+\newblock
+\newblock work in progress.
+
+% Accepted to a Journal Example:
+\bibitem{2}
+\newblock S. Arora, M. T. Mohan and J. Dabas,
+\newblock Approximate controllability of the non-autonomous impulsive evolution equation with state-dependent delay in Banach space,
+\newblock to appear, \emph{Nonlinear Anal. Hybrid System}.
+
+% Chapter or Article in a Book with a Volume Example:
+\bibitem{3}
+\newblock S. Ball,
+\newblock Polynomials in finite geometries,
+\newblock \emph{Surveys in Combinatorics, 1999 (Canterbury)}, London Math. Soc. Lecture Note Ser., 267, Cambridge University Press, Cambridge, 1999, 17-35.
+
+% Journal Article Example:
+\bibitem{4}
+\newblock Y. Benoist, P. Foulon and F. Labourie,
+\newblock \doititle{Flots d'Anosov a distributions stable et instable differentiables},
+\newblock \emph{J. Amer. Math. Soc.}, \textbf{5} (1992), 33-74.
+
+% Proceedings from a Conference Example:
+\bibitem{5}
+\newblock T. Pang and A. Hussain,
+\newblock \doititle{An application of functional Ito's formula to stochastic portfolio optimization with bounded memory},
+\newblock \emph{Proceedings of the SIAM Conference on Control and Its Applications}, Paris, France, 2015, 159-166.
+
+% No Author Example / URL Link Example:
+\bibitem{6}
+\newblock
+\newblock \emph{SARS Expert Committee, SARS in Hong Kong: From Experience to Action}, Report of Hong Kong SARS Expert Committee,
+\newblock 2003. Available from: \url{http://www.sars-expertcom.gov.hk/english/reports/reports.html}.
+
+% Chapter or Article in a Academic Press Example:
+\bibitem{7}
+\newblock J. Serrin,
+\newblock Gradient estimates for solutions of nonlinear elliptic and parabolic equations,
+\newblock in \emph{Contributions to Nonlinear Functional Analysis}, Academic Press, 1971, 33-75.
+
+% Book Example:
+\bibitem{8}
+\newblock J. Smoller,
+\newblock \emph{Shock Waves and Reaction-Diffusion Equations},
+\newblock 2$^{nd}$ edition, Springer-Verlag, New York, 1994.
+
+% Preprint Article Example:
+\bibitem{9}
+\newblock A. Teplinsky,
+\newblock Herman's theory revisited,
+\newblock preprint, 2012, \arXiv{0707.0078}.
+
+% Thesis or Dissertation Example:
+\bibitem{10}
+\newblock K. Wei,
+\newblock \emph{Torsion Cycles and Set Theoretic Complete Intersection},
+\newblock Ph.D thesis, Washington University in St. Louis, 2006.
+
+\end{thebibliography}
+
+\medskip
+% The information below will be filled in by AIMS production staff.
+Received xxxx 20xx; revised xxxx 20xx; early access xxxx 20xx.
+\medskip
+
+\end{document}
+
