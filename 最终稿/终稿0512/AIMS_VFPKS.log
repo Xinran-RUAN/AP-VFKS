@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.30)  12 MAY 2025 11:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.30)  13 MAY 2025 17:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -372,24 +372,24 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 (./AIMS_VFPKS.aux)
 \openout1 = `AIMS_VFPKS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
 
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -405,96 +405,96 @@ LaTeX Font Info:    ... okay on input line 103.
 \makeMPintoPDFobject=\count295
 \everyMPtoPDFconversion=\toks30
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 103
+LaTeX Font Info:    Trying to load font information for U+msa on input line 142
 .
  (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 103
+LaTeX Font Info:    Trying to load font information for U+msb on input line 142
 .
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Package hyperref Info: Link coloring ON on input line 103.
+Package hyperref Info: Link coloring ON on input line 142.
 
 (./AIMS_VFPKS.out) (./AIMS_VFPKS.out)
 \@outlinefile=\write3
 \openout3 = `AIMS_VFPKS.out'.
 
 LaTeX Font Info:    Trying to load font information for U+ifsym on input line 1
-11.
+50.
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/ifsym/uifsym.fd)
 
 LaTeX Font Warning: Font shape `U/ifsym/m/sc' undefined
-(Font)              using `U/ifsym/m/n' instead on input line 111.
+(Font)              using `U/ifsym/m/n' instead on input line 150.
 
 
 Class aims Warning: Abstract should precede \maketitle in AMS documentclasses; 
-reported on input line 143.
+reported on input line 182.
 
 
-LaTeX Warning: Citation `Alt1980' on page 1 undefined on input line 155.
+LaTeX Warning: Citation `Alt1980' on page 1 undefined on input line 194.
 
 
-LaTeX Warning: Citation `Kaupp2012' on page 1 undefined on input line 155.
+LaTeX Warning: Citation `Kaupp2012' on page 1 undefined on input line 194.
 
 
-LaTeX Warning: Citation `Jin2008' on page 1 undefined on input line 155.
+LaTeX Warning: Citation `Jin2008' on page 1 undefined on input line 194.
 
 
-LaTeX Warning: Citation `Roussos2011' on page 1 undefined on input line 155.
+LaTeX Warning: Citation `Roussos2011' on page 1 undefined on input line 194.
 
 
-LaTeX Warning: Citation `patlak1953random' on page 1 undefined on input line 15
-7.
+LaTeX Warning: Citation `patlak1953random' on page 1 undefined on input line 19
+6.
 
 
 LaTeX Warning: Citation `keller1970initiation' on page 1 undefined on input lin
-e 157.
+e 196.
 
 
-LaTeX Warning: Citation `keller1971model' on page 1 undefined on input line 157
+LaTeX Warning: Citation `keller1971model' on page 1 undefined on input line 196
 .
 
 
-LaTeX Warning: Citation `Alt1980' on page 1 undefined on input line 157.
+LaTeX Warning: Citation `Alt1980' on page 1 undefined on input line 196.
 
 
-LaTeX Warning: Citation `Hillen2009' on page 1 undefined on input line 157.
+LaTeX Warning: Citation `Hillen2009' on page 1 undefined on input line 196.
 
 
-LaTeX Warning: Citation `horstmann2003' on page 1 undefined on input line 157.
+LaTeX Warning: Citation `horstmann2003' on page 1 undefined on input line 196.
 
 
-LaTeX Warning: Citation `horstmann2004' on page 1 undefined on input line 157.
+LaTeX Warning: Citation `horstmann2004' on page 1 undefined on input line 196.
 
 
-LaTeX Warning: Citation `Alt1980' on page 1 undefined on input line 157.
+LaTeX Warning: Citation `Alt1980' on page 1 undefined on input line 196.
 
 
-LaTeX Warning: Citation `Othmer1997' on page 1 undefined on input line 157.
+LaTeX Warning: Citation `Othmer1997' on page 1 undefined on input line 196.
 
 
 LaTeX Warning: Citation `othmer2000diffusion' on page 1 undefined on input line
- 157.
+ 196.
 
 
 LaTeX Warning: Citation `othmer2002diffusion' on page 1 undefined on input line
- 157.
+ 196.
 
 
 LaTeX Warning: Citation `chalub2004kinetic' on page 1 undefined on input line 1
-57.
+96.
 
 
 LaTeX Warning: Citation `othmer2002diffusion' on page 1 undefined on input line
- 157.
+ 196.
 
 
 LaTeX Warning: Citation `othmer2000diffusion' on page 1 undefined on input line
- 157.
+ 196.
 
 
 Overfull \vbox (6.48724pt too high) has occurred while \output is active []
@@ -503,10 +503,10 @@ Overfull \vbox (6.48724pt too high) has occurred while \output is active []
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./AIMS_Logo.pdf): PDF inclus
 ion: found PDF version <1.6>, but at most version <1.5> allowed
-<AIMS_Logo.pdf, id=60, 978.38326pt x 994.4593pt>
+<AIMS_Logo.pdf, id=72, 978.38326pt x 994.4593pt>
 File: AIMS_Logo.pdf Graphic file (type pdf)
 <use AIMS_Logo.pdf>
-Package pdftex.def Info: AIMS_Logo.pdf  used on input line 158.
+Package pdftex.def Info: AIMS_Logo.pdf  used on input line 197.
 (pdftex.def)             Requested size: 28.90866pt x 29.37726pt.
 
 Overfull \vbox (32.36975pt too high) has occurred while \output is active []
@@ -515,199 +515,1067 @@ Overfull \vbox (32.36975pt too high) has occurred while \output is active []
 [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./AIM
 S_Logo.pdf>]
 
-LaTeX Warning: Citation `Brener1999' on page 2 undefined on input line 159.
+LaTeX Warning: Citation `Brener1999' on page 2 undefined on input line 198.
 
 
-LaTeX Warning: Citation `Herrero1998' on page 2 undefined on input line 159.
+LaTeX Warning: Citation `Herrero1998' on page 2 undefined on input line 198.
 
 
-LaTeX Warning: Citation `Nagai1997' on page 2 undefined on input line 159.
+LaTeX Warning: Citation `Nagai1997' on page 2 undefined on input line 198.
 
 
-LaTeX Warning: Citation `Othmer1997' on page 2 undefined on input line 159.
+LaTeX Warning: Citation `Othmer1997' on page 2 undefined on input line 198.
 
 
 LaTeX Warning: Citation `chalub2004kinetic' on page 2 undefined on input line 1
-59.
+98.
 
 
-LaTeX Warning: Citation `Hillen2009' on page 2 undefined on input line 159.
+LaTeX Warning: Citation `Hillen2009' on page 2 undefined on input line 198.
 
 
 LaTeX Warning: Citation `painter2002volume' on page 2 undefined on input line 1
-59.
+98.
 
 
 LaTeX Warning: Citation `murray2002introduction' on page 2 undefined on input l
-ine 167.
+ine 206.
 
 
 LaTeX Warning: Citation `murray2003mathematical' on page 2 undefined on input l
-ine 167.
+ine 206.
 
 
-LaTeX Warning: Citation `wrzosek2010volume' on page 2 undefined on input line 1
-67.
+LaTeX Warning: Citation `wrzosek2010volume' on page 2 undefined on input line 2
+06.
 
 
-LaTeX Warning: Citation `calvez2006volume' on page 2 undefined on input line 16
-7.
+LaTeX Warning: Citation `calvez2006volume' on page 2 undefined on input line 20
+6.
 
 
 LaTeX Warning: Citation `zheng2015boundedness' on page 2 undefined on input lin
-e 167.
+e 206.
 
 
-LaTeX Warning: Citation `painter2002volume' on page 2 undefined on input line 1
-67.
+LaTeX Warning: Citation `painter2002volume' on page 2 undefined on input line 2
+06.
 
 
 LaTeX Warning: Citation `wang2010chemotaxis' on page 2 undefined on input line 
-167.
+206.
 
 
-LaTeX Warning: Citation `wrzosek2010volume' on page 2 undefined on input line 1
-67.
+LaTeX Warning: Citation `wrzosek2010volume' on page 2 undefined on input line 2
+06.
 
 
-LaTeX Warning: Citation `han2017pattern' on page 2 undefined on input line 167.
+LaTeX Warning: Citation `han2017pattern' on page 2 undefined on input line 206.
 
 
 
-LaTeX Warning: Citation `ma2012stationary' on page 2 undefined on input line 16
-7.
+LaTeX Warning: Citation `ma2012stationary' on page 2 undefined on input line 20
+6.
 
 
-LaTeX Warning: Citation `dolak2005keller' on page 2 undefined on input line 167
+LaTeX Warning: Citation `dolak2005keller' on page 2 undefined on input line 206
 .
 
 
 LaTeX Warning: Citation `ibrahim2014efficacy' on page 2 undefined on input line
- 167.
+ 206.
 
 
-LaTeX Warning: Citation `Vital2011' on page 2 undefined on input line 167.
-
-
-LaTeX Warning: Citation `almeida2020treatment' on page 2 undefined on input lin
-e 167.
+LaTeX Warning: Citation `Vital2011' on page 2 undefined on input line 206.
 
 
 LaTeX Warning: Citation `almeida2020treatment' on page 2 undefined on input lin
-e 167.
+e 206.
 
 
-LaTeX Warning: Citation `wang2007classical' on page 2 undefined on input line 1
-67.
+LaTeX Warning: Citation `almeida2020treatment' on page 2 undefined on input lin
+e 206.
+
+
+LaTeX Warning: Citation `wang2007classical' on page 2 undefined on input line 2
+06.
 
 
 Underfull \vbox (badness 1975) has occurred while \output is active []
 
  [2]
 
-LaTeX Warning: Citation `painter2002volume' on page 3 undefined on input line 1
-69.
+LaTeX Warning: Citation `painter2002volume' on page 3 undefined on input line 2
+08.
 
 
-LaTeX Warning: Citation `Othmer1997' on page 3 undefined on input line 169.
+LaTeX Warning: Citation `Othmer1997' on page 3 undefined on input line 208.
 
 
 LaTeX Warning: Citation `othmer2002diffusion' on page 3 undefined on input line
- 172.
+ 211.
 
 
 LaTeX Warning: Citation `othmer2000diffusion' on page 3 undefined on input line
- 172.
-
-
-LaTeX Warning: Reference `theorem1' on page 3 undefined on input line 172.
-
-
-LaTeX Warning: Reference `sec:macroscopic derivation' on page 3 undefined on in
-put line 172.
+ 211.
 
 
 LaTeX Warning: Citation `othmer2002diffusion' on page 3 undefined on input line
- 175.
-
-
-LaTeX Warning: Reference `remark' on page 3 undefined on input line 175.
+ 214.
 
 
 LaTeX Warning: Citation `othmer2002diffusion' on page 3 undefined on input line
- 175.
+ 214.
 
 
 LaTeX Warning: Citation `othmer2000diffusion' on page 3 undefined on input line
- 175.
+ 214.
 
 
-LaTeX Warning: Citation `Meacock2021' on page 3 undefined on input line 177.
+LaTeX Warning: Citation `Meacock2021' on page 3 undefined on input line 216.
 
 [3]
 
-LaTeX Warning: Citation `filbet2010class' on page 4 undefined on input line 179
+LaTeX Warning: Citation `filbet2010class' on page 4 undefined on input line 218
 .
 
 
-LaTeX Warning: Citation `jin1999efficient' on page 4 undefined on input line 17
-9.
+LaTeX Warning: Citation `jin1999efficient' on page 4 undefined on input line 21
+8.
 
 
-LaTeX Warning: Citation `LemouMieussens' on page 4 undefined on input line 179.
+LaTeX Warning: Citation `LemouMieussens' on page 4 undefined on input line 218.
 
-
-
-LaTeX Warning: Reference `sec:micro-macro' on page 4 undefined on input line 17
-9.
-
-
-LaTeX Warning: Reference `sec: implicit-explicit scheme' on page 4 undefined on
- input line 179.
 
 
 LaTeX Warning: Citation `carrillo2013asymptotic' on page 4 undefined on input l
-ine 179.
+ine 218.
 
 
-LaTeX Warning: Citation `emako2016well' on page 4 undefined on input line 180.
+LaTeX Warning: Citation `emako2016well' on page 4 undefined on input line 219.
 
 
 LaTeX Warning: Citation `wang2019asymptotic' on page 4 undefined on input line 
-180.
+219.
 
 
-LaTeX Warning: Citation `jin2011class' on page 4 undefined on input line 180.
+LaTeX Warning: Citation `jin2011class' on page 4 undefined on input line 219.
 
 
-LaTeX Warning: Citation `chertock2019high' on page 4 undefined on input line 18
-0.
-
-
-LaTeX Warning: Reference `sec:model' on page 4 undefined on input line 182.
+LaTeX Warning: Citation `chertock2019high' on page 4 undefined on input line 21
+9.
 
 
 LaTeX Warning: Citation `othmer2002diffusion' on page 4 undefined on input line
- 182.
+ 221.
 
 
-LaTeX Warning: Reference `sec:micro-macro' on page 4 undefined on input line 18
+LaTeX Warning: Citation `Hillen2009' on page 4 undefined on input line 239.
+
+[4
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.240 \begin{equation*}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.240 \begin{equation*}
+                       ]
+
+LaTeX Warning: Citation `Hillen2009' on page 5 undefined on input line 257.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.258 \begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.258 \begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.258 \begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.258 \begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.262 \begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.262 \begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.262 \begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.262 \begin{equation}
+                       [5]
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.4}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.270 \begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.4}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.270 \begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.4}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.270 \begin{equation}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.4}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.270 \begin{equation}
+                       [6
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.7}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.326 \end{align}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.7}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.326 \end{align}
+                 ]
+
+LaTeX Warning: Citation `wang2007classical' on page 7 undefined on input line 3
+64.
+
+[7]
+
+LaTeX Warning: Citation `othmer2002diffusion' on page 8 undefined on input line
+ 368.
+
+
+LaTeX Warning: Citation `calvez2006volume' on page 8 undefined on input line 37
+9.
+
+
+LaTeX Warning: Citation `carrillo2001entropy' on page 8 undefined on input line
+ 379.
+
+
+LaTeX Warning: Citation `de2018energy' on page 8 undefined on input line 379.
+
+[8] [9]
+
+LaTeX Warning: Reference `sec:appendix-FD-2D' on page 10 undefined on input lin
+e 550.
+
+[10]
+
+LaTeX Warning: Citation `de2018energy' on page 11 undefined on input line 603.
+
+[11]
+
+LaTeX Warning: Citation `LemouMieussens' on page 12 undefined on input line 632
+.
+
+[12] [13]
+Overfull \hbox (2.5124pt too wide) detected at line 792
+[]
+ []
+
+[14]
+
+LaTeX Warning: Citation `calvez2006volume' on page 15 undefined on input line 8
+29.
+
+
+LaTeX Warning: Citation `carrillo2001entropy' on page 15 undefined on input lin
+e 829.
+
+
+LaTeX Warning: Citation `de2018energy' on page 15 undefined on input line 829.
+
+[15]
+Package epstopdf Info: Source file: <stab_test.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 37869 bytes
+(epstopdf)             Output file: <stab_test-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:25
+(epstopdf)                    size: 9647 bytes
+(epstopdf)             Command: <repstopdf --outfile=stab_test-eps-converted-to
+.pdf stab_test.eps>
+(epstopdf)             \includegraphics on input line 861.
+Package epstopdf Info: Output file is already uptodate.
+<stab_test-eps-converted-to.pdf, id=328, 562.1pt x 421.575pt>
+File: stab_test-eps-converted-to.pdf Graphic file (type pdf)
+<use stab_test-eps-converted-to.pdf>
+Package pdftex.def Info: stab_test-eps-converted-to.pdf  used on input line 861
+.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+Package epstopdf Info: Source file: <efficiency_test.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 31114 bytes
+(epstopdf)             Output file: <efficiency_test-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:25
+(epstopdf)                    size: 16042 bytes
+(epstopdf)             Command: <repstopdf --outfile=efficiency_test-eps-conver
+ted-to.pdf efficiency_test.eps>
+(epstopdf)             \includegraphics on input line 861.
+Package epstopdf Info: Output file is already uptodate.
+<efficiency_test-eps-converted-to.pdf, id=329, 562.1pt x 421.575pt>
+File: efficiency_test-eps-converted-to.pdf Graphic file (type pdf)
+<use efficiency_test-eps-converted-to.pdf>
+Package pdftex.def Info: efficiency_test-eps-converted-to.pdf  used on input li
+ne 861.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+Package epstopdf Info: Source file: <check_A_20_T_5.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 89815 bytes
+(epstopdf)             Output file: <check_A_20_T_5-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:26
+(epstopdf)                    size: 49458 bytes
+(epstopdf)             Command: <repstopdf --outfile=check_A_20_T_5-eps-convert
+ed-to.pdf check_A_20_T_5.eps>
+(epstopdf)             \includegraphics on input line 878.
+Package epstopdf Info: Output file is already uptodate.
+<check_A_20_T_5-eps-converted-to.pdf, id=331, 562.1pt x 421.575pt>
+File: check_A_20_T_5-eps-converted-to.pdf Graphic file (type pdf)
+<use check_A_20_T_5-eps-converted-to.pdf>
+Package pdftex.def Info: check_A_20_T_5-eps-converted-to.pdf  used on input lin
+e 878.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+Package epstopdf Info: Source file: <check_A_20_T_20.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 89575 bytes
+(epstopdf)             Output file: <check_A_20_T_20-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:26
+(epstopdf)                    size: 49125 bytes
+(epstopdf)             Command: <repstopdf --outfile=check_A_20_T_20-eps-conver
+ted-to.pdf check_A_20_T_20.eps>
+(epstopdf)             \includegraphics on input line 878.
+Package epstopdf Info: Output file is already uptodate.
+<check_A_20_T_20-eps-converted-to.pdf, id=332, 562.1pt x 421.575pt>
+File: check_A_20_T_20-eps-converted-to.pdf Graphic file (type pdf)
+<use check_A_20_T_20-eps-converted-to.pdf>
+Package pdftex.def Info: check_A_20_T_20-eps-converted-to.pdf  used on input li
+ne 878.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+Package epstopdf Info: Source file: <check_A_20_T_32.eps>
+(epstopdf)                    date: 2025-03-27 07:44:12
+(epstopdf)                    size: 90484 bytes
+(epstopdf)             Output file: <check_A_20_T_32-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:26
+(epstopdf)                    size: 49672 bytes
+(epstopdf)             Command: <repstopdf --outfile=check_A_20_T_32-eps-conver
+ted-to.pdf check_A_20_T_32.eps>
+(epstopdf)             \includegraphics on input line 881.
+Package epstopdf Info: Output file is already uptodate.
+<check_A_20_T_32-eps-converted-to.pdf, id=333, 562.1pt x 421.575pt>
+File: check_A_20_T_32-eps-converted-to.pdf Graphic file (type pdf)
+<use check_A_20_T_32-eps-converted-to.pdf>
+Package pdftex.def Info: check_A_20_T_32-eps-converted-to.pdf  used on input li
+ne 881.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+Package epstopdf Info: Source file: <check_A_20_T_40.eps>
+(epstopdf)                    date: 2025-03-27 07:44:12
+(epstopdf)                    size: 88853 bytes
+(epstopdf)             Output file: <check_A_20_T_40-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:26
+(epstopdf)                    size: 48541 bytes
+(epstopdf)             Command: <repstopdf --outfile=check_A_20_T_40-eps-conver
+ted-to.pdf check_A_20_T_40.eps>
+(epstopdf)             \includegraphics on input line 881.
+Package epstopdf Info: Output file is already uptodate.
+<check_A_20_T_40-eps-converted-to.pdf, id=334, 562.1pt x 421.575pt>
+File: check_A_20_T_40-eps-converted-to.pdf Graphic file (type pdf)
+<use check_A_20_T_40-eps-converted-to.pdf>
+Package pdftex.def Info: check_A_20_T_40-eps-converted-to.pdf  used on input li
+ne 881.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+ [16 <./stab_test-eps-converted-to.pdf> <./efficiency_test-eps-converted-to.pdf
+>]
+
+LaTeX Warning: Citation `Alt1980' on page 17 undefined on input line 892.
+
+
+LaTeX Warning: Citation `patlak1953random' on page 17 undefined on input line 8
+92.
+
+
+LaTeX Warning: Citation `Hillen2009' on page 17 undefined on input line 892.
+
+
+LaTeX Warning: Citation `painter2002volume' on page 17 undefined on input line 
+892.
+
+[17 <./check_A_20_T_5-eps-converted-to.pdf> <./check_A_20_T_20-eps-converted-to
+.pdf> <./check_A_20_T_32-eps-converted-to.pdf> <./check_A_20_T_40-eps-converted
+-to.pdf>]
+Package epstopdf Info: Source file: <energy_A_20_T_50_w_sol.eps>
+(epstopdf)                    date: 2025-03-27 07:44:12
+(epstopdf)                    size: 217665 bytes
+(epstopdf)             Output file: <energy_A_20_T_50_w_sol-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2025-05-13 17:31:26
+(epstopdf)                    size: 123449 bytes
+(epstopdf)             Command: <repstopdf --outfile=energy_A_20_T_50_w_sol-eps
+-converted-to.pdf energy_A_20_T_50_w_sol.eps>
+(epstopdf)             \includegraphics on input line 896.
+Package epstopdf Info: Output file is already uptodate.
+<energy_A_20_T_50_w_sol-eps-converted-to.pdf, id=380, 1428.33624pt x 547.04375p
+t>
+File: energy_A_20_T_50_w_sol-eps-converted-to.pdf Graphic file (type pdf)
+<use energy_A_20_T_50_w_sol-eps-converted-to.pdf>
+Package pdftex.def Info: energy_A_20_T_50_w_sol-eps-converted-to.pdf  used on i
+nput line 896.
+(pdftex.def)             Requested size: 428.50418pt x 164.11438pt.
+Package epstopdf Info: Source file: <l2_relative_err_evolution_A_20_T_50.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 128895 bytes
+(epstopdf)             Output file: <l2_relative_err_evolution_A_20_T_50-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:27
+(epstopdf)                    size: 55331 bytes
+(epstopdf)             Command: <repstopdf --outfile=l2_relative_err_evolution_
+A_20_T_50-eps-converted-to.pdf l2_relative_err_evolution_A_20_T_50.eps>
+(epstopdf)             \includegraphics on input line 905.
+Package epstopdf Info: Output file is already uptodate.
+<l2_relative_err_evolution_A_20_T_50-eps-converted-to.pdf, id=381, 562.1pt x 42
+1.575pt>
+File: l2_relative_err_evolution_A_20_T_50-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use l2_relative_err_evolution_A_20_T_50-eps-converted-to.pdf>
+Package pdftex.def Info: l2_relative_err_evolution_A_20_T_50-eps-converted-to.p
+df  used on input line 905.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+Package epstopdf Info: Source file: <check_l2_relative_err_A_20.eps>
+(epstopdf)                    date: 2025-03-27 07:44:12
+(epstopdf)                    size: 121103 bytes
+(epstopdf)             Output file: <check_l2_relative_err_A_20-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:27
+(epstopdf)                    size: 61744 bytes
+(epstopdf)             Command: <repstopdf --outfile=check_l2_relative_err_A_20
+-eps-converted-to.pdf check_l2_relative_err_A_20.eps>
+(epstopdf)             \includegraphics on input line 905.
+Package epstopdf Info: Output file is already uptodate.
+<check_l2_relative_err_A_20-eps-converted-to.pdf, id=382, 562.1pt x 421.575pt>
+File: check_l2_relative_err_A_20-eps-converted-to.pdf Graphic file (type pdf)
+<use check_l2_relative_err_A_20-eps-converted-to.pdf>
+Package pdftex.def Info: check_l2_relative_err_A_20-eps-converted-to.pdf  used 
+on input line 905.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 906--906
+\OT1/cmr/m/sc/10 Figure 4.[]\OT1/cmr/m/n/10 Left: Evo-lu-tion of the rel-a-tive
+ $\OML/cmm/m/it/10 L[]$\OT1/cmr/m/n/10 -error
+ []
+
+
+LaTeX Warning: Citation `almeida2020treatment' on page 18 undefined on input li
+ne 913.
+
+[18 <./energy_A_20_T_50_w_sol-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `almeida2020treatment' on page 19 undefined on input li
+ne 933.
+
+Package epstopdf Info: Source file: <compare_k_T_1.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 87542 bytes
+(epstopdf)             Output file: <compare_k_T_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:27
+(epstopdf)                    size: 39896 bytes
+(epstopdf)             Command: <repstopdf --outfile=compare_k_T_1-eps-converte
+d-to.pdf compare_k_T_1.eps>
+(epstopdf)             \includegraphics on input line 943.
+Package epstopdf Info: Output file is already uptodate.
+<compare_k_T_1-eps-converted-to.pdf, id=397, 562.1pt x 421.575pt>
+File: compare_k_T_1-eps-converted-to.pdf Graphic file (type pdf)
+<use compare_k_T_1-eps-converted-to.pdf>
+Package pdftex.def Info: compare_k_T_1-eps-converted-to.pdf  used on input line
+ 943.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+Package epstopdf Info: Source file: <compare_k_T_20.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 89295 bytes
+(epstopdf)             Output file: <compare_k_T_20-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:27
+(epstopdf)                    size: 41050 bytes
+(epstopdf)             Command: <repstopdf --outfile=compare_k_T_20-eps-convert
+ed-to.pdf compare_k_T_20.eps>
+(epstopdf)             \includegraphics on input line 943.
+Package epstopdf Info: Output file is already uptodate.
+<compare_k_T_20-eps-converted-to.pdf, id=398, 562.1pt x 421.575pt>
+File: compare_k_T_20-eps-converted-to.pdf Graphic file (type pdf)
+<use compare_k_T_20-eps-converted-to.pdf>
+Package pdftex.def Info: compare_k_T_20-eps-converted-to.pdf  used on input lin
+e 943.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+
+LaTeX Warning: Citation `almeida2020treatment' on page 19 undefined on input li
+ne 951.
+
+
+LaTeX Warning: Citation `almeida2020treatment' on page 19 undefined on input li
+ne 957.
+
+[19 <./l2_relative_err_evolution_A_20_T_50-eps-converted-to.pdf> <./check_l2_re
+lative_err_A_20-eps-converted-to.pdf> <./compare_k_T_1-eps-converted-to.pdf> <.
+/compare_k_T_20-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `sec:appendix-FD-2D' on page 20 undefined on input lin
+e 961.
+
+
+LaTeX Warning: Citation `almeida2020treatment' on page 20 undefined on input li
+ne 978.
+
+
+Overfull \hbox (5.11835pt too wide) in paragraph at lines 976--979
+\OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT
+1/cmr/m/n/10 )$ is a ran-domly cho-sen uni-formly dis-tributed func-tion rang-i
+ng in $(\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 
+1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1)$.
+ []
+
+
+LaTeX Warning: Citation `painter2002volume' on page 20 undefined on input line 
+982.
+
+[20]
+Package epstopdf Info: Source file: <sol2D_A_6_T_5.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 79170 bytes
+(epstopdf)             Output file: <sol2D_A_6_T_5-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:28
+(epstopdf)                    size: 53208 bytes
+(epstopdf)             Command: <repstopdf --outfile=sol2D_A_6_T_5-eps-converte
+d-to.pdf sol2D_A_6_T_5.eps>
+(epstopdf)             \includegraphics on input line 992.
+Package epstopdf Info: Output file is already uptodate.
+<sol2D_A_6_T_5-eps-converted-to.pdf, id=440, 562.1pt x 421.575pt>
+File: sol2D_A_6_T_5-eps-converted-to.pdf Graphic file (type pdf)
+<use sol2D_A_6_T_5-eps-converted-to.pdf>
+Package pdftex.def Info: sol2D_A_6_T_5-eps-converted-to.pdf  used on input line
+ 992.
+(pdftex.def)             Requested size: 112.418pt x 84.31349pt.
+Package epstopdf Info: Source file: <sol2D_A_20_T_5.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 82257 bytes
+(epstopdf)             Output file: <sol2D_A_20_T_5-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:28
+(epstopdf)                    size: 58249 bytes
+(epstopdf)             Command: <repstopdf --outfile=sol2D_A_20_T_5-eps-convert
+ed-to.pdf sol2D_A_20_T_5.eps>
+(epstopdf)             \includegraphics on input line 992.
+Package epstopdf Info: Output file is already uptodate.
+<sol2D_A_20_T_5-eps-converted-to.pdf, id=441, 562.1pt x 421.575pt>
+File: sol2D_A_20_T_5-eps-converted-to.pdf Graphic file (type pdf)
+<use sol2D_A_20_T_5-eps-converted-to.pdf>
+Package pdftex.def Info: sol2D_A_20_T_5-eps-converted-to.pdf  used on input lin
+e 992.
+(pdftex.def)             Requested size: 112.418pt x 84.31349pt.
+Package epstopdf Info: Source file: <sol2D_A_50_T_5.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 77592 bytes
+(epstopdf)             Output file: <sol2D_A_50_T_5-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:28
+(epstopdf)                    size: 53140 bytes
+(epstopdf)             Command: <repstopdf --outfile=sol2D_A_50_T_5-eps-convert
+ed-to.pdf sol2D_A_50_T_5.eps>
+(epstopdf)             \includegraphics on input line 992.
+Package epstopdf Info: Output file is already uptodate.
+<sol2D_A_50_T_5-eps-converted-to.pdf, id=442, 562.1pt x 421.575pt>
+File: sol2D_A_50_T_5-eps-converted-to.pdf Graphic file (type pdf)
+<use sol2D_A_50_T_5-eps-converted-to.pdf>
+Package pdftex.def Info: sol2D_A_50_T_5-eps-converted-to.pdf  used on input lin
+e 992.
+(pdftex.def)             Requested size: 112.418pt x 84.31349pt.
+Package epstopdf Info: Source file: <sol2D_A_6_T_20.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 78191 bytes
+(epstopdf)             Output file: <sol2D_A_6_T_20-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:28
+(epstopdf)                    size: 50821 bytes
+(epstopdf)             Command: <repstopdf --outfile=sol2D_A_6_T_20-eps-convert
+ed-to.pdf sol2D_A_6_T_20.eps>
+(epstopdf)             \includegraphics on input line 997.
+Package epstopdf Info: Output file is already uptodate.
+<sol2D_A_6_T_20-eps-converted-to.pdf, id=443, 562.1pt x 421.575pt>
+File: sol2D_A_6_T_20-eps-converted-to.pdf Graphic file (type pdf)
+<use sol2D_A_6_T_20-eps-converted-to.pdf>
+Package pdftex.def Info: sol2D_A_6_T_20-eps-converted-to.pdf  used on input lin
+e 997.
+(pdftex.def)             Requested size: 112.418pt x 84.31349pt.
+Package epstopdf Info: Source file: <sol2D_A_20_T_20.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 79795 bytes
+(epstopdf)             Output file: <sol2D_A_20_T_20-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:28
+(epstopdf)                    size: 55508 bytes
+(epstopdf)             Command: <repstopdf --outfile=sol2D_A_20_T_20-eps-conver
+ted-to.pdf sol2D_A_20_T_20.eps>
+(epstopdf)             \includegraphics on input line 997.
+Package epstopdf Info: Output file is already uptodate.
+<sol2D_A_20_T_20-eps-converted-to.pdf, id=444, 562.1pt x 421.575pt>
+File: sol2D_A_20_T_20-eps-converted-to.pdf Graphic file (type pdf)
+<use sol2D_A_20_T_20-eps-converted-to.pdf>
+Package pdftex.def Info: sol2D_A_20_T_20-eps-converted-to.pdf  used on input li
+ne 997.
+(pdftex.def)             Requested size: 112.418pt x 84.31349pt.
+Package epstopdf Info: Source file: <sol2D_A_50_T_20.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 74717 bytes
+(epstopdf)             Output file: <sol2D_A_50_T_20-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:29
+(epstopdf)                    size: 47068 bytes
+(epstopdf)             Command: <repstopdf --outfile=sol2D_A_50_T_20-eps-conver
+ted-to.pdf sol2D_A_50_T_20.eps>
+(epstopdf)             \includegraphics on input line 997.
+Package epstopdf Info: Output file is already uptodate.
+<sol2D_A_50_T_20-eps-converted-to.pdf, id=445, 562.1pt x 421.575pt>
+File: sol2D_A_50_T_20-eps-converted-to.pdf Graphic file (type pdf)
+<use sol2D_A_50_T_20-eps-converted-to.pdf>
+Package pdftex.def Info: sol2D_A_50_T_20-eps-converted-to.pdf  used on input li
+ne 997.
+(pdftex.def)             Requested size: 112.418pt x 84.31349pt.
+Package epstopdf Info: Source file: <sol2D_A_6_T_50.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 76502 bytes
+(epstopdf)             Output file: <sol2D_A_6_T_50-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:29
+(epstopdf)                    size: 49037 bytes
+(epstopdf)             Command: <repstopdf --outfile=sol2D_A_6_T_50-eps-convert
+ed-to.pdf sol2D_A_6_T_50.eps>
+(epstopdf)             \includegraphics on input line 1002.
+Package epstopdf Info: Output file is already uptodate.
+<sol2D_A_6_T_50-eps-converted-to.pdf, id=446, 562.1pt x 421.575pt>
+File: sol2D_A_6_T_50-eps-converted-to.pdf Graphic file (type pdf)
+<use sol2D_A_6_T_50-eps-converted-to.pdf>
+Package pdftex.def Info: sol2D_A_6_T_50-eps-converted-to.pdf  used on input lin
+e 1002.
+(pdftex.def)             Requested size: 112.418pt x 84.31349pt.
+Package epstopdf Info: Source file: <sol2D_A_20_T_50.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 76057 bytes
+(epstopdf)             Output file: <sol2D_A_20_T_50-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:29
+(epstopdf)                    size: 49418 bytes
+(epstopdf)             Command: <repstopdf --outfile=sol2D_A_20_T_50-eps-conver
+ted-to.pdf sol2D_A_20_T_50.eps>
+(epstopdf)             \includegraphics on input line 1002.
+Package epstopdf Info: Output file is already uptodate.
+<sol2D_A_20_T_50-eps-converted-to.pdf, id=447, 562.1pt x 421.575pt>
+File: sol2D_A_20_T_50-eps-converted-to.pdf Graphic file (type pdf)
+<use sol2D_A_20_T_50-eps-converted-to.pdf>
+Package pdftex.def Info: sol2D_A_20_T_50-eps-converted-to.pdf  used on input li
+ne 1002.
+(pdftex.def)             Requested size: 112.418pt x 84.31349pt.
+Package epstopdf Info: Source file: <sol2D_A_50_T_50.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 69512 bytes
+(epstopdf)             Output file: <sol2D_A_50_T_50-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:29
+(epstopdf)                    size: 42376 bytes
+(epstopdf)             Command: <repstopdf --outfile=sol2D_A_50_T_50-eps-conver
+ted-to.pdf sol2D_A_50_T_50.eps>
+(epstopdf)             \includegraphics on input line 1002.
+Package epstopdf Info: Output file is already uptodate.
+<sol2D_A_50_T_50-eps-converted-to.pdf, id=448, 562.1pt x 421.575pt>
+File: sol2D_A_50_T_50-eps-converted-to.pdf Graphic file (type pdf)
+<use sol2D_A_50_T_50-eps-converted-to.pdf>
+Package pdftex.def Info: sol2D_A_50_T_50-eps-converted-to.pdf  used on input li
+ne 1002.
+(pdftex.def)             Requested size: 112.418pt x 84.31349pt.
+Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-01_T_20_init_1.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 61394 bytes
+(epstopdf)             Output file: <Fig_2D_A_20_eps_1e-01_T_20_init_1-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:30
+(epstopdf)                    size: 48622 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-01_T_20
+_init_1-eps-converted-to.pdf Fig_2D_A_20_eps_1e-01_T_20_init_1.eps>
+(epstopdf)             \includegraphics on input line 1032.
+Package epstopdf Info: Output file is already uptodate.
+<Fig_2D_A_20_eps_1e-01_T_20_init_1-eps-converted-to.pdf, id=449, 514.92375pt x 
+411.5375pt>
+File: Fig_2D_A_20_eps_1e-01_T_20_init_1-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use Fig_2D_A_20_eps_1e-01_T_20_init_1-eps-converted-to.pdf>
+Package pdftex.def Info: Fig_2D_A_20_eps_1e-01_T_20_init_1-eps-converted-to.pdf
+  used on input line 1032.
+(pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
+Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-02_T_20_init_1.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 62586 bytes
+(epstopdf)             Output file: <Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:30
+(epstopdf)                    size: 49089 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-02_T_20
+_init_1-eps-converted-to.pdf Fig_2D_A_20_eps_1e-02_T_20_init_1.eps>
+(epstopdf)             \includegraphics on input line 1032.
+Package epstopdf Info: Output file is already uptodate.
+<Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-converted-to.pdf, id=450, 514.92375pt x 
+411.5375pt>
+File: Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-converted-to.pdf>
+Package pdftex.def Info: Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-converted-to.pdf
+  used on input line 1032.
+(pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
+Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-03_T_20_init_1.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 63524 bytes
+(epstopdf)             Output file: <Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:30
+(epstopdf)                    size: 49440 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-03_T_20
+_init_1-eps-converted-to.pdf Fig_2D_A_20_eps_1e-03_T_20_init_1.eps>
+(epstopdf)             \includegraphics on input line 1032.
+Package epstopdf Info: Output file is already uptodate.
+<Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-converted-to.pdf, id=451, 514.92375pt x 
+411.5375pt>
+File: Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-converted-to.pdf>
+Package pdftex.def Info: Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-converted-to.pdf
+  used on input line 1032.
+(pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
+Package epstopdf Info: Source file: <sol2D_A_20_T_20_init_1.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 63552 bytes
+(epstopdf)             Output file: <sol2D_A_20_T_20_init_1-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2025-05-13 17:31:30
+(epstopdf)                    size: 49803 bytes
+(epstopdf)             Command: <repstopdf --outfile=sol2D_A_20_T_20_init_1-eps
+-converted-to.pdf sol2D_A_20_T_20_init_1.eps>
+(epstopdf)             \includegraphics on input line 1032.
+Package epstopdf Info: Output file is already uptodate.
+<sol2D_A_20_T_20_init_1-eps-converted-to.pdf, id=452, 562.1pt x 421.575pt>
+File: sol2D_A_20_T_20_init_1-eps-converted-to.pdf Graphic file (type pdf)
+<use sol2D_A_20_T_20_init_1-eps-converted-to.pdf>
+Package pdftex.def Info: sol2D_A_20_T_20_init_1-eps-converted-to.pdf  used on i
+nput line 1032.
+(pdftex.def)             Requested size: 112.418pt x 84.31349pt.
+Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-01_T_20_init_1.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 56352 bytes
+(epstopdf)             Output file: <Fig_2D_A_50_eps_1e-01_T_20_init_1-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:30
+(epstopdf)                    size: 38633 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-01_T_20
+_init_1-eps-converted-to.pdf Fig_2D_A_50_eps_1e-01_T_20_init_1.eps>
+(epstopdf)             \includegraphics on input line 1039.
+Package epstopdf Info: Output file is already uptodate.
+<Fig_2D_A_50_eps_1e-01_T_20_init_1-eps-converted-to.pdf, id=453, 514.92375pt x 
+411.5375pt>
+File: Fig_2D_A_50_eps_1e-01_T_20_init_1-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use Fig_2D_A_50_eps_1e-01_T_20_init_1-eps-converted-to.pdf>
+Package pdftex.def Info: Fig_2D_A_50_eps_1e-01_T_20_init_1-eps-converted-to.pdf
+  used on input line 1039.
+(pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
+Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-02_T_20_init_1.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 57480 bytes
+(epstopdf)             Output file: <Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:31
+(epstopdf)                    size: 39508 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-02_T_20
+_init_1-eps-converted-to.pdf Fig_2D_A_50_eps_1e-02_T_20_init_1.eps>
+(epstopdf)             \includegraphics on input line 1039.
+Package epstopdf Info: Output file is already uptodate.
+<Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-converted-to.pdf, id=454, 514.92375pt x 
+411.5375pt>
+File: Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-converted-to.pdf>
+Package pdftex.def Info: Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-converted-to.pdf
+  used on input line 1039.
+(pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
+Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-03_T_20_init_1.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 58263 bytes
+(epstopdf)             Output file: <Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:31
+(epstopdf)                    size: 40229 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-03_T_20
+_init_1-eps-converted-to.pdf Fig_2D_A_50_eps_1e-03_T_20_init_1.eps>
+(epstopdf)             \includegraphics on input line 1039.
+Package epstopdf Info: Output file is already uptodate.
+<Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-converted-to.pdf, id=455, 514.92375pt x 
+411.5375pt>
+File: Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-converted-to.pdf Graphic file (type
+ pdf)
+<use Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-converted-to.pdf>
+Package pdftex.def Info: Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-converted-to.pdf
+  used on input line 1039.
+(pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
+Package epstopdf Info: Source file: <sol2D_A_50_T_20_init_1.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 58400 bytes
+(epstopdf)             Output file: <sol2D_A_50_T_20_init_1-eps-converted-to.pd
+f>
+(epstopdf)                    date: 2025-05-13 17:31:31
+(epstopdf)                    size: 40540 bytes
+(epstopdf)             Command: <repstopdf --outfile=sol2D_A_50_T_20_init_1-eps
+-converted-to.pdf sol2D_A_50_T_20_init_1.eps>
+(epstopdf)             \includegraphics on input line 1039.
+Package epstopdf Info: Output file is already uptodate.
+<sol2D_A_50_T_20_init_1-eps-converted-to.pdf, id=456, 562.1pt x 421.575pt>
+File: sol2D_A_50_T_20_init_1-eps-converted-to.pdf Graphic file (type pdf)
+<use sol2D_A_50_T_20_init_1-eps-converted-to.pdf>
+Package pdftex.def Info: sol2D_A_50_T_20_init_1-eps-converted-to.pdf  used on i
+nput line 1039.
+(pdftex.def)             Requested size: 112.418pt x 84.31349pt.
+Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-01_T_20_init_10.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 59216 bytes
+(epstopdf)             Output file: <Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:31
+(epstopdf)                    size: 44001 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-01_T_20
+_init_10-eps-converted-to.pdf Fig_2D_A_20_eps_1e-01_T_20_init_10.eps>
+(epstopdf)             \includegraphics on input line 1046.
+Package epstopdf Info: Output file is already uptodate.
+<Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-converted-to.pdf, id=457, 514.92375pt x
+ 411.5375pt>
+File: Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-converted-to.pdf>
+Package pdftex.def Info: Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-converted-to.pd
+f  used on input line 1046.
+(pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
+Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-02_T_20_init_10.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 59934 bytes
+(epstopdf)             Output file: <Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:32
+(epstopdf)                    size: 44162 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-02_T_20
+_init_10-eps-converted-to.pdf Fig_2D_A_20_eps_1e-02_T_20_init_10.eps>
+(epstopdf)             \includegraphics on input line 1046.
+Package epstopdf Info: Output file is already uptodate.
+<Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-converted-to.pdf, id=458, 514.92375pt x
+ 411.5375pt>
+File: Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-converted-to.pdf>
+Package pdftex.def Info: Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-converted-to.pd
+f  used on input line 1046.
+(pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
+Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-03_T_20_init_10.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 60811 bytes
+(epstopdf)             Output file: <Fig_2D_A_20_eps_1e-03_T_20_init_10-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:32
+(epstopdf)                    size: 44532 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-03_T_20
+_init_10-eps-converted-to.pdf Fig_2D_A_20_eps_1e-03_T_20_init_10.eps>
+(epstopdf)             \includegraphics on input line 1046.
+Package epstopdf Info: Output file is already uptodate.
+<Fig_2D_A_20_eps_1e-03_T_20_init_10-eps-converted-to.pdf, id=459, 514.92375pt x
+ 411.5375pt>
+File: Fig_2D_A_20_eps_1e-03_T_20_init_10-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use Fig_2D_A_20_eps_1e-03_T_20_init_10-eps-converted-to.pdf>
+Package pdftex.def Info: Fig_2D_A_20_eps_1e-03_T_20_init_10-eps-converted-to.pd
+f  used on input line 1046.
+(pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
+Package epstopdf Info: Source file: <sol2D_A_20_T_20_init_10.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 60831 bytes
+(epstopdf)             Output file: <sol2D_A_20_T_20_init_10-eps-converted-to.p
+df>
+(epstopdf)                    date: 2025-05-13 17:31:32
+(epstopdf)                    size: 44923 bytes
+(epstopdf)             Command: <repstopdf --outfile=sol2D_A_20_T_20_init_10-ep
+s-converted-to.pdf sol2D_A_20_T_20_init_10.eps>
+(epstopdf)             \includegraphics on input line 1046.
+Package epstopdf Info: Output file is already uptodate.
+<sol2D_A_20_T_20_init_10-eps-converted-to.pdf, id=460, 562.1pt x 421.575pt>
+File: sol2D_A_20_T_20_init_10-eps-converted-to.pdf Graphic file (type pdf)
+<use sol2D_A_20_T_20_init_10-eps-converted-to.pdf>
+Package pdftex.def Info: sol2D_A_20_T_20_init_10-eps-converted-to.pdf  used on 
+input line 1046.
+(pdftex.def)             Requested size: 112.418pt x 84.31349pt.
+Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-01_T_20_init_10.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 53909 bytes
+(epstopdf)             Output file: <Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:32
+(epstopdf)                    size: 37155 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-01_T_20
+_init_10-eps-converted-to.pdf Fig_2D_A_50_eps_1e-01_T_20_init_10.eps>
+(epstopdf)             \includegraphics on input line 1053.
+Package epstopdf Info: Output file is already uptodate.
+<Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-converted-to.pdf, id=461, 514.92375pt x
+ 411.5375pt>
+File: Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-converted-to.pdf>
+Package pdftex.def Info: Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-converted-to.pd
+f  used on input line 1053.
+(pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
+Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-02_T_20_init_10.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 53447 bytes
+(epstopdf)             Output file: <Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:32
+(epstopdf)                    size: 36459 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-02_T_20
+_init_10-eps-converted-to.pdf Fig_2D_A_50_eps_1e-02_T_20_init_10.eps>
+(epstopdf)             \includegraphics on input line 1053.
+Package epstopdf Info: Output file is already uptodate.
+<Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-converted-to.pdf, id=462, 514.92375pt x
+ 411.5375pt>
+File: Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-converted-to.pdf>
+Package pdftex.def Info: Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-converted-to.pd
+f  used on input line 1053.
+(pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
+Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-03_T_20_init_10.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 54548 bytes
+(epstopdf)             Output file: <Fig_2D_A_50_eps_1e-03_T_20_init_10-eps-con
+verted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:33
+(epstopdf)                    size: 36785 bytes
+(epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-03_T_20
+_init_10-eps-converted-to.pdf Fig_2D_A_50_eps_1e-03_T_20_init_10.eps>
+(epstopdf)             \includegraphics on input line 1053.
+Package epstopdf Info: Output file is already uptodate.
+<Fig_2D_A_50_eps_1e-03_T_20_init_10-eps-converted-to.pdf, id=463, 514.92375pt x
+ 411.5375pt>
+File: Fig_2D_A_50_eps_1e-03_T_20_init_10-eps-converted-to.pdf Graphic file (typ
+e pdf)
+<use Fig_2D_A_50_eps_1e-03_T_20_init_10-eps-converted-to.pdf>
+Package pdftex.def Info: Fig_2D_A_50_eps_1e-03_T_20_init_10-eps-converted-to.pd
+f  used on input line 1053.
+(pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
+Package epstopdf Info: Source file: <sol2D_A_50_T_20_init_10.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 54560 bytes
+(epstopdf)             Output file: <sol2D_A_50_T_20_init_10-eps-converted-to.p
+df>
+(epstopdf)                    date: 2025-05-13 17:31:33
+(epstopdf)                    size: 37179 bytes
+(epstopdf)             Command: <repstopdf --outfile=sol2D_A_50_T_20_init_10-ep
+s-converted-to.pdf sol2D_A_50_T_20_init_10.eps>
+(epstopdf)             \includegraphics on input line 1053.
+Package epstopdf Info: Output file is already uptodate.
+<sol2D_A_50_T_20_init_10-eps-converted-to.pdf, id=464, 562.1pt x 421.575pt>
+File: sol2D_A_50_T_20_init_10-eps-converted-to.pdf Graphic file (type pdf)
+<use sol2D_A_50_T_20_init_10-eps-converted-to.pdf>
+Package pdftex.def Info: sol2D_A_50_T_20_init_10-eps-converted-to.pdf  used on 
+input line 1053.
+(pdftex.def)             Requested size: 112.418pt x 84.31349pt.
+Package epstopdf Info: Source file: <l2_relative_error_2D_A_20_T_20.eps>
+(epstopdf)                    date: 2025-03-27 07:44:14
+(epstopdf)                    size: 150011 bytes
+(epstopdf)             Output file: <l2_relative_error_2D_A_20_T_20-eps-convert
+ed-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:33
+(epstopdf)                    size: 70704 bytes
+(epstopdf)             Command: <repstopdf --outfile=l2_relative_error_2D_A_20_
+T_20-eps-converted-to.pdf l2_relative_error_2D_A_20_T_20.eps>
+(epstopdf)             \includegraphics on input line 1062.
+Package epstopdf Info: Output file is already uptodate.
+<l2_relative_error_2D_A_20_T_20-eps-converted-to.pdf, id=465, 562.1pt x 421.575
+pt>
+File: l2_relative_error_2D_A_20_T_20-eps-converted-to.pdf Graphic file (type pd
+f)
+<use l2_relative_error_2D_A_20_T_20-eps-converted-to.pdf>
+Package pdftex.def Info: l2_relative_error_2D_A_20_T_20-eps-converted-to.pdf  u
+sed on input line 1062.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+Package epstopdf Info: Source file: <convergence_vep_2D.eps>
+(epstopdf)                    date: 2025-03-27 07:44:12
+(epstopdf)                    size: 100044 bytes
+(epstopdf)             Output file: <convergence_vep_2D-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-05-13 17:31:33
+(epstopdf)                    size: 51078 bytes
+(epstopdf)             Command: <repstopdf --outfile=convergence_vep_2D-eps-con
+verted-to.pdf convergence_vep_2D.eps>
+(epstopdf)             \includegraphics on input line 1062.
+Package epstopdf Info: Output file is already uptodate.
+<convergence_vep_2D-eps-converted-to.pdf, id=466, 562.1pt x 421.575pt>
+File: convergence_vep_2D-eps-converted-to.pdf Graphic file (type pdf)
+<use convergence_vep_2D-eps-converted-to.pdf>
+Package pdftex.def Info: convergence_vep_2D-eps-converted-to.pdf  used on input
+ line 1062.
+(pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+
+
+LaTeX Warning: Citation `LemouMieussens' on page 21 undefined on input line 107
 2.
 
+[21 <./sol2D_A_6_T_5-eps-converted-to.pdf> <./sol2D_A_20_T_5-eps-converted-to.p
+df> <./sol2D_A_50_T_5-eps-converted-to.pdf> <./sol2D_A_6_T_20-eps-converted-to.
+pdf> <./sol2D_A_20_T_20-eps-converted-to.pdf> <./sol2D_A_50_T_20-eps-converted-
+to.pdf> <./sol2D_A_6_T_50-eps-converted-to.pdf> <./sol2D_A_20_T_50-eps-converte
+d-to.pdf> <./sol2D_A_50_T_50-eps-converted-to.pdf>] [22 <./Fig_2D_A_20_eps_1e-0
+1_T_20_init_1-eps-converted-to.pdf> <./Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-co
+nverted-to.pdf> <./Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-converted-to.pdf> <./s
+ol2D_A_20_T_20_init_1-eps-converted-to.pdf> <./Fig_2D_A_50_eps_1e-01_T_20_init_
+1-eps-converted-to.pdf> <./Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-converted-to.p
+df> <./Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-converted-to.pdf> <./sol2D_A_50_T_
+20_init_1-eps-converted-to.pdf> <./Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-conve
+rted-to.pdf> <./Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-converted-to.pdf> <./Fig
+_2D_A_20_eps_1e-03_T_20_init_10-eps-converted-to.pdf> <./sol2D_A_20_T_20_init_1
+0-eps-converted-to.pdf> <./Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-converted-to.
+pdf> <./Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-converted-to.pdf> <./Fig_2D_A_50
+_eps_1e-03_T_20_init_10-eps-converted-to.pdf> <./sol2D_A_50_T_20_init_10-eps-co
+nverted-to.pdf> <./l2_relative_error_2D_A_20_T_20-eps-converted-to.pdf> <./conv
+ergence_vep_2D-eps-converted-to.pdf>]
 
-LaTeX Warning: Reference `sec: implicit-explicit scheme' on page 4 undefined on
- input line 182.
+LaTeX Warning: Citation `stevens2000derivation' on page 23 undefined on input l
+ine 1078.
 
-
-LaTeX Warning: Reference `numerical results' on page 4 undefined on input line 
-182.
-
-[4]
-File: AIMS_Logo.pdf Graphic file (type pdf)
-<use AIMS_Logo.pdf>
-Package pdftex.def Info: AIMS_Logo.pdf  used on input line 261.
-(pdftex.def)             Requested size: 180.67499pt x 183.63826pt.
- [5] [6] [7] (./AIMS_VFPKS.aux)
+[23] [24] (./AIMS_VFPKS.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -715,42 +1583,49 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `AIMS_VFPKS.out' has not changed.
-(rerunfilecheck)             Checksum: E7947A2177F469CF32E24B9C9F0A68E3;2149.
- ) 
+(rerunfilecheck)             Checksum: B0102E651E67CE594A4C629F7A48BB99;3469.
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 892 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 10145 strings out of 476025
- 158378 string characters out of 5790017
- 1867388 words of memory out of 5000000
- 30228 multiletter control sequences out of 15000+600000
- 521883 words of font info for 69 fonts, out of 8000000 for 9000
+ 10567 strings out of 476025
+ 171862 string characters out of 5790017
+ 1881388 words of memory out of 5000000
+ 30541 multiletter control sequences out of 15000+600000
+ 524411 words of font info for 77 fonts, out of 8000000 for 9000
  1308 hyphenation exceptions out of 8191
- 72i,18n,76p,2540b,619s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/ruanxinran/Library/texlive/2023/texmf-var/fonts/pk/ljfour/public/ifs
-ym/ifsym10.420pk></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-mi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
-pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
-></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
-/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/lo
-cal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loc
-al/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local
-/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/t
-exlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
-live/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texl
-ive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texliv
-e/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/
-2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AIMS_VFPKS.pdf (7 pages, 285030 bytes).
+ 72i,17n,76p,2540b,709s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/ruanxinran/Library/texlive/2023/texmf-var/fonts/pk/ljf
+our/public/ifsym/ifsym10.420pk></usr/local/texlive/2023/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmbx5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmib10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb><
+/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></u
+sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
+/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/
+local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/lo
+cal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/loca
+l/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on AIMS_VFPKS.pdf (24 pages, 2114642 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 786 PDF objects out of 1000 (max. 8388607)
+ 580 compressed objects within 6 object streams
+ 110 named destinations out of 1000 (max. 500000)
+ 324 words of extra memory for PDF output out of 10000 (max. 10000000)
 
