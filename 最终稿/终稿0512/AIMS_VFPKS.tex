@@ -1073,6 +1073,118 @@ From the modeling perspective, it would be natural to extend the derivation to c
 Moreover, the rigorous derivation of volume-filling chemotactic equations from stochastic processes of interacting populations could be considered by adapting ideas from \cite{stevens2000derivation} for instance. 
 }
 
+\appendix
+
+\section{A finite difference scheme for the 2D kinetic model} \label{sec:appendix-FD-2D}
+The finite difference scheme \eqref{eq:scheme} can be generalized to multi-dimensional problems where a tensor product grid is applied. 
+Here we consider the 2D kinetic model with the special choice $\psi_0(v_1,v_2)$ and $\psi_1(v_1, v_2) = \vec{\phi}(v_1,v_2) \cdot \nabla c$, where $\vec{\phi}(v_1,v_2) = (\phi_1(v_1,v_2), \phi_2(v_1,v_2))^T $, 
+{ such that 
+$D I_2 = \int (\bv\otimes \bv) \psi_0 \diff v_1 \diff v_2$ 
+and
+$\chi_0 I_2 = \int \bv\otimes \vec{\phi} \diff v_1 \diff v_2$ with $\bv=(v_1, v_2)^T$ and $I_2$ being the 2-dimentional identity matrix. 
+}
+
+We introduce the notations  $\rho_{j_1,j_2}^n$, $c_{j_1,j_2}^n$,  $g_{j_1+\frac12,j_2,k_1,k_2}^{(1), n}$ and $g_{j_1,j_2+\frac12,k_1,k_2}^{(2), n}$ to be the numerical approximations of $\rho(t_n,x_{j_1}, x_{j_2})$, $c(t_n,x_{j_1}, x_{j_2})$, $g(t_n, x_{j_1+\frac12}, x_{j_2}, v_{k_1}, v_{k_2})$ and 
+$g(t_n, x_{j_1}, x_{j_2+\frac12}, v_{k_1}, v_{k_2})$, respectively. 
+The approximations of $\rho(t, \mathbf{x})$ at half grid points such as $(x_{j_1}, x_{j_2+\frac12})$ can be then easily approximated by the average $\bar{\rho}_{j_1, j_2+\frac12} := (\rho_{j_1, j_2} + \rho_{j_1, j_2+1})/2$. 
+It is worth noticing that we used different notations for approximating $g(t_n, x_{j_1+\frac12}, x_{j_2}, *, *)$ and $g(t_n, x_{j_1}, x_{j_2+\frac12}, *, *)$ since different upwind discretizations will be used depending on whether the half grid is in $x_1$-direction or $x_2$-direction. 
+An illustration of the grids in $\mathbf{x}$-space for computing $\rho(t,\mathbf{x})$ and $g(t,\mathbf{x},\mathbf{v})$ in 1D and 2D can be found in Figure \ref{fig:grid_illstration}. 
+
+\begin{figure}[tbhp]
+\centerline{
+\includegraphics[scale = 0.3]{grid_illustration_1D.eps}
+\includegraphics[scale = 0.3]{grid_illustration_2D.eps}
+}
+\caption{Illustration of the grids in $\mathbf{x}$-space for computing $\rho(t,\mathbf{x})$ and $g(t,\mathbf{x},\mathbf{v})$ in 1D and 2D.}
+\label{fig:grid_illstration}
+\end{figure}
+
+With the notations defined, the 2D kinetic model \eqref{eq:kinetic_approx} can be discretized as 
+\begin{align}
+\label{eq:scheme_2D}
+    \begin{cases}
+    & \delta_t^+ \rho_{j_1,j_2}^n +  
+    \sum_{k_1,k_2} \left[v_{k_1}\delta_{x_1}(q( {\bar{\rho}}_{*,j_2}^n) g_{*,j_2,k_1,k_2}^{(1), n+1})_{j_1} +  v_{k_2}\delta_{x_2}(q( {\bar{\rho}}_{j_1,*}^n) g_{j_1,*,k_1,k_2}^{(2), n+1})_{j_2}\right]\Delta v_1 \Delta v_2\\
+     & \quad + D_h \left[ \delta_{x_1}( {\bar{\rho}}_{*,j_2}^n q'( {\bar{\rho}}_{*,j_2}^n)\delta_{x_1} \rho_{*,j_2}^{n+1})_{j_1} + \delta_{x_2}( {\bar{\rho}}_{j_1,*}^n q'( {\bar{\rho}}_{j_1,*}^n)\delta_{x_2} \rho_{j_1,*}^{n+1})_{j_2} \right]
+    = r_0 \rho_{j_1,j_2}^{n}\left(1 - \frac{\rho_{j_1,j_2}^n}{\rho_{\rm max}}\right)_+,\\
+    &\delta_t^+ g_{j_1+\frac12,j_2,k_1, k_2}^{(1),n} + \frac{1}{\varepsilon}(I-\Pi_h) K_{j_1+\frac12,j_2,k_1, k_2}^{(1),n} \\
+    &\qquad = \frac{1}{\varepsilon^2}(S_{j_1+\frac12,j_2,k_1,k_2}^{(1), n, n+1} - q( {\bar{\rho}}_{j_1+\frac12,j_2}^n) g_{j_1+\frac12,j_2,k_1,k_2}^{(1), n+1}) + r_0 g_{j_1+\frac12,j_2,k_1,k_2}^{(1),n}\left(1 - \frac{\rho_{j_1+\frac12,j_2}^n}{\rho_{\rm max}}\right)_+,\\
+        &\delta_t^+ g_{j_1,j_2+\frac12,k_1, k_2}^{(2),n} + \frac{1}{\varepsilon}(I-\Pi_h) K_{j_1,j_2+\frac12,k_1, k_2}^{(2),n} \\
+    & \qquad = \frac{1}{\varepsilon^2}(S_{j_1,j_2+\frac12,k_1,k_2}^{(2), n, n+1} - q( {\bar{\rho}}_{j_1,j_2+\frac12}^n) g_{j_1,j_2+\frac12,k_1,k_2}^{(2), n+1}) + r_0 g_{j_1,j_2+\frac12,k_1,k_2}^{(2),n}\left(1 - \frac{\rho_{j_1,j_2+\frac12}^n}{\rho_{\rm max}}\right)_+,\\
+    & (\delta_{x_1}^2 + \delta_{x_2}^2) c_{j_1,j_2}^{n+1} + \rho_{j_1,j_2}^{n+1} - c_{j_1,j_2}^{n+1} = 0,
+\end{cases}
+\end{align}
+where 
+{ 
+$D_h=\sum_{k_1,k_2} v_{k_i}^2 \psi_{0}(v_{k_1},v_{k_2})\Delta v_1 \Delta v_2$, $i=1$ or 2, and  
+}
+$\Pi_h$ is the discrete projection operator defined as 
+\begin{equation*}
+    \Pi_h \eta_{j_1,j_2,k_1,k_2}^n = \sum_{k_1,k_2}\eta_{j_1,j_2,k_1,k_2}^n \psi_{0}(v_{k_1},v_{k_2})\Delta v_1 \Delta v_2
+\end{equation*} 
+for some general function $\eta(t,\mathbf{x},\mathbf{v})$ and 
+\begin{align*}
+    & K_{j_1+\frac12,j_2,k_1, k_2}^{(1),n}  = v_{k_1}^+\delta_{x_1}(q( {\bar{\rho}}_{*,j_2}^n) g_{*,j_2,k_1,k_2}^{(1),n})_{j_1} - v_{k_1}^-\delta_{x_1}(q( {\bar{\rho}}_{*,j_2}^n) g_{*,j_2,k_1,k_2}^{(1),n})_{j_1+1}\\
+    & \qquad + v_{k_2}^+\delta_{x_2}(q( {\bar{\rho}}_{j_1+\frac12,*}^n) g_{j_1+\frac12, *,k_1,k_2}^{(1),n})_{j_2-\frac12} - v_{k_2}^-\delta_{x_2}(q( {\bar{\rho}}_{j_1+\frac12,*}^n) g_{j_1+\frac12,*,k_1,k_2}^{(1),n})_{j_2+\frac12} \\
+    &\qquad + \psi_{0}(v_{k_1}, v_{k_2})\delta_{x_1}\left\{ {\rho}_{*,j_2}^n q'( {\rho}_{*,j_2}^n)\left[v_{k_1}^2\delta_{x_1}\bar{\rho}_{*,j_2}^n + v_{k_1}v_{k_2}(\delta_{x_2}\bar{\rho}_{*,**}^n)_{j_2} \right]\right\}_{j_1+\frac12}\ , \\
+    &\qquad + \psi_{0}(v_{k_1}, v_{k_2})\delta_{x_2}\left\{ {\bar{\rho}}_{j_1+\frac12,*}^n q'( {\bar{\rho}}_{j_1+\frac12,*}^n)\left[v_{k_1}v_{k_2}(\delta_{x_1}\bar{\rho}_{**,*}^n)_{j_1+\frac12} + v_{k_2}^2 \delta_{x_2}\bar{\rho}_{j_1+\frac12,*}^n\right]\right\}_{j_2}\ , \\
+    & K_{j_1,j_2+\frac12,k_1, k_2}^{(2),n}  = v_{k_1}^+\delta_{x_1}(q( {\bar{\rho}}_{*,j_2+\frac12}^n) g_{*,j_2+\frac12,k_1,k_2}^{(1),n})_{j_1-\frac12} - v_{k_1}^-\delta_{x_1}(q( {\bar{\rho}}_{*,j_2+\frac12}^n) g_{*,j_2+\frac12,k_1,k_2}^{(1),n})_{j_1+\frac12}\\
+    & \qquad + v_{k_2}^+\delta_{x_2}(q( {\bar{\rho}}_{j_1,*}^n) g_{j_1, *,k_1,k_2}^{(1),n})_{j_2} - v_{k_2}^-\delta_{x_2}(q( {\bar{\rho}}_{j_1,*}^n) g_{j_1,*,k_1,k_2}^{(1),n})_{j_2+1} \\
+    &\qquad + \psi_{0}(v_{k_1}, v_{k_2})\delta_{x_1}\left\{ {\bar{\rho}}_{*,j_2+\frac12}^n q'( {\bar{\rho}}_{*,j_2+\frac12}^n)\left[v_{k_1}^2\delta_{x_1}\bar{\rho}_{*,j_2+\frac12}^n + v_{k_1}v_{k_2}(\delta_{x_2}\bar{\rho}_{*,**}^n)_{j_2+\frac12} \right]\right\}_{j_1}\ , \\
+    &\qquad + \psi_{0}(v_{k_1}, v_{k_2})\delta_{x_2}\left\{ {\rho}_{j_1,*}^n q'( {\rho}_{j_1,*}^n)\left[v_{k_1}v_{k_2}(\delta_{x_1}\bar{\rho}_{**,*}^n)_{j_1} + v_{k_2}^2 \delta_{x_2}\bar{\rho}_{j_1,*}^n \right]\right\}_{j_2+\frac12}\ , \\
+    & S_{j_1+\frac12, j_2, k_1, k_2}^{(1), n, n+1} = -\psi_{0}(v_{k_1}, v_{k_2})q( \bar{{\rho}}_{j_1+\frac12,j_2}^n)  \left[v_{k_1} \delta_{x_1} \rho_{j_1+\frac12, j_2}^{n+1} + v_{k_2} \delta_{x_2} \bar{\rho}_{j_1+\frac12, j_2}^{n+1} \right] \\
+    & \qquad  + \phi_{1}(v_{k_1}, v_{k_2})\delta_{x_1} c_{j_1+\frac12,j_2}^n \Phi^{(1),n+1,n}_{j_1+\frac12,j_2}+\phi_{2}(v_{k_1}, v_{k_2}) \delta_{x_2} c_{j_1+\frac12,j_2}^n
+    \Phi^{(2),n+1,n}_{j_1+\frac12,j_2}
+    \ ,\\
+    & S_{j_1, j_2+\frac12, k_1, k_2}^{(2), n, n+1} = -\psi_{0}(v_{k_1}, v_{k_2})q( \bar{{\rho}}_{j_1,j_2+\frac12}^n)  \left[v_{k_1} \delta_{x_1} \bar{\rho}_{j_1, j_2+\frac12}^{n+1} + v_{k_2} \delta_{x_2} \rho_{j_1, j_2+\frac12}^{n+1} \right] \\
+    & \qquad  + \phi_{1}(v_{k_1}, v_{k_2})\delta_{x_1} c_{j_1,j_2+\frac12}^n\Phi^{(1),n+1,n}_{j_1,j_2+\frac12} +\phi_{2}(v_{k_1}, v_{k_2}) \delta_{x_2} c_{j_1,j_2+\frac12}^n 
+    \Phi^{(2),n+1,n}_{j_1,j_2+\frac12}
+    \ ,
+\end{align*}
+where, as in the 1D case, both $\Phi^{(1), n_1,n}$ and $\Phi^{(1), n_1,n}$ are upwind approximations of $q(\rho)\rho$ at $t=t_n$ and defined as 
+\begin{align*}
+    & \Phi^{(1), n_1,n}_{j_1, j_2} = 
+	\begin{cases}
+		\rho_{j_1 - \frac12,j_2}^{n_1} q(\rho_{j_1+\frac12,j_2}^n)\ , \quad & \text{ if } \delta_{x_1} c_{j_1,j_2}^n \ge 0\ , \\
+		\rho_{j_1+\frac12,j_2}^{n_1} q(\rho_{j_1-\frac12,j_2}^n)\ , \quad & \text{ if } \delta_{x_1} c_{j_1,j_2}^n <0\ , 
+	\end{cases}\\
+	& \Phi^{(2), n_1,n}_{j_1, j_2} = 
+	\begin{cases}
+		\rho_{j_1,j_2 - \frac12}^{n_1} q(\rho_{j_1,j_2+\frac12}^n)\ , \quad & \text{ if } \delta_{x_2} c_{j_1,j_2}^n \ge 0\ , \\
+		\rho_{j_1,j_2+\frac12}^{n_1} q(\rho_{j_1,j_2-\frac12}^n)\ , \quad & \text{ if } \delta_{x_2} c_{j_1,j_2}^n <0\ ,
+	\end{cases}
+\end{align*}
+
+As for the 1D case, we can formally prove the asymptotic preserving property of the 2D scheme \eqref{eq:scheme_2D} in a similar way. 
+In fact, when $\varepsilon\to 0$, we expect that  
+\begin{equation*}
+	S_{j_1+\frac12, j_2, k_1, k_2}^{(1), n, n+1} = q( {\bar{\rho}}_{j_1+\frac12,j_2}^n) g_{j_1+\frac12,j_2,k_1,k_2}^{(1), n+1}, \  S_{j_1, j_2+\frac12, k_1, k_2}^{(2), n, n+1} = q( {\bar{\rho}}_{j_1,j_2+\frac12}^n) g_{j_1,j_2+\frac12,k_1,k_2}^{(2), n+1},
+\end{equation*}
+from where we have
+\begin{align*}
+  & q( {\bar{\rho}}_{j_1+\frac12,j_2}^n) g_{j_1+\frac12,j_2,k_1,k_2}^{(1), n+1} = -\psi_{0}(v_{k_1}, v_{k_2})q( \bar{\rho}_{j_1+\frac12,j_2}^n)  \left[v_{k_1} \delta_{x_1} \rho_{j_1+\frac12, j_2}^{n+1} + v_{k_2} \delta_{x_2} \bar{\rho}_{j_1+\frac12, j_2}^{n+1} \right] \nonumber \\
+        & \qquad  + \phi_{1}(v_{k_1}, v_{k_2})\delta_{x_1} c_{j_1+\frac12,j_2}^n \Phi^{(1),n+1,n}_{j_1+\frac12,j_2}+\phi_{2}(v_{k_1}, v_{k_2}) \delta_{x_2} c_{j_1+\frac12,j_2}^n
+        \Phi^{(2),n+1,n}_{j_1+\frac12,j_2},\\
+	&q( \bar{\rho}_{j_1,j_2+\frac12}^n) g_{j_1,j_2+\frac12,k_1,k_2}^{(2), n+1} = -\psi_{0}(v_{k_1}, v_{k_2})q( \bar{\rho}_{j_1,j_2+\frac12}^n)  \left[v_{k_1} \delta_{x_1} \bar{\rho}_{j_1, j_2+\frac12}^{n+1} + v_{k_2} \delta_{x_2} \rho_{j_1, j_2+\frac12}^{n+1} \right] \nonumber\\
+    & \qquad  + \phi_{1}(v_{k_1}, v_{k_2})\delta_{x_1} c_{j_1,j_2+\frac12}^n\Phi^{(1),n+1,n}_{j_1,j_2+\frac12} +\phi_{2}(v_{k_1}, v_{k_2}) \delta_{x_2} c_{j_1,j_2+\frac12}^n 
+    \Phi^{(2),n+1,n}_{j_1,j_2+\frac12}\ .
+\end{align*}
+Substituting into the first equation in \eqref{eq:scheme_2D} and using the fact that
+\begin{align*}
+	&\sum_{k_1,k_2} v_{k_i}v_{k_j} \psi_0(v_{k_1},v_{k_2}) \Delta v_1 \Delta v_2 = D_h \delta_{i,j},  
+	&\sum_{k_1,k_2} v_{k_i} \phi_j(v_{k_1},v_{k_2}) \Delta v_1 \Delta v_2 = \chi_0\delta_{i,j},                   
+\end{align*}
+for $i,j = 1,2$, 
+we recover the finite difference scheme for the macro model 
+\begin{align*}
+	&\delta_t^+ \rho_{j_1,j_2}^n   
+    	- D_h \delta_{x_1} \left( d(\bar{\rho}_{*,j_2}^n) \delta_{x_1} \rho_{*,j_2}^{n+1}\right)_{j_1} 
+	- D_h \delta_{x_2} \left( d(\bar{\rho}_{j_1,*}^n)\delta_{x_2} \rho_{j_1, *}^{n+1} \right)_{j_2} 	\nonumber \\
+	 & \quad + \chi_0\delta_{x_1}\left[\Phi_{*,j_2}^{(1),n+1,n}\delta_{x_1} c_{*,j_2}^n\right]_{j_1} 
+	 + \chi_0\delta_{x_2}\left[\Phi_{j_1,*}^{(1),n+1,n}\delta_{x_2} c_{j_1,*}^n\right]_{j_2}
+    = r_0 \rho_{j_1,j_2}^{n}\left(1 - \frac{\rho_{j_1,j_2}^n}{\rho_{\rm max}}\right)_+\ ,
+\end{align*}
+where $d(\rho_{j_1,j_2}^n) = q(\rho_{j_1,j_2}^n) - \rho_{j_1,j_2}^n q'( \rho_{j_1,j_2}^n)$.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Disclosure Instructions for the Use of Generative-AI Tools
@@ -1121,23 +1233,6 @@ and the National Natural Science Foundation of China, grant number 12201436.
 
 \begin{thebibliography}{99}
 
-% Work in Progress Example:
-\bibitem{1}
-\newblock F. Abergel and R. Tachet,
-\newblock
-\newblock work in progress.
-
-% Accepted to a Journal Example:
-\bibitem{2}
-\newblock S. Arora, M. T. Mohan and J. Dabas,
-\newblock Approximate controllability of the non-autonomous impulsive evolution equation with state-dependent delay in Banach space,
-\newblock to appear, \emph{Nonlinear Anal. Hybrid System}.
-
-% Chapter or Article in a Book with a Volume Example:
-\bibitem{3}
-\newblock S. Ball,
-\newblock Polynomials in finite geometries,
-\newblock \emph{Surveys in Combinatorics, 1999 (Canterbury)}, London Math. Soc. Lecture Note Ser., 267, Cambridge University Press, Cambridge, 1999, 17-35.
 
 % Journal Article Example:
 \bibitem{4}
@@ -1145,41 +1240,7 @@ and the National Natural Science Foundation of China, grant number 12201436.
 \newblock \doititle{Flots d'Anosov a distributions stable et instable differentiables},
 \newblock \emph{J. Amer. Math. Soc.}, \textbf{5} (1992), 33-74.
 
-% Proceedings from a Conference Example:
-\bibitem{5}
-\newblock T. Pang and A. Hussain,
-\newblock \doititle{An application of functional Ito's formula to stochastic portfolio optimization with bounded memory},
-\newblock \emph{Proceedings of the SIAM Conference on Control and Its Applications}, Paris, France, 2015, 159-166.
 
-% No Author Example / URL Link Example:
-\bibitem{6}
-\newblock
-\newblock \emph{SARS Expert Committee, SARS in Hong Kong: From Experience to Action}, Report of Hong Kong SARS Expert Committee,
-\newblock 2003. Available from: \url{http://www.sars-expertcom.gov.hk/english/reports/reports.html}.
-
-% Chapter or Article in a Academic Press Example:
-\bibitem{7}
-\newblock J. Serrin,
-\newblock Gradient estimates for solutions of nonlinear elliptic and parabolic equations,
-\newblock in \emph{Contributions to Nonlinear Functional Analysis}, Academic Press, 1971, 33-75.
-
-% Book Example:
-\bibitem{8}
-\newblock J. Smoller,
-\newblock \emph{Shock Waves and Reaction-Diffusion Equations},
-\newblock 2$^{nd}$ edition, Springer-Verlag, New York, 1994.
-
-% Preprint Article Example:
-\bibitem{9}
-\newblock A. Teplinsky,
-\newblock Herman's theory revisited,
-\newblock preprint, 2012, \arXiv{0707.0078}.
-
-% Thesis or Dissertation Example:
-\bibitem{10}
-\newblock K. Wei,
-\newblock \emph{Torsion Cycles and Set Theoretic Complete Intersection},
-\newblock Ph.D thesis, Washington University in St. Louis, 2006.
 
 \end{thebibliography}
 

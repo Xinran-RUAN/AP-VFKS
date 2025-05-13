@@ -1,0 +1,209 @@
+\begin{thebibliography}{10}
+
+\bibitem{de2018energy}
+{\sc L.~Almeida, F.~Bubba, B.~Perthame, and C.~Pouchol}, {\em Energy and
+  implicit discretization of the {F}okker--{P}lanck and {K}eller--{S}egel type
+  equations}, Networks and Heterogeneous Media, 14 (2019).
+
+\bibitem{almeida2020treatment}
+{\sc L.~Almeida, G.~Estrada-Rodriguez, L.~Oliver, D.~Peurichard, A.~Poulain,
+  and F.~Vallette}, {\em Treatment-induced shrinking of tumour aggregates: {A}
+  nonlinear volume-filling chemotactic approach}, Journal of Mathematical
+  Biology, 83 (2021).
+
+\bibitem{Alt1980}
+{\sc W.~Alt}, {\em Biased random walk models for chemotaxis and related
+  diffusion approximations}, Journal of Mathematical Biology, 9 (1980),
+  pp.~147--177.
+
+\bibitem{Brener1999}
+{\sc M.~Brenner, P.~Constantin, L.~Kadanoff, A.~Schenkel, and
+  S.~Venkataramani}, {\em Diffusion, attraction and collapse}, Nonlinearity, 12
+  (1999), pp.~1071--1098.
+
+\bibitem{calvez2006volume}
+{\sc V.~Calvez and J.~A. Carrillo}, {\em Volume effects in the
+  {K}eller--{S}egel model: energy estimates preventing blow-up}, Journal de
+  {M}ath{\'e}matiques {P}ures et {A}ppliqu{\'e}es, 86 (2006), pp.~155--175.
+
+\bibitem{carrillo2001entropy}
+{\sc J.~A. Carrillo, A.~J{\"u}ngel, P.~A. Markowich, G.~Toscani, and
+  A.~Unterreiter}, {\em Entropy dissipation methods for degenerate parabolic
+  problems and generalized {S}obolev inequalities}, Monatshefte f{\"u}r
+  Mathematik, 133 (2001), pp.~1--82.
+
+\bibitem{carrillo2013asymptotic}
+{\sc J.~A. Carrillo and B.~Yan}, {\em An asymptotic preserving scheme for the
+  diffusive limit of kinetic systems for chemotaxis}, Multiscale Modeling \&
+  Simulation, 11 (2013), pp.~336--361.
+
+\bibitem{chalub2004kinetic}
+{\sc F.~A. Chalub, P.~A. Markowich, B.~Perthame, and C.~Schmeiser}, {\em
+  Kinetic models for chemotaxis and their drift-diffusion limits}, in Nonlinear
+  Differential Equation Models, Springer, 2004, pp.~123--141.
+
+\bibitem{chertock2019high}
+{\sc A.~Chertock and A.~Kurganov}, {\em High-resolution positivity and
+  asymptotic preserving numerical methods for chemotaxis and related models},
+  in Active Particles, Volume 2, Springer, 2019, pp.~109--148.
+
+\bibitem{dolak2005keller}
+{\sc Y.~Dolak and C.~Schmeiser}, {\em The {K}eller--{S}egel model with logistic
+  sensitivity function and small diffusivity}, SIAM Journal on Applied
+  Mathematics, 66 (2005), pp.~286--308.
+
+\bibitem{emako2016well}
+{\sc C.~Emako and M.~Tang}, {\em Well-balanced and asymptotic preserving
+  schemes for kinetic models}, arXiv preprint arXiv:1603.03171,  (2016).
+
+\bibitem{filbet2010class}
+{\sc F.~Filbet and S.~Jin}, {\em A class of asymptotic-preserving schemes for
+  kinetic equations and related problems with stiff sources}, Journal of
+  Computational Physics, 229 (2010), pp.~7625--7648.
+
+\bibitem{han2017pattern}
+{\sc Y.~Han, Z.~Li, J.~Tao, and M.~Ma}, {\em Pattern formation for a
+  volume-filling chemotaxis model with logistic growth}, Journal of
+  Mathematical Analysis and Applications, 448 (2017), pp.~885--907.
+
+\bibitem{Herrero1998}
+{\sc M.~Herrero, E.~Medina, and J.~Velazquez}, {\em Self-similar blow-up for a
+  reaction-diffusion system}, J. Comp. Appl. Math., 97 (1998), pp.~99--119.
+
+\bibitem{Hillen2009}
+{\sc T.~Hillen and K.~Painter}, {\em A user's guide to {PDE} models for
+  chemotaxis}, Journal of Mathematical Biology, 58 (2009), pp.~183--217.
+
+\bibitem{horstmann2003}
+{\sc D.~Horstmann}, {\em From 1970 until present: the keller–segel model in
+  chemotaxis and its consequences i.}, Jahresberichte DMV, 105 (2003),
+  p.~103–165.
+
+\bibitem{horstmann2004}
+{\sc D.~Horstmann}, {\em From 1970 until present: the keller–segel model in
+  chemotaxis and its consequences ii.}, Jahresberichte DMV, 106 (2004),
+  pp.~51--69.
+
+\bibitem{ibrahim2014efficacy}
+{\sc M.~Ibrahim and M.~Saad}, {\em On the efficacy of a control volume finite
+  element method for the capture of patterns for a volume-filling chemotaxis
+  model}, Computers \& {M}athematics with {A}pplications, 68 (2014),
+  pp.~1032--1051.
+
+\bibitem{jin1999efficient}
+{\sc S.~Jin}, {\em Efficient asymptotic-preserving ({AP}) schemes for some
+  multiscale kinetic equations}, SIAM Journal on Scientific Computing, 21
+  (1999), pp.~441--454.
+
+\bibitem{jin2011class}
+{\sc S.~Jin and B.~Yan}, {\em A class of asymptotic-preserving schemes for the
+  {F}okker--{P}lanck--{L}andau equation}, Journal of Computational Physics, 230
+  (2011), pp.~6420--6437.
+
+\bibitem{Jin2008}
+{\sc T.~Jin, X.~Xu, and D.~Hereld}, {\em Chemotaxis, chemokine receptors and
+  human disease}, Cytokine, 44 (2008), pp.~1--8.
+
+\bibitem{Kaupp2012}
+{\sc U.~B. Kaupp}, {\em 100 years of sperm chemotaxis}, J Gen Physiol., 406
+  (2012), pp.~583--586.
+
+\bibitem{keller1970initiation}
+{\sc E.~F. Keller and L.~A. Segel}, {\em Initiation of slime mold aggregation
+  viewed as an instability}, Journal of {T}heoretical {B}iology, 26 (1970),
+  pp.~399--415.
+
+\bibitem{keller1971model}
+{\sc E.~F. Keller and L.~A. Segel}, {\em Model for chemotaxis}, Journal of
+  {T}heoretical {B}iology, 30 (1971), pp.~225--234.
+
+\bibitem{LemouMieussens}
+{\sc M.~Lemou and L.~Mieussens}, {\em A new asymptotic preserving scheme based
+  on micro-macro formulation for linear kinetic equations in the diffusion
+  limit}, SIAM Journal on Scientific Computing, 31 (2008), pp.~334--368.
+
+\bibitem{ma2012stationary}
+{\sc M.~Ma, C.~Ou, and Z.-A. Wang}, {\em Stationary solutions of a
+  volume-filling chemotaxis model with logistic growth and their stability},
+  SIAM Journal on Applied Mathematics, 72 (2012), pp.~740--766.
+
+\bibitem{Meacock2021}
+{\sc O.~Meacock, A.~Doostmohammadi, K.~Foster, J.~Yeomans, and W.~M. Durham},
+  {\em Bacteria solve the problem of crowding by moving slowly.}, Nat. Phys.,
+  17 (2021), p.~205–210.
+
+\bibitem{murray2002introduction}
+{\sc J.~D. Murray}, {\em An introduction}, Springer, 2002.
+
+\bibitem{murray2003mathematical}
+{\sc J.~D. Murray and J.~D. Murray}, {\em Mathematical Biology: II: Spatial
+  Models and Biomedical Applications}, vol.~3, Springer, 2003.
+
+\bibitem{Nagai1997}
+{\sc T.~Nagai}, {\em Global existence of solutions to a parabolic system for
+  chemotaxis in two space dimensions}, Proceedings of the Second World Congress
+  of Nonlinear Analysts, 30, pp.~5381--5388.
+
+\bibitem{Othmer1997}
+{\sc H.~Othmer and A.~Stevens}, {\em Aggregation, blowup and collapse: The
+  abc’s of taxis in reinforced random walks.}, SIAM J. Appl. Math.,  (1997),
+  p.~1044–1081.
+
+\bibitem{othmer2000diffusion}
+{\sc H.~G. Othmer and T.~Hillen}, {\em The diffusion limit of transport
+  equations derived from velocity-jump processes}, SIAM Journal on Applied
+  Mathematics, 61 (2000), pp.~751--775.
+
+\bibitem{othmer2002diffusion}
+{\sc H.~G. Othmer and T.~Hillen}, {\em The diffusion limit of transport
+  equations ii: {C}hemotaxis equations}, SIAM Journal on Applied Mathematics,
+  62 (2002), pp.~1222--1250.
+
+\bibitem{painter2002volume}
+{\sc K.~J. Painter and T.~Hillen}, {\em Volume-filling and quorum-sensing in
+  models for chemosensitive movement}, Canadian Applied Mathematics Quarterly,
+  10 (2002), pp.~501--543.
+
+\bibitem{patlak1953random}
+{\sc C.~S. Patlak}, {\em Random walk with persistence and external bias}, The
+  Bulletin of Mathematical Biophysics, 15 (1953), pp.~311--338.
+
+\bibitem{Roussos2011}
+{\sc E.~Roussos, J.~Condeelis, and A.~Patsialou}, {\em Chemotaxis in cancer},
+  Nature Reviews Cancer, 11 (2011), pp.~573--587.
+
+\bibitem{stevens2000derivation}
+{\sc A.~Stevens}, {\em The derivation of chemotaxis equations as limit dynamics
+  of moderately interacting stochastic many-particle systems}, SIAM Journal on
+  Applied Mathematics, 61 (2000), pp.~183--212.
+
+\bibitem{Vital2011}
+{\sc F.~G. Vital-Lopez, A.~Armaou, M.~Hutnik, and C.~D. Maranas}, {\em Modeling
+  the effect of chemotaxis on glioblastoma tumor progression}, AIChE Journal,
+  57 (2011), pp.~778--792.
+
+\bibitem{wang2019asymptotic}
+{\sc L.~Wang and B.~Yan}, {\em An asymptotic-preserving scheme for the kinetic
+  equation with anisotropic scattering: Heavy tail equilibrium and degenerate
+  collision frequency}, SIAM Journal on Scientific Computing, 41 (2019),
+  pp.~A422--A451.
+
+\bibitem{wang2010chemotaxis}
+{\sc Z.~Wang}, {\em On chemotaxis models with cell population interactions},
+  Mathematical Modelling of Natural Phenomena, 5 (2010), pp.~173--190.
+
+\bibitem{wang2007classical}
+{\sc Z.~Wang and T.~Hillen}, {\em Classical solutions and pattern formation for
+  a volume filling chemotaxis model}, Chaos: An Interdisciplinary Journal of
+  Nonlinear Science, 17 (2007), p.~037108.
+
+\bibitem{wrzosek2010volume}
+{\sc D.~Wrzosek}, {\em Volume filling effect in modelling chemotaxis},
+  Mathematical Modelling of Natural Phenomena, 5 (2010), pp.~123--147.
+
+\bibitem{zheng2015boundedness}
+{\sc P.~Zheng, C.~Mu, and X.~Hu}, {\em Boundedness and blow-up for a chemotaxis
+  system with generalized volume-filling effect and logistic source}, Discrete
+  \& Continuous Dynamical Systems, 35 (2015), p.~2299.
+
+\end{thebibliography}
