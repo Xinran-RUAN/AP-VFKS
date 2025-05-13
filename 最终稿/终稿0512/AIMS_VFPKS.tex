@@ -363,12 +363,12 @@ Noting that $\nabla(q(\rho)\rho)=q'(\rho)\rho\nabla\rho+q(\rho)\nabla\rho$ and u
 This macroscopic equation describes the
 volume-exclusion chemotactic motion associated with the so-called \textit{squeezing probability} $q(\rho)$. Depending on the choice of this function we can consider the cells either as solid blocks, for the case $q(\rho)=1-\frac{\rho}{\bar{\rho}}$, where $\bar{\rho}$ is the maximum cell density in each aggregate, or as semi-elastic entities for $q(\rho)=1-\left(\frac{\rho}{\bar{\rho}} \right)^\gamma$ (see \cite{wang2007classical}). {In the following section we show that equation \eqref{eq: macroscopic equation1} admits an energy functional decreasing in time}. 
 
-\textcolor{blue}{ \begin{remark}\label{remark}
+\begin{remark}\label{remark}
 As discussed in \cite{othmer2002diffusion}, the assumption \eqref{hypo2}, which consists in assuming that the perturbation $\psi_1$ is linearly dependent on $\nabla c$, is necessary to recover the chemotactic term in the limit $\epsilon \rightarrow 0$. We note here that the derivation extends easily to perturbations of the form $\psi_1(\mathbf{v},c,\nabla c) = \tilde{\phi}(\mathbf{v},c) \cdot \nabla c$. In this case, notice that we would obtain a non constant chemotactic intensity $\chi_0(c) = \langle v \otimes \phi(v,c) \rangle$ in the limit. 
-\end{remark}}
+\end{remark}
 
 \subsection{Energy dissipation in the macroscopic model} \label{subsec:energy}
-\textcolor{blue}{Thus far, we could perform the derivation without specifying the equation for the chemoattractant $c$. From the remaining of the paper, we choose the production and consumption of chemoattractant $g(\rho,c)$ in Eq. \eqref{eq: inital model without scaling} to be linear in both variables $g(\rho,c) = \rho - c$. Therefore, $c$ solves:}
+Thus far, we could perform the derivation without specifying the equation for the chemoattractant $c$. From the remaining of the paper, we choose the production and consumption of chemoattractant $g(\rho,c)$ in Eq. \eqref{eq: inital model without scaling} to be linear in both variables $g(\rho,c) = \rho - c$. Therefore, $c$ solves:
 \begin{equation}\label{elliptic_c}
    \Delta c + \rho - c = 0. 
 \end{equation}
@@ -395,7 +395,7 @@ where
 
 
 \begin{proposition}\label{prop:energy}
-\textcolor{blue}{Suppose that $c(t,\mathbf{x})$ and $\rho(t,\mathbf{x})$ solve Eqs. \eqref{elliptic_c}-\eqref{eq: new version of macro}}. We have
+Suppose that $c(t,\mathbf{x})$ and $\rho(t,\mathbf{x})$ solve Eqs. \eqref{elliptic_c}-\eqref{eq: new version of macro}. We have
 \begin{equation}
     \frac{\diff}{\diff t}\mathcal{E}(t)=-\int \chi_0 q(\rho)\rho|\nabla(H-c)|^2\diff \bx\leq 0\ ,
 \end{equation}
@@ -435,10 +435,9 @@ Specifically, when $q(\rho) = 1 - \rho / \bar{\rho}$ and $h(\rho) = r_0 \rho\lef
 
 
 \section{Micro-macro decomposition}\label{sec:micro-macro}
-\textcolor{blue}{  
 The transport term $F_\varepsilon(\rho)$ and the turning operator $T_\varepsilon$ introduced in \eqref{TepsFeps} are highly nonlinear.
 To facilitate the design and analysis of an asymptotic preserving scheme based on micro-macro decomposition, a linearization of these terms is needed. 
-From now on, we consider a slightly modified version of the kinetic model, where $F_\varepsilon$ and $T_\varepsilon$ are truncated to the first order in the expansions \eqref{eq: F scaled} and \eqref{eq: turning operator scaled}.}
+From now on, we consider a slightly modified version of the kinetic model, where $F_\varepsilon$ and $T_\varepsilon$ are truncated to the first order in the expansions \eqref{eq: F scaled} and \eqref{eq: turning operator scaled}.
 To be precise, we solve the following equation 
 \beq
 \label{eq:kinetic_approx}
@@ -544,8 +543,7 @@ Substituting it into \eqref{eq:rho_macro}, we recover
 {In Section \ref{subsec:energy} (see Remark \ref{rem 6}), we show that equation \eqref{eq:macro_proliferation} admits an energy functional that decreases in time providing we have the condition $\rho_{\max} (1 + \frac{1}{\bar{\rho}}) \leq 1$}. 
 
 \section{An asymptotic preserving finite difference scheme}\label{sec: implicit-explicit scheme}
-% By discretizing the system  \eqref{eq:macro_micro} via a finite difference method, we will get an asymptotic preserving scheme, which will be formally proven later in the section. 
-\textcolor{blue}{To facilitate a more straightforward analysis of the asymptotic preserving property based on the micro-macro decomposition, we adopt the finite difference discretization. This choice enables a fully explicit formulation and simplifies the theoretical verification of the asymptotic preserving property.}
+To facilitate a more straightforward analysis of the asymptotic preserving property based on the micro-macro decomposition, we adopt the finite difference discretization. This choice enables a fully explicit formulation and simplifies the theoretical verification of the asymptotic preserving property.
 To describe the fully discretized scheme, we consider the 1D case for simplicity, i.e. {$x, \,v \in [x_{\min}, x_{\max}]\times [v_{\min}, v_{\max}]$ with periodic boundary conditions in the $x$-direction and zero boundary conditions in the $v$-direction.} The generalization to
 the multidimensional case with tensor product grids is straightforward and is included in  Section \ref{sec:appendix-FD-2D}. We use a uniformly distributed mesh with 
 \begin{equation*}
@@ -813,18 +811,17 @@ V_j^n \geq \bar{\rho} - 2\frac{\bar{\rho} \Delta t}{\Delta x} \max_j |\eta_{j+\f
 This case leads to requiring
 \begin{equation}\label{cfl2}
 {
-%\color{red}
 \Delta t \leq \frac{\Delta x}{2 \max_j |\eta_{j+1/2}|}\ \underset{ \rho_{\max} < \rho_j^n < \bar{\rho}}{\min} \ \frac{\bar{\rho} - \rho_j^n}{\bar{\rho} q(\rho_j^n)}.}
 \end{equation}
 Combining \eqref{cfl1} and \eqref{cfl2}, we arrive at the CFL condition \eqref{cfl}.
 }
 \end{proof}
-\textcolor{blue}{The CFL condition (37) derived is not sharp. In practice, violating this condition does not necessarily lead to computational breakdown. Nevertheless, it provides useful guidance on the choice of time steps for ensuring stability.}
+The CFL condition (37) derived is not sharp. In practice, violating this condition does not necessarily lead to computational breakdown. Nevertheless, it provides useful guidance on the choice of time steps for ensuring stability.
 
 \section{Numerical experiments}\label{numerical results}
 
 In this section we present several numerical examples.
-In particular, we {numerically verify} the convergence of the kinetic model proposed in \eqref{eq:kinetic_approx} \textcolor{blue}{(numerically solved with \eqref{eq:scheme} from the micro-macro decomposition \eqref{eq:macro_micro})}, which we denote as $\rho_\textnormal{kinetic}^\e$, to the volume-exclusion Keller-Segel model \eqref{eq:macro_proliferation} \textcolor{blue}{(numerically solved with \eqref{scheme:limit})}, denoted as $\rho_\textnormal{macro}$, as $\varepsilon\to 0$ in one and two dimensions. 
+In particular, we {numerically verify} the convergence of the kinetic model proposed in \eqref{eq:kinetic_approx} (numerically solved with \eqref{eq:scheme} from the micro-macro decomposition \eqref{eq:macro_micro}), which we denote as $\rho_\textnormal{kinetic}^\e$, to the volume-exclusion Keller-Segel model \eqref{eq:macro_proliferation} (numerically solved with \eqref{scheme:limit}), denoted as $\rho_\textnormal{macro}$, as $\varepsilon\to 0$ in one and two dimensions. 
 \subsection{Energy dissipation and convergence tests in 1D}\label{subsec:energy_dissipation}
 In Section \ref{subsec:energy} we proved that, under some assumptions \cite{calvez2006volume,carrillo2001entropy,de2018energy}, the volume-exclusion Keller-Segel model \eqref{eq:macro_proliferation} is energy dissipative, 
 {where the energy is defined by the functional
@@ -849,17 +846,15 @@ In the simulations, we choose  $r_0=0.1$, $\rho_{\rm max} = 0.5$, $\bar{\rho} = 
 \end{equation}
 {It is easy to check that the choices of $\psi_0(v)$ and $\psi_1(v)$ satisfy the Hypothesis \ref{hypo1} and Hypothesis  \ref{hypo2}.}
 
-{\color{blue} 
 Although the numerical scheme \eqref{eq:scheme} works well in the diffusion limit $\varepsilon\to0$, it is conditionally stable, and numerical experiments show that the restrictions on time step $\Delta t$ might be quite strong for large $\varepsilon$ values. 
 In Figure 1, we evaluate the stability and computational efficiency of the scheme for different time steps and $\varepsilon$ values. 
 As demonstrated, maintaining stability for large values of $\varepsilon$ requires significantly small time steps, which in turn greatly increases computational costs. Consequently, in subsequent 1D simulations, we limit $\varepsilon$ to a maximum of 0.2 to avoid overly restrictive time step constraints. The instability observed for large values of $\varepsilon$ is mainly due to the failure of the AP scheme to ensure the boundedness of the kinetic solution. Although it has been proven that the scheme ensures boundedness for the macroscopic limit model with sufficiently small time steps, no such theoretical result exists for the full kinetic model.
 This highlights a limitation of the current scheme in the kinetic regime with $\varepsilon = O(1)$, and addressing this issue will be an important direction for future work.
-}
 \begin{figure}[tbhp]
 \centerline{\includegraphics[scale = 0.3]{stab_test.eps}
 \includegraphics[scale = 0.3]{efficiency_test.eps}
 }
-\caption{{\color{blue}Stability and efficiency of the AP scheme for the kinetic model. The left panel evaluates stability by examining the boundedness of numerical solutions at $T=20$ for various values of $\varepsilon$ and $\Delta t$. Solutions confined within the range $[0,1]$ are marked with blue squares, whereas those extending beyond this range are denoted by red triangles. The right panel illustrates the efficiency, demonstrating that the total computational time is roughly inversely proportional to the time step size for all $\varepsilon$ values.}}
+\caption{Stability and efficiency of the AP scheme for the kinetic model. The left panel evaluates stability by examining the boundedness of numerical solutions at $T=20$ for various values of $\varepsilon$ and $\Delta t$. Solutions confined within the range $[0,1]$ are marked with blue squares, whereas those extending beyond this range are denoted by red triangles. The right panel illustrates the efficiency, demonstrating that the total computational time is roughly inversely proportional to the time step size for all $\varepsilon$ values.}
 \label{fig:stab_1D}
 \end{figure}
 
@@ -884,12 +879,12 @@ In Figure \ref{fig:density_eps_A_20} we start with a comparison between $\rho_\t
 \end{figure}
 
 
-{In Figure \ref{fig:plot_energy_w_sol} we show the evolution of the energy quantities $\mathcal{E}(t)$ given by \eqref{def:energy} (blue curve) and $\mathcal{E}_\varepsilon(t)$ as functions of time, for different values of $\e$: $\varepsilon=0.2$ (purple curve), $\e = 0.1$ (yellow curve) and $\e = 0.05$ (red curve), up to $t=50$. This figure shows that the energies of the kinetic and macroscopic models are in very good agreement}. \textcolor{blue}{Consistent with the analysis of Section \ref{subsec:energy}, we recover that the energy is decreasing in time for the macroscopic model. It is noteworthy that the energy defined by \eqref{def:energy} also decreases along the solutions of the kinetic model for $\epsilon>0$. These numerical results indicate that the kinetic model may possess an energy dissipation structure, the formal proof of which is left for future work.} The inset figures show the evolution in time of the macroscopic density (continuous blue line) and the kinetic density for different values of $\e$ (lines with the same style as for the energy). It is clear from these figures that the larger discrepancies between the kinetic and macro energies are indeed related with changes in the density profiles, for example when two aggregates merge together {(see the inset plots at $t=5$ and $t=32$)}. {Even in this critical case of aggregation formation we observe that the kinetic solution for $\e=0.05$ agrees with the macroscopic solution.}
+{In Figure \ref{fig:plot_energy_w_sol} we show the evolution of the energy quantities $\mathcal{E}(t)$ given by \eqref{def:energy} (blue curve) and $\mathcal{E}_\varepsilon(t)$ as functions of time, for different values of $\e$: $\varepsilon=0.2$ (purple curve), $\e = 0.1$ (yellow curve) and $\e = 0.05$ (red curve), up to $t=50$. This figure shows that the energies of the kinetic and macroscopic models are in very good agreement}. Consistent with the analysis of Section \ref{subsec:energy}, we recover that the energy is decreasing in time for the macroscopic model. It is noteworthy that the energy defined by \eqref{def:energy} also decreases along the solutions of the kinetic model for $\epsilon>0$. These numerical results indicate that the kinetic model may possess an energy dissipation structure, the formal proof of which is left for future work. The inset figures show the evolution in time of the macroscopic density (continuous blue line) and the kinetic density for different values of $\e$ (lines with the same style as for the energy). It is clear from these figures that the larger discrepancies between the kinetic and macro energies are indeed related with changes in the density profiles, for example when two aggregates merge together {(see the inset plots at $t=5$ and $t=32$)}. {Even in this critical case of aggregation formation we observe that the kinetic solution for $\e=0.05$ agrees with the macroscopic solution.}
 
 A similar behaviour is observed in Figure \ref{fig:plot_energy_time} (left) where we plot the {relative} $L_2$-error between the kinetic and the macroscopic solutions {as a function of time} and for different values of $\e$ {($\e = 0.2$, black curve, $\e = 0.1$, blue curve and $\e = 0.05$, red curve)}. In agreement with the behaviour observed in Figure \ref{fig:plot_energy_w_sol} this error is {larger} at times $t=5$ and $t=32$, approximately, which corresponds {to times where aggregates are merging}.
 
 
-In Figure \ref{fig:plot_energy_time} (right) we {show} the rate of convergence of the {relative} $L_2$-error between the kinetic, $\rho_\textnormal{kinetic}^\e$, and macroscopic, $\rho_\textnormal{macro}$, solutions for different values of $\e$, at different times. {We observe that the error between both solutions decreases as $\e$ decreases, and the convergence order is around 1.5 in {$\ell^2$} norm. Altogether, these first results suggest that the macroscopic and kinetic models are in good agreement for small values of $\e$, and that the kinetic model converges towards the macroscopic model as $\e \rightarrow 0$ in the 1D case. \textcolor{blue}{In Figure \ref{fig:plot_energy_time} (left) we see formations of aggregates at $t=5$ and around $t=32$, in agreement with Figure \ref{fig:plot_energy_w_sol}. For the different values of $\varepsilon$ we observe that the formation of the aggregate at $t=32$ occurs at different times, i.e., the kinetic model seems to converge faster to the ``aggregated-state'' compared to the macroscopic dynamics. These changes in speed could be a result of the diffusion scaling, where the macroscopic model is obtained in a regime where there are many velocity jumps but small net displacements in one order of time (see \cite{Alt1980, patlak1953random,Hillen2009,painter2002volume} for thorough interpretations of the diffusion scaling).}  In the next section, we take a step further and analyze the evolution of the pattern sizes in time as function of the chemotactic sensitivity  $\chi_0$.
+In Figure \ref{fig:plot_energy_time} (right) we {show} the rate of convergence of the {relative} $L_2$-error between the kinetic, $\rho_\textnormal{kinetic}^\e$, and macroscopic, $\rho_\textnormal{macro}$, solutions for different values of $\e$, at different times. {We observe that the error between both solutions decreases as $\e$ decreases, and the convergence order is around 1.5 in {$\ell^2$} norm. Altogether, these first results suggest that the macroscopic and kinetic models are in good agreement for small values of $\e$, and that the kinetic model converges towards the macroscopic model as $\e \rightarrow 0$ in the 1D case. In Figure \ref{fig:plot_energy_time} (left) we see formations of aggregates at $t=5$ and around $t=32$, in agreement with Figure \ref{fig:plot_energy_w_sol}. For the different values of $\varepsilon$ we observe that the formation of the aggregate at $t=32$ occurs at different times, i.e., the kinetic model seems to converge faster to the ``aggregated-state'' compared to the macroscopic dynamics. These changes in speed could be a result of the diffusion scaling, where the macroscopic model is obtained in a regime where there are many velocity jumps but small net displacements in one order of time (see \cite{Alt1980, patlak1953random,Hillen2009,painter2002volume} for thorough interpretations of the diffusion scaling).  In the next section, we take a step further and analyze the evolution of the pattern sizes in time as function of the chemotactic sensitivity  $\chi_0$.
 
 \begin{figure}[tbhp]
 \centerline{\includegraphics[scale = 0.3]{energy_A_20_T_50_w_sol.eps}
@@ -977,9 +972,9 @@ We fix $\Delta t = 10^{-3}$ and choose the initial data to be
 where $u(x)$ is a randomly chosen uniformly distributed function ranging in $(-0.1, 0.1)$. 
 In Figure \ref{fig:2D_macro} we show the numerical results at $t=5$ (first row), $t=20$ (second row) and $t=50$ (third row) for the macroscopic model with different chemotaxis sensitivities $\chi_0=6$ (first column), $\chi_0=20$ (second column) and $\chi_0=50$ (third column). As one can observe, starting from an initial data perturbed around the homogeneous value $0.5$, we obtain the formation of labyrinthic patterns for a chemotactic sensitivity $\chi_0>6$ (middle and right columns), while the solution dampens to the homogeneous state for $\chi_0=6$ (left column), in agreement with the predictions of the stability analysis performed in \cite{almeida2020treatment} and the results in Figure \ref{fig:k2_inv_compare}. Moreover, we observe that larger values of the chemotactic sensitivity $\chi_0$ {lead} to sharper layers near the boundary of the patterns (compare middle and right columns) as expected. 
 
-{\color{blue} The convergence of the numerical patterns towards $\varepsilon\to0$ is illustrated in Fig. \ref{fig:2D_convergence_sol}. 
+The convergence of the numerical patterns towards $\varepsilon\to0$ is illustrated in Fig. \ref{fig:2D_convergence_sol}. 
 In this test, we choose $\varepsilon = 10^{-1}, 10^{-2}, 10^{-3}$ and consider  chemotactic sensitivities $\chi_0 = 20$ and $\chi_0 = 50$, along with two different initial densities: $\rho_0 = 0.5$ and $\rho_0 = 0.1$. 
-As observed in \cite{painter2002volume}, different initial conditions lead to qualitatively different pattern types for both kinetic and macroscopic models: labyrinthine patterns for $\rho_0 = 0.5$, and spot-like patterns for $\rho_0 = 0.1$. Moreover, we note that increasing $\chi_0$ leads to smaller and sharper patterns in the kinetic model as well.}
+As observed in \cite{painter2002volume}, different initial conditions lead to qualitatively different pattern types for both kinetic and macroscopic models: labyrinthine patterns for $\rho_0 = 0.5$, and spot-like patterns for $\rho_0 = 0.1$. Moreover, we note that increasing $\chi_0$ leads to smaller and sharper patterns in the kinetic model as well.
 % in the case of round patterns (last two columns Fig. \ref{fig:2D_compare}), and again that the boundary of the patterns become sharper in the case of labyrinthic patterns (compare the first two columns) also for the kinetic solution. %These results are in very good agreement with the predictions of the stability analysis, and observed for both the macroscopic model and the kinetic one with $\varepsilon = 10^{-2}$, which are in very good agreement (compare the two columns). 
 
 In order to quantify the differences between the kinetic and macroscopic 2D models, we show in Figure \ref{fig:2D_convergence} (left) the evolution in time of the relative $L^2$-error between the macroscopic and kinetic models for different values of $\varepsilon$: $\varepsilon = 10^{-2}$ (blue curve), $\varepsilon = 10^{-4}$ (red curve), $\varepsilon = 10^{-6}$ (yellow curve), $\varepsilon = 10^{-8}$ (purple curve), and Figure \ref{fig:2D_convergence} (right) shows this relative error as function of $\varepsilon$ for different time points: $t=1$ (blue curve), $t=3$ (red curve), $t=5$ (yellow curve) and $t=10$ (purple curve). We observe that the relative error between both models decreases as $\varepsilon$ decreases, and the reference line $y = x$ (green curve) shows that the rate of convergence of the kinetic model towards the macroscopic one is roughly $\mathcal{O}(\varepsilon)$.
@@ -1051,7 +1046,7 @@ In order to quantify the differences between the kinetic and macroscopic 2D mode
 \includegraphics[scale = 0.2]{Fig_2D_A_50_eps_1e-03_T_20_init_10.eps}
 \includegraphics[scale = 0.2]{sol2D_A_50_T_20_init_10.eps}
 }
-\caption{{\color{blue}Comparison of $\rho_\textnormal{kinetic}^{\varepsilon}(t, \bx)$ for $\varepsilon=10^{-1},10^{-2},10^{-3}$ and $\rho_\textnormal{macro}(t, \bx)$ at $T=20$. In the numerical tests, we set $\chi_0=20$ for the first and third rows, and $\chi_0=50$ for the second and fourth rows. Additionally, the initial values are approximately 0.5 for the first and second rows, and around 0.1 for the third and fourth rows.}}
+\caption{Comparison of $\rho_\textnormal{kinetic}^{\varepsilon}(t, \bx)$ for $\varepsilon=10^{-1},10^{-2},10^{-3}$ and $\rho_\textnormal{macro}(t, \bx)$ at $T=20$. In the numerical tests, we set $\chi_0=20$ for the first and third rows, and $\chi_0=50$ for the second and fourth rows. Additionally, the initial values are approximately 0.5 for the first and second rows, and around 0.1 for the third and fourth rows.}
 \label{fig:2D_convergence_sol}
 \end{figure}
 
@@ -1074,7 +1069,7 @@ a coupled system of two evolution equations for the microscopic and macroscopic
 components, and a suitable semi-implicit time discretization. The scheme was successfully extended to account for nonlinear terms by implicit-explicit discretization in an upwind manner, allowing for accurate approximations in the case of strong chemosensitivity. This scheme enabled us to explore numerically the different behaviours observed by the kinetic and macroscopic models in 1D and 2D, and we showed that both models are in good agreement as the diffusion scaling parameter becomes smaller. Moreover, the numerical simulations of the kinetic model
 revealed the same pattern sizes as obtained with the macroscopic model and predicted theoretically, with very good precision as $\e$ goes to zero in the kinetic setting. 
 
-From the modeling perspective, it would be natural to extend the derivation to consider different turning kernels, to take into account cell-cell adhesion or nonlocal movement, for instance. The idea to construct the scheme could be generalized to include these cases, but we stress the fact that the detailed discretization is problem-dependent. %Natural perspectives of these works include a rigorous proof of the uniform stability of our numerical scheme. The difficulty lies in the nonlinearity of the chemosensitivity term. 
+From the modeling perspective, it would be natural to extend the derivation to consider different turning kernels, to take into account cell-cell adhesion or nonlocal movement, for instance. The idea to construct the scheme could be generalized to include these cases, but we stress the fact that the detailed discretization is problem-dependent. 
 Moreover, the rigorous derivation of volume-filling chemotactic equations from stochastic processes of interacting populations could be considered by adapting ideas from \cite{stevens2000derivation} for instance. 
 }
 

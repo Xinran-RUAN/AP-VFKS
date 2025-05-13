@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.30)  13 MAY 2025 17:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.30)  13 MAY 2025 17:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -777,11 +777,11 @@ l.326 \end{align}
 LaTeX Warning: Citation `wang2007classical' on page 7 undefined on input line 3
 64.
 
+
+LaTeX Warning: Citation `othmer2002diffusion' on page 7 undefined on input line
+ 367.
+
 [7]
-
-LaTeX Warning: Citation `othmer2002diffusion' on page 8 undefined on input line
- 368.
-
 
 LaTeX Warning: Citation `calvez2006volume' on page 8 undefined on input line 37
 9.
@@ -796,33 +796,33 @@ LaTeX Warning: Citation `de2018energy' on page 8 undefined on input line 379.
 [8] [9]
 
 LaTeX Warning: Reference `sec:appendix-FD-2D' on page 10 undefined on input lin
-e 550.
+e 548.
 
 [10]
 
-LaTeX Warning: Citation `de2018energy' on page 11 undefined on input line 603.
+LaTeX Warning: Citation `de2018energy' on page 11 undefined on input line 601.
 
 [11]
 
-LaTeX Warning: Citation `LemouMieussens' on page 12 undefined on input line 632
+LaTeX Warning: Citation `LemouMieussens' on page 12 undefined on input line 630
 .
 
 [12] [13]
-Overfull \hbox (2.5124pt too wide) detected at line 792
+Overfull \hbox (2.5124pt too wide) detected at line 790
 []
  []
 
 [14]
 
 LaTeX Warning: Citation `calvez2006volume' on page 15 undefined on input line 8
-29.
+26.
 
 
 LaTeX Warning: Citation `carrillo2001entropy' on page 15 undefined on input lin
-e 829.
+e 826.
 
 
-LaTeX Warning: Citation `de2018energy' on page 15 undefined on input line 829.
+LaTeX Warning: Citation `de2018energy' on page 15 undefined on input line 826.
 
 [15]
 Package epstopdf Info: Source file: <stab_test.eps>
@@ -833,12 +833,12 @@ Package epstopdf Info: Source file: <stab_test.eps>
 (epstopdf)                    size: 9647 bytes
 (epstopdf)             Command: <repstopdf --outfile=stab_test-eps-converted-to
 .pdf stab_test.eps>
-(epstopdf)             \includegraphics on input line 861.
+(epstopdf)             \includegraphics on input line 856.
 Package epstopdf Info: Output file is already uptodate.
 <stab_test-eps-converted-to.pdf, id=328, 562.1pt x 421.575pt>
 File: stab_test-eps-converted-to.pdf Graphic file (type pdf)
 <use stab_test-eps-converted-to.pdf>
-Package pdftex.def Info: stab_test-eps-converted-to.pdf  used on input line 861
+Package pdftex.def Info: stab_test-eps-converted-to.pdf  used on input line 856
 .
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
 Package epstopdf Info: Source file: <efficiency_test.eps>
@@ -849,13 +849,13 @@ Package epstopdf Info: Source file: <efficiency_test.eps>
 (epstopdf)                    size: 16042 bytes
 (epstopdf)             Command: <repstopdf --outfile=efficiency_test-eps-conver
 ted-to.pdf efficiency_test.eps>
-(epstopdf)             \includegraphics on input line 861.
+(epstopdf)             \includegraphics on input line 856.
 Package epstopdf Info: Output file is already uptodate.
 <efficiency_test-eps-converted-to.pdf, id=329, 562.1pt x 421.575pt>
 File: efficiency_test-eps-converted-to.pdf Graphic file (type pdf)
 <use efficiency_test-eps-converted-to.pdf>
 Package pdftex.def Info: efficiency_test-eps-converted-to.pdf  used on input li
-ne 861.
+ne 856.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
 Package epstopdf Info: Source file: <check_A_20_T_5.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -865,13 +865,13 @@ Package epstopdf Info: Source file: <check_A_20_T_5.eps>
 (epstopdf)                    size: 49458 bytes
 (epstopdf)             Command: <repstopdf --outfile=check_A_20_T_5-eps-convert
 ed-to.pdf check_A_20_T_5.eps>
-(epstopdf)             \includegraphics on input line 878.
+(epstopdf)             \includegraphics on input line 873.
 Package epstopdf Info: Output file is already uptodate.
 <check_A_20_T_5-eps-converted-to.pdf, id=331, 562.1pt x 421.575pt>
 File: check_A_20_T_5-eps-converted-to.pdf Graphic file (type pdf)
 <use check_A_20_T_5-eps-converted-to.pdf>
 Package pdftex.def Info: check_A_20_T_5-eps-converted-to.pdf  used on input lin
-e 878.
+e 873.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
 Package epstopdf Info: Source file: <check_A_20_T_20.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -881,13 +881,13 @@ Package epstopdf Info: Source file: <check_A_20_T_20.eps>
 (epstopdf)                    size: 49125 bytes
 (epstopdf)             Command: <repstopdf --outfile=check_A_20_T_20-eps-conver
 ted-to.pdf check_A_20_T_20.eps>
-(epstopdf)             \includegraphics on input line 878.
+(epstopdf)             \includegraphics on input line 873.
 Package epstopdf Info: Output file is already uptodate.
 <check_A_20_T_20-eps-converted-to.pdf, id=332, 562.1pt x 421.575pt>
 File: check_A_20_T_20-eps-converted-to.pdf Graphic file (type pdf)
 <use check_A_20_T_20-eps-converted-to.pdf>
 Package pdftex.def Info: check_A_20_T_20-eps-converted-to.pdf  used on input li
-ne 878.
+ne 873.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
 Package epstopdf Info: Source file: <check_A_20_T_32.eps>
 (epstopdf)                    date: 2025-03-27 07:44:12
@@ -897,13 +897,13 @@ Package epstopdf Info: Source file: <check_A_20_T_32.eps>
 (epstopdf)                    size: 49672 bytes
 (epstopdf)             Command: <repstopdf --outfile=check_A_20_T_32-eps-conver
 ted-to.pdf check_A_20_T_32.eps>
-(epstopdf)             \includegraphics on input line 881.
+(epstopdf)             \includegraphics on input line 876.
 Package epstopdf Info: Output file is already uptodate.
 <check_A_20_T_32-eps-converted-to.pdf, id=333, 562.1pt x 421.575pt>
 File: check_A_20_T_32-eps-converted-to.pdf Graphic file (type pdf)
 <use check_A_20_T_32-eps-converted-to.pdf>
 Package pdftex.def Info: check_A_20_T_32-eps-converted-to.pdf  used on input li
-ne 881.
+ne 876.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
 Package epstopdf Info: Source file: <check_A_20_T_40.eps>
 (epstopdf)                    date: 2025-03-27 07:44:12
@@ -913,29 +913,29 @@ Package epstopdf Info: Source file: <check_A_20_T_40.eps>
 (epstopdf)                    size: 48541 bytes
 (epstopdf)             Command: <repstopdf --outfile=check_A_20_T_40-eps-conver
 ted-to.pdf check_A_20_T_40.eps>
-(epstopdf)             \includegraphics on input line 881.
+(epstopdf)             \includegraphics on input line 876.
 Package epstopdf Info: Output file is already uptodate.
 <check_A_20_T_40-eps-converted-to.pdf, id=334, 562.1pt x 421.575pt>
 File: check_A_20_T_40-eps-converted-to.pdf Graphic file (type pdf)
 <use check_A_20_T_40-eps-converted-to.pdf>
 Package pdftex.def Info: check_A_20_T_40-eps-converted-to.pdf  used on input li
-ne 881.
+ne 876.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
  [16 <./stab_test-eps-converted-to.pdf> <./efficiency_test-eps-converted-to.pdf
 >]
 
-LaTeX Warning: Citation `Alt1980' on page 17 undefined on input line 892.
+LaTeX Warning: Citation `Alt1980' on page 17 undefined on input line 887.
 
 
 LaTeX Warning: Citation `patlak1953random' on page 17 undefined on input line 8
-92.
+87.
 
 
-LaTeX Warning: Citation `Hillen2009' on page 17 undefined on input line 892.
+LaTeX Warning: Citation `Hillen2009' on page 17 undefined on input line 887.
 
 
 LaTeX Warning: Citation `painter2002volume' on page 17 undefined on input line 
-892.
+887.
 
 [17 <./check_A_20_T_5-eps-converted-to.pdf> <./check_A_20_T_20-eps-converted-to
 .pdf> <./check_A_20_T_32-eps-converted-to.pdf> <./check_A_20_T_40-eps-converted
@@ -949,14 +949,14 @@ f>
 (epstopdf)                    size: 123449 bytes
 (epstopdf)             Command: <repstopdf --outfile=energy_A_20_T_50_w_sol-eps
 -converted-to.pdf energy_A_20_T_50_w_sol.eps>
-(epstopdf)             \includegraphics on input line 896.
+(epstopdf)             \includegraphics on input line 891.
 Package epstopdf Info: Output file is already uptodate.
 <energy_A_20_T_50_w_sol-eps-converted-to.pdf, id=380, 1428.33624pt x 547.04375p
 t>
 File: energy_A_20_T_50_w_sol-eps-converted-to.pdf Graphic file (type pdf)
 <use energy_A_20_T_50_w_sol-eps-converted-to.pdf>
 Package pdftex.def Info: energy_A_20_T_50_w_sol-eps-converted-to.pdf  used on i
-nput line 896.
+nput line 891.
 (pdftex.def)             Requested size: 428.50418pt x 164.11438pt.
 Package epstopdf Info: Source file: <l2_relative_err_evolution_A_20_T_50.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -967,7 +967,7 @@ nverted-to.pdf>
 (epstopdf)                    size: 55331 bytes
 (epstopdf)             Command: <repstopdf --outfile=l2_relative_err_evolution_
 A_20_T_50-eps-converted-to.pdf l2_relative_err_evolution_A_20_T_50.eps>
-(epstopdf)             \includegraphics on input line 905.
+(epstopdf)             \includegraphics on input line 900.
 Package epstopdf Info: Output file is already uptodate.
 <l2_relative_err_evolution_A_20_T_50-eps-converted-to.pdf, id=381, 562.1pt x 42
 1.575pt>
@@ -975,7 +975,7 @@ File: l2_relative_err_evolution_A_20_T_50-eps-converted-to.pdf Graphic file (ty
 pe pdf)
 <use l2_relative_err_evolution_A_20_T_50-eps-converted-to.pdf>
 Package pdftex.def Info: l2_relative_err_evolution_A_20_T_50-eps-converted-to.p
-df  used on input line 905.
+df  used on input line 900.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
 Package epstopdf Info: Source file: <check_l2_relative_err_A_20.eps>
 (epstopdf)                    date: 2025-03-27 07:44:12
@@ -986,28 +986,28 @@ o.pdf>
 (epstopdf)                    size: 61744 bytes
 (epstopdf)             Command: <repstopdf --outfile=check_l2_relative_err_A_20
 -eps-converted-to.pdf check_l2_relative_err_A_20.eps>
-(epstopdf)             \includegraphics on input line 905.
+(epstopdf)             \includegraphics on input line 900.
 Package epstopdf Info: Output file is already uptodate.
 <check_l2_relative_err_A_20-eps-converted-to.pdf, id=382, 562.1pt x 421.575pt>
 File: check_l2_relative_err_A_20-eps-converted-to.pdf Graphic file (type pdf)
 <use check_l2_relative_err_A_20-eps-converted-to.pdf>
 Package pdftex.def Info: check_l2_relative_err_A_20-eps-converted-to.pdf  used 
-on input line 905.
+on input line 900.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 906--906
+Underfull \hbox (badness 10000) in paragraph at lines 901--901
 \OT1/cmr/m/sc/10 Figure 4.[]\OT1/cmr/m/n/10 Left: Evo-lu-tion of the rel-a-tive
  $\OML/cmm/m/it/10 L[]$\OT1/cmr/m/n/10 -error
  []
 
 
 LaTeX Warning: Citation `almeida2020treatment' on page 18 undefined on input li
-ne 913.
+ne 908.
 
 [18 <./energy_A_20_T_50_w_sol-eps-converted-to.pdf>]
 
 LaTeX Warning: Citation `almeida2020treatment' on page 19 undefined on input li
-ne 933.
+ne 928.
 
 Package epstopdf Info: Source file: <compare_k_T_1.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1017,13 +1017,13 @@ Package epstopdf Info: Source file: <compare_k_T_1.eps>
 (epstopdf)                    size: 39896 bytes
 (epstopdf)             Command: <repstopdf --outfile=compare_k_T_1-eps-converte
 d-to.pdf compare_k_T_1.eps>
-(epstopdf)             \includegraphics on input line 943.
+(epstopdf)             \includegraphics on input line 938.
 Package epstopdf Info: Output file is already uptodate.
 <compare_k_T_1-eps-converted-to.pdf, id=397, 562.1pt x 421.575pt>
 File: compare_k_T_1-eps-converted-to.pdf Graphic file (type pdf)
 <use compare_k_T_1-eps-converted-to.pdf>
 Package pdftex.def Info: compare_k_T_1-eps-converted-to.pdf  used on input line
- 943.
+ 938.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
 Package epstopdf Info: Source file: <compare_k_T_20.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1033,35 +1033,35 @@ Package epstopdf Info: Source file: <compare_k_T_20.eps>
 (epstopdf)                    size: 41050 bytes
 (epstopdf)             Command: <repstopdf --outfile=compare_k_T_20-eps-convert
 ed-to.pdf compare_k_T_20.eps>
-(epstopdf)             \includegraphics on input line 943.
+(epstopdf)             \includegraphics on input line 938.
 Package epstopdf Info: Output file is already uptodate.
 <compare_k_T_20-eps-converted-to.pdf, id=398, 562.1pt x 421.575pt>
 File: compare_k_T_20-eps-converted-to.pdf Graphic file (type pdf)
 <use compare_k_T_20-eps-converted-to.pdf>
 Package pdftex.def Info: compare_k_T_20-eps-converted-to.pdf  used on input lin
-e 943.
+e 938.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
 
 LaTeX Warning: Citation `almeida2020treatment' on page 19 undefined on input li
-ne 951.
+ne 946.
 
 
 LaTeX Warning: Citation `almeida2020treatment' on page 19 undefined on input li
-ne 957.
+ne 952.
 
 [19 <./l2_relative_err_evolution_A_20_T_50-eps-converted-to.pdf> <./check_l2_re
 lative_err_A_20-eps-converted-to.pdf> <./compare_k_T_1-eps-converted-to.pdf> <.
 /compare_k_T_20-eps-converted-to.pdf>]
 
 LaTeX Warning: Reference `sec:appendix-FD-2D' on page 20 undefined on input lin
-e 961.
+e 956.
 
 
 LaTeX Warning: Citation `almeida2020treatment' on page 20 undefined on input li
-ne 978.
+ne 973.
 
 
-Overfull \hbox (5.11835pt too wide) in paragraph at lines 976--979
+Overfull \hbox (5.11835pt too wide) in paragraph at lines 971--974
 \OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT
 1/cmr/m/n/10 )$ is a ran-domly cho-sen uni-formly dis-tributed func-tion rang-i
 ng in $(\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 
@@ -1070,7 +1070,7 @@ ng in $(\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10
 
 
 LaTeX Warning: Citation `painter2002volume' on page 20 undefined on input line 
-982.
+977.
 
 [20]
 Package epstopdf Info: Source file: <sol2D_A_6_T_5.eps>
@@ -1081,13 +1081,13 @@ Package epstopdf Info: Source file: <sol2D_A_6_T_5.eps>
 (epstopdf)                    size: 53208 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_6_T_5-eps-converte
 d-to.pdf sol2D_A_6_T_5.eps>
-(epstopdf)             \includegraphics on input line 992.
+(epstopdf)             \includegraphics on input line 987.
 Package epstopdf Info: Output file is already uptodate.
 <sol2D_A_6_T_5-eps-converted-to.pdf, id=440, 562.1pt x 421.575pt>
 File: sol2D_A_6_T_5-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_6_T_5-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_6_T_5-eps-converted-to.pdf  used on input line
- 992.
+ 987.
 (pdftex.def)             Requested size: 112.418pt x 84.31349pt.
 Package epstopdf Info: Source file: <sol2D_A_20_T_5.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1097,13 +1097,13 @@ Package epstopdf Info: Source file: <sol2D_A_20_T_5.eps>
 (epstopdf)                    size: 58249 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_20_T_5-eps-convert
 ed-to.pdf sol2D_A_20_T_5.eps>
-(epstopdf)             \includegraphics on input line 992.
+(epstopdf)             \includegraphics on input line 987.
 Package epstopdf Info: Output file is already uptodate.
 <sol2D_A_20_T_5-eps-converted-to.pdf, id=441, 562.1pt x 421.575pt>
 File: sol2D_A_20_T_5-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_20_T_5-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_20_T_5-eps-converted-to.pdf  used on input lin
-e 992.
+e 987.
 (pdftex.def)             Requested size: 112.418pt x 84.31349pt.
 Package epstopdf Info: Source file: <sol2D_A_50_T_5.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1113,13 +1113,13 @@ Package epstopdf Info: Source file: <sol2D_A_50_T_5.eps>
 (epstopdf)                    size: 53140 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_50_T_5-eps-convert
 ed-to.pdf sol2D_A_50_T_5.eps>
-(epstopdf)             \includegraphics on input line 992.
+(epstopdf)             \includegraphics on input line 987.
 Package epstopdf Info: Output file is already uptodate.
 <sol2D_A_50_T_5-eps-converted-to.pdf, id=442, 562.1pt x 421.575pt>
 File: sol2D_A_50_T_5-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_50_T_5-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_50_T_5-eps-converted-to.pdf  used on input lin
-e 992.
+e 987.
 (pdftex.def)             Requested size: 112.418pt x 84.31349pt.
 Package epstopdf Info: Source file: <sol2D_A_6_T_20.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1129,13 +1129,13 @@ Package epstopdf Info: Source file: <sol2D_A_6_T_20.eps>
 (epstopdf)                    size: 50821 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_6_T_20-eps-convert
 ed-to.pdf sol2D_A_6_T_20.eps>
-(epstopdf)             \includegraphics on input line 997.
+(epstopdf)             \includegraphics on input line 992.
 Package epstopdf Info: Output file is already uptodate.
 <sol2D_A_6_T_20-eps-converted-to.pdf, id=443, 562.1pt x 421.575pt>
 File: sol2D_A_6_T_20-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_6_T_20-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_6_T_20-eps-converted-to.pdf  used on input lin
-e 997.
+e 992.
 (pdftex.def)             Requested size: 112.418pt x 84.31349pt.
 Package epstopdf Info: Source file: <sol2D_A_20_T_20.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1145,13 +1145,13 @@ Package epstopdf Info: Source file: <sol2D_A_20_T_20.eps>
 (epstopdf)                    size: 55508 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_20_T_20-eps-conver
 ted-to.pdf sol2D_A_20_T_20.eps>
-(epstopdf)             \includegraphics on input line 997.
+(epstopdf)             \includegraphics on input line 992.
 Package epstopdf Info: Output file is already uptodate.
 <sol2D_A_20_T_20-eps-converted-to.pdf, id=444, 562.1pt x 421.575pt>
 File: sol2D_A_20_T_20-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_20_T_20-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_20_T_20-eps-converted-to.pdf  used on input li
-ne 997.
+ne 992.
 (pdftex.def)             Requested size: 112.418pt x 84.31349pt.
 Package epstopdf Info: Source file: <sol2D_A_50_T_20.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1161,13 +1161,13 @@ Package epstopdf Info: Source file: <sol2D_A_50_T_20.eps>
 (epstopdf)                    size: 47068 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_50_T_20-eps-conver
 ted-to.pdf sol2D_A_50_T_20.eps>
-(epstopdf)             \includegraphics on input line 997.
+(epstopdf)             \includegraphics on input line 992.
 Package epstopdf Info: Output file is already uptodate.
 <sol2D_A_50_T_20-eps-converted-to.pdf, id=445, 562.1pt x 421.575pt>
 File: sol2D_A_50_T_20-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_50_T_20-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_50_T_20-eps-converted-to.pdf  used on input li
-ne 997.
+ne 992.
 (pdftex.def)             Requested size: 112.418pt x 84.31349pt.
 Package epstopdf Info: Source file: <sol2D_A_6_T_50.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1177,13 +1177,13 @@ Package epstopdf Info: Source file: <sol2D_A_6_T_50.eps>
 (epstopdf)                    size: 49037 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_6_T_50-eps-convert
 ed-to.pdf sol2D_A_6_T_50.eps>
-(epstopdf)             \includegraphics on input line 1002.
+(epstopdf)             \includegraphics on input line 997.
 Package epstopdf Info: Output file is already uptodate.
 <sol2D_A_6_T_50-eps-converted-to.pdf, id=446, 562.1pt x 421.575pt>
 File: sol2D_A_6_T_50-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_6_T_50-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_6_T_50-eps-converted-to.pdf  used on input lin
-e 1002.
+e 997.
 (pdftex.def)             Requested size: 112.418pt x 84.31349pt.
 Package epstopdf Info: Source file: <sol2D_A_20_T_50.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1193,13 +1193,13 @@ Package epstopdf Info: Source file: <sol2D_A_20_T_50.eps>
 (epstopdf)                    size: 49418 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_20_T_50-eps-conver
 ted-to.pdf sol2D_A_20_T_50.eps>
-(epstopdf)             \includegraphics on input line 1002.
+(epstopdf)             \includegraphics on input line 997.
 Package epstopdf Info: Output file is already uptodate.
 <sol2D_A_20_T_50-eps-converted-to.pdf, id=447, 562.1pt x 421.575pt>
 File: sol2D_A_20_T_50-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_20_T_50-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_20_T_50-eps-converted-to.pdf  used on input li
-ne 1002.
+ne 997.
 (pdftex.def)             Requested size: 112.418pt x 84.31349pt.
 Package epstopdf Info: Source file: <sol2D_A_50_T_50.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1209,13 +1209,13 @@ Package epstopdf Info: Source file: <sol2D_A_50_T_50.eps>
 (epstopdf)                    size: 42376 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_50_T_50-eps-conver
 ted-to.pdf sol2D_A_50_T_50.eps>
-(epstopdf)             \includegraphics on input line 1002.
+(epstopdf)             \includegraphics on input line 997.
 Package epstopdf Info: Output file is already uptodate.
 <sol2D_A_50_T_50-eps-converted-to.pdf, id=448, 562.1pt x 421.575pt>
 File: sol2D_A_50_T_50-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_50_T_50-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_50_T_50-eps-converted-to.pdf  used on input li
-ne 1002.
+ne 997.
 (pdftex.def)             Requested size: 112.418pt x 84.31349pt.
 Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-01_T_20_init_1.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1226,7 +1226,7 @@ erted-to.pdf>
 (epstopdf)                    size: 48622 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-01_T_20
 _init_1-eps-converted-to.pdf Fig_2D_A_20_eps_1e-01_T_20_init_1.eps>
-(epstopdf)             \includegraphics on input line 1032.
+(epstopdf)             \includegraphics on input line 1027.
 Package epstopdf Info: Output file is already uptodate.
 <Fig_2D_A_20_eps_1e-01_T_20_init_1-eps-converted-to.pdf, id=449, 514.92375pt x 
 411.5375pt>
@@ -1234,7 +1234,7 @@ File: Fig_2D_A_20_eps_1e-01_T_20_init_1-eps-converted-to.pdf Graphic file (type
  pdf)
 <use Fig_2D_A_20_eps_1e-01_T_20_init_1-eps-converted-to.pdf>
 Package pdftex.def Info: Fig_2D_A_20_eps_1e-01_T_20_init_1-eps-converted-to.pdf
-  used on input line 1032.
+  used on input line 1027.
 (pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
 Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-02_T_20_init_1.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1245,7 +1245,7 @@ erted-to.pdf>
 (epstopdf)                    size: 49089 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-02_T_20
 _init_1-eps-converted-to.pdf Fig_2D_A_20_eps_1e-02_T_20_init_1.eps>
-(epstopdf)             \includegraphics on input line 1032.
+(epstopdf)             \includegraphics on input line 1027.
 Package epstopdf Info: Output file is already uptodate.
 <Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-converted-to.pdf, id=450, 514.92375pt x 
 411.5375pt>
@@ -1253,7 +1253,7 @@ File: Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-converted-to.pdf Graphic file (type
  pdf)
 <use Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-converted-to.pdf>
 Package pdftex.def Info: Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-converted-to.pdf
-  used on input line 1032.
+  used on input line 1027.
 (pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
 Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-03_T_20_init_1.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1264,7 +1264,7 @@ erted-to.pdf>
 (epstopdf)                    size: 49440 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-03_T_20
 _init_1-eps-converted-to.pdf Fig_2D_A_20_eps_1e-03_T_20_init_1.eps>
-(epstopdf)             \includegraphics on input line 1032.
+(epstopdf)             \includegraphics on input line 1027.
 Package epstopdf Info: Output file is already uptodate.
 <Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-converted-to.pdf, id=451, 514.92375pt x 
 411.5375pt>
@@ -1272,7 +1272,7 @@ File: Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-converted-to.pdf Graphic file (type
  pdf)
 <use Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-converted-to.pdf>
 Package pdftex.def Info: Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-converted-to.pdf
-  used on input line 1032.
+  used on input line 1027.
 (pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
 Package epstopdf Info: Source file: <sol2D_A_20_T_20_init_1.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1283,13 +1283,13 @@ f>
 (epstopdf)                    size: 49803 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_20_T_20_init_1-eps
 -converted-to.pdf sol2D_A_20_T_20_init_1.eps>
-(epstopdf)             \includegraphics on input line 1032.
+(epstopdf)             \includegraphics on input line 1027.
 Package epstopdf Info: Output file is already uptodate.
 <sol2D_A_20_T_20_init_1-eps-converted-to.pdf, id=452, 562.1pt x 421.575pt>
 File: sol2D_A_20_T_20_init_1-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_20_T_20_init_1-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_20_T_20_init_1-eps-converted-to.pdf  used on i
-nput line 1032.
+nput line 1027.
 (pdftex.def)             Requested size: 112.418pt x 84.31349pt.
 Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-01_T_20_init_1.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1300,7 +1300,7 @@ erted-to.pdf>
 (epstopdf)                    size: 38633 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-01_T_20
 _init_1-eps-converted-to.pdf Fig_2D_A_50_eps_1e-01_T_20_init_1.eps>
-(epstopdf)             \includegraphics on input line 1039.
+(epstopdf)             \includegraphics on input line 1034.
 Package epstopdf Info: Output file is already uptodate.
 <Fig_2D_A_50_eps_1e-01_T_20_init_1-eps-converted-to.pdf, id=453, 514.92375pt x 
 411.5375pt>
@@ -1308,7 +1308,7 @@ File: Fig_2D_A_50_eps_1e-01_T_20_init_1-eps-converted-to.pdf Graphic file (type
  pdf)
 <use Fig_2D_A_50_eps_1e-01_T_20_init_1-eps-converted-to.pdf>
 Package pdftex.def Info: Fig_2D_A_50_eps_1e-01_T_20_init_1-eps-converted-to.pdf
-  used on input line 1039.
+  used on input line 1034.
 (pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
 Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-02_T_20_init_1.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1319,7 +1319,7 @@ erted-to.pdf>
 (epstopdf)                    size: 39508 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-02_T_20
 _init_1-eps-converted-to.pdf Fig_2D_A_50_eps_1e-02_T_20_init_1.eps>
-(epstopdf)             \includegraphics on input line 1039.
+(epstopdf)             \includegraphics on input line 1034.
 Package epstopdf Info: Output file is already uptodate.
 <Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-converted-to.pdf, id=454, 514.92375pt x 
 411.5375pt>
@@ -1327,7 +1327,7 @@ File: Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-converted-to.pdf Graphic file (type
  pdf)
 <use Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-converted-to.pdf>
 Package pdftex.def Info: Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-converted-to.pdf
-  used on input line 1039.
+  used on input line 1034.
 (pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
 Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-03_T_20_init_1.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1338,7 +1338,7 @@ erted-to.pdf>
 (epstopdf)                    size: 40229 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-03_T_20
 _init_1-eps-converted-to.pdf Fig_2D_A_50_eps_1e-03_T_20_init_1.eps>
-(epstopdf)             \includegraphics on input line 1039.
+(epstopdf)             \includegraphics on input line 1034.
 Package epstopdf Info: Output file is already uptodate.
 <Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-converted-to.pdf, id=455, 514.92375pt x 
 411.5375pt>
@@ -1346,7 +1346,7 @@ File: Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-converted-to.pdf Graphic file (type
  pdf)
 <use Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-converted-to.pdf>
 Package pdftex.def Info: Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-converted-to.pdf
-  used on input line 1039.
+  used on input line 1034.
 (pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
 Package epstopdf Info: Source file: <sol2D_A_50_T_20_init_1.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1357,13 +1357,13 @@ f>
 (epstopdf)                    size: 40540 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_50_T_20_init_1-eps
 -converted-to.pdf sol2D_A_50_T_20_init_1.eps>
-(epstopdf)             \includegraphics on input line 1039.
+(epstopdf)             \includegraphics on input line 1034.
 Package epstopdf Info: Output file is already uptodate.
 <sol2D_A_50_T_20_init_1-eps-converted-to.pdf, id=456, 562.1pt x 421.575pt>
 File: sol2D_A_50_T_20_init_1-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_50_T_20_init_1-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_50_T_20_init_1-eps-converted-to.pdf  used on i
-nput line 1039.
+nput line 1034.
 (pdftex.def)             Requested size: 112.418pt x 84.31349pt.
 Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-01_T_20_init_10.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1374,7 +1374,7 @@ verted-to.pdf>
 (epstopdf)                    size: 44001 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-01_T_20
 _init_10-eps-converted-to.pdf Fig_2D_A_20_eps_1e-01_T_20_init_10.eps>
-(epstopdf)             \includegraphics on input line 1046.
+(epstopdf)             \includegraphics on input line 1041.
 Package epstopdf Info: Output file is already uptodate.
 <Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-converted-to.pdf, id=457, 514.92375pt x
  411.5375pt>
@@ -1382,7 +1382,7 @@ File: Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-converted-to.pdf>
 Package pdftex.def Info: Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-converted-to.pd
-f  used on input line 1046.
+f  used on input line 1041.
 (pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
 Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-02_T_20_init_10.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1393,7 +1393,7 @@ verted-to.pdf>
 (epstopdf)                    size: 44162 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-02_T_20
 _init_10-eps-converted-to.pdf Fig_2D_A_20_eps_1e-02_T_20_init_10.eps>
-(epstopdf)             \includegraphics on input line 1046.
+(epstopdf)             \includegraphics on input line 1041.
 Package epstopdf Info: Output file is already uptodate.
 <Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-converted-to.pdf, id=458, 514.92375pt x
  411.5375pt>
@@ -1401,7 +1401,7 @@ File: Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-converted-to.pdf>
 Package pdftex.def Info: Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-converted-to.pd
-f  used on input line 1046.
+f  used on input line 1041.
 (pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
 Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-03_T_20_init_10.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1412,7 +1412,7 @@ verted-to.pdf>
 (epstopdf)                    size: 44532 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-03_T_20
 _init_10-eps-converted-to.pdf Fig_2D_A_20_eps_1e-03_T_20_init_10.eps>
-(epstopdf)             \includegraphics on input line 1046.
+(epstopdf)             \includegraphics on input line 1041.
 Package epstopdf Info: Output file is already uptodate.
 <Fig_2D_A_20_eps_1e-03_T_20_init_10-eps-converted-to.pdf, id=459, 514.92375pt x
  411.5375pt>
@@ -1420,7 +1420,7 @@ File: Fig_2D_A_20_eps_1e-03_T_20_init_10-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use Fig_2D_A_20_eps_1e-03_T_20_init_10-eps-converted-to.pdf>
 Package pdftex.def Info: Fig_2D_A_20_eps_1e-03_T_20_init_10-eps-converted-to.pd
-f  used on input line 1046.
+f  used on input line 1041.
 (pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
 Package epstopdf Info: Source file: <sol2D_A_20_T_20_init_10.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1431,13 +1431,13 @@ df>
 (epstopdf)                    size: 44923 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_20_T_20_init_10-ep
 s-converted-to.pdf sol2D_A_20_T_20_init_10.eps>
-(epstopdf)             \includegraphics on input line 1046.
+(epstopdf)             \includegraphics on input line 1041.
 Package epstopdf Info: Output file is already uptodate.
 <sol2D_A_20_T_20_init_10-eps-converted-to.pdf, id=460, 562.1pt x 421.575pt>
 File: sol2D_A_20_T_20_init_10-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_20_T_20_init_10-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_20_T_20_init_10-eps-converted-to.pdf  used on 
-input line 1046.
+input line 1041.
 (pdftex.def)             Requested size: 112.418pt x 84.31349pt.
 Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-01_T_20_init_10.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1448,7 +1448,7 @@ verted-to.pdf>
 (epstopdf)                    size: 37155 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-01_T_20
 _init_10-eps-converted-to.pdf Fig_2D_A_50_eps_1e-01_T_20_init_10.eps>
-(epstopdf)             \includegraphics on input line 1053.
+(epstopdf)             \includegraphics on input line 1048.
 Package epstopdf Info: Output file is already uptodate.
 <Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-converted-to.pdf, id=461, 514.92375pt x
  411.5375pt>
@@ -1456,7 +1456,7 @@ File: Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-converted-to.pdf>
 Package pdftex.def Info: Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-converted-to.pd
-f  used on input line 1053.
+f  used on input line 1048.
 (pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
 Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-02_T_20_init_10.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1467,7 +1467,7 @@ verted-to.pdf>
 (epstopdf)                    size: 36459 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-02_T_20
 _init_10-eps-converted-to.pdf Fig_2D_A_50_eps_1e-02_T_20_init_10.eps>
-(epstopdf)             \includegraphics on input line 1053.
+(epstopdf)             \includegraphics on input line 1048.
 Package epstopdf Info: Output file is already uptodate.
 <Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-converted-to.pdf, id=462, 514.92375pt x
  411.5375pt>
@@ -1475,7 +1475,7 @@ File: Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-converted-to.pdf>
 Package pdftex.def Info: Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-converted-to.pd
-f  used on input line 1053.
+f  used on input line 1048.
 (pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
 Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-03_T_20_init_10.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1486,7 +1486,7 @@ verted-to.pdf>
 (epstopdf)                    size: 36785 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-03_T_20
 _init_10-eps-converted-to.pdf Fig_2D_A_50_eps_1e-03_T_20_init_10.eps>
-(epstopdf)             \includegraphics on input line 1053.
+(epstopdf)             \includegraphics on input line 1048.
 Package epstopdf Info: Output file is already uptodate.
 <Fig_2D_A_50_eps_1e-03_T_20_init_10-eps-converted-to.pdf, id=463, 514.92375pt x
  411.5375pt>
@@ -1494,7 +1494,7 @@ File: Fig_2D_A_50_eps_1e-03_T_20_init_10-eps-converted-to.pdf Graphic file (typ
 e pdf)
 <use Fig_2D_A_50_eps_1e-03_T_20_init_10-eps-converted-to.pdf>
 Package pdftex.def Info: Fig_2D_A_50_eps_1e-03_T_20_init_10-eps-converted-to.pd
-f  used on input line 1053.
+f  used on input line 1048.
 (pdftex.def)             Requested size: 102.98293pt x 82.30603pt.
 Package epstopdf Info: Source file: <sol2D_A_50_T_20_init_10.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1505,13 +1505,13 @@ df>
 (epstopdf)                    size: 37179 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_50_T_20_init_10-ep
 s-converted-to.pdf sol2D_A_50_T_20_init_10.eps>
-(epstopdf)             \includegraphics on input line 1053.
+(epstopdf)             \includegraphics on input line 1048.
 Package epstopdf Info: Output file is already uptodate.
 <sol2D_A_50_T_20_init_10-eps-converted-to.pdf, id=464, 562.1pt x 421.575pt>
 File: sol2D_A_50_T_20_init_10-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_50_T_20_init_10-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_50_T_20_init_10-eps-converted-to.pdf  used on 
-input line 1053.
+input line 1048.
 (pdftex.def)             Requested size: 112.418pt x 84.31349pt.
 Package epstopdf Info: Source file: <l2_relative_error_2D_A_20_T_20.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
@@ -1522,7 +1522,7 @@ ed-to.pdf>
 (epstopdf)                    size: 70704 bytes
 (epstopdf)             Command: <repstopdf --outfile=l2_relative_error_2D_A_20_
 T_20-eps-converted-to.pdf l2_relative_error_2D_A_20_T_20.eps>
-(epstopdf)             \includegraphics on input line 1062.
+(epstopdf)             \includegraphics on input line 1057.
 Package epstopdf Info: Output file is already uptodate.
 <l2_relative_error_2D_A_20_T_20-eps-converted-to.pdf, id=465, 562.1pt x 421.575
 pt>
@@ -1530,7 +1530,7 @@ File: l2_relative_error_2D_A_20_T_20-eps-converted-to.pdf Graphic file (type pd
 f)
 <use l2_relative_error_2D_A_20_T_20-eps-converted-to.pdf>
 Package pdftex.def Info: l2_relative_error_2D_A_20_T_20-eps-converted-to.pdf  u
-sed on input line 1062.
+sed on input line 1057.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
 Package epstopdf Info: Source file: <convergence_vep_2D.eps>
 (epstopdf)                    date: 2025-03-27 07:44:12
@@ -1540,18 +1540,18 @@ Package epstopdf Info: Source file: <convergence_vep_2D.eps>
 (epstopdf)                    size: 51078 bytes
 (epstopdf)             Command: <repstopdf --outfile=convergence_vep_2D-eps-con
 verted-to.pdf convergence_vep_2D.eps>
-(epstopdf)             \includegraphics on input line 1062.
+(epstopdf)             \includegraphics on input line 1057.
 Package epstopdf Info: Output file is already uptodate.
 <convergence_vep_2D-eps-converted-to.pdf, id=466, 562.1pt x 421.575pt>
 File: convergence_vep_2D-eps-converted-to.pdf Graphic file (type pdf)
 <use convergence_vep_2D-eps-converted-to.pdf>
 Package pdftex.def Info: convergence_vep_2D-eps-converted-to.pdf  used on input
- line 1062.
+ line 1057.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
 
 
-LaTeX Warning: Citation `LemouMieussens' on page 21 undefined on input line 107
-2.
+LaTeX Warning: Citation `LemouMieussens' on page 21 undefined on input line 106
+7.
 
 [21 <./sol2D_A_6_T_5-eps-converted-to.pdf> <./sol2D_A_20_T_5-eps-converted-to.p
 df> <./sol2D_A_50_T_5-eps-converted-to.pdf> <./sol2D_A_6_T_20-eps-converted-to.
@@ -1573,7 +1573,7 @@ nverted-to.pdf> <./l2_relative_error_2D_A_20_T_20-eps-converted-to.pdf> <./conv
 ergence_vep_2D-eps-converted-to.pdf>]
 
 LaTeX Warning: Citation `stevens2000derivation' on page 23 undefined on input l
-ine 1078.
+ine 1073.
 
 [23] [24] (./AIMS_VFPKS.aux)
 
@@ -1587,7 +1587,7 @@ Package rerunfilecheck Info: File `AIMS_VFPKS.out' has not changed.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 892 ({)
+### simple group (level 1) entered at line 887 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
  10567 strings out of 476025
@@ -1622,7 +1622,7 @@ sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr
 local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/lo
 cal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/loca
 l/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AIMS_VFPKS.pdf (24 pages, 2114642 bytes).
+Output written on AIMS_VFPKS.pdf (24 pages, 2114447 bytes).
 PDF statistics:
  786 PDF objects out of 1000 (max. 8388607)
  580 compressed objects within 6 object streams
