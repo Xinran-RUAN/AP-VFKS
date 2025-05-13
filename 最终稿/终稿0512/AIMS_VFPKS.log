@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.30)  13 MAY 2025 17:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.30)  13 MAY 2025 18:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -369,7 +369,7 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box54
 )
-(./AIMS_VFPKS.aux)
+No file AIMS_VFPKS.aux.
 \openout1 = `AIMS_VFPKS.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
@@ -390,7 +390,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 142.
 LaTeX Font Info:    ... okay on input line 142.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 142.
 LaTeX Font Info:    ... okay on input line 142.
-
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count290
@@ -417,8 +416,6 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 142
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Package hyperref Info: Link coloring ON on input line 142.
-
-(./AIMS_VFPKS.out) (./AIMS_VFPKS.out)
 \@outlinefile=\write3
 \openout3 = `AIMS_VFPKS.out'.
 
@@ -435,13 +432,75 @@ Class aims Warning: Abstract should precede \maketitle in AMS documentclasses;
 reported on input line 182.
 
 
+LaTeX Warning: Citation `Alt1980' on page 1 undefined on input line 194.
+
+
+LaTeX Warning: Citation `Kaupp2012' on page 1 undefined on input line 194.
+
+
+LaTeX Warning: Citation `Jin2008' on page 1 undefined on input line 194.
+
+
+LaTeX Warning: Citation `Roussos2011' on page 1 undefined on input line 194.
+
+
+LaTeX Warning: Citation `patlak1953random' on page 1 undefined on input line 19
+6.
+
+
+LaTeX Warning: Citation `keller1970initiation' on page 1 undefined on input lin
+e 196.
+
+
+LaTeX Warning: Citation `keller1971model' on page 1 undefined on input line 196
+.
+
+
+LaTeX Warning: Citation `Alt1980' on page 1 undefined on input line 196.
+
+
+LaTeX Warning: Citation `Hillen2009' on page 1 undefined on input line 196.
+
+
+LaTeX Warning: Citation `horstmann2003' on page 1 undefined on input line 196.
+
+
+LaTeX Warning: Citation `horstmann2004' on page 1 undefined on input line 196.
+
+
+LaTeX Warning: Citation `Alt1980' on page 1 undefined on input line 196.
+
+
+LaTeX Warning: Citation `Othmer1997' on page 1 undefined on input line 196.
+
+
+LaTeX Warning: Citation `othmer2000diffusion' on page 1 undefined on input line
+ 196.
+
+
+LaTeX Warning: Citation `othmer2002diffusion' on page 1 undefined on input line
+ 196.
+
+
+LaTeX Warning: Citation `chalub2004kinetic' on page 1 undefined on input line 1
+96.
+
+
+LaTeX Warning: Citation `othmer2002diffusion' on page 1 undefined on input line
+ 196.
+
+
+LaTeX Warning: Citation `othmer2000diffusion' on page 1 undefined on input line
+ 196.
+
+
 Overfull \vbox (6.48724pt too high) has occurred while \output is active []
 
 
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./AIMS_Logo.pdf): PDF inclus
 ion: found PDF version <1.6>, but at most version <1.5> allowed
-<AIMS_Logo.pdf, id=94, 978.38326pt x 994.4593pt>
+<AIMS_Logo.pdf, id=8, 978.38326pt x 994.4593pt>
 File: AIMS_Logo.pdf Graphic file (type pdf)
 <use AIMS_Logo.pdf>
 Package pdftex.def Info: AIMS_Logo.pdf  used on input line 197.
@@ -451,7 +510,239 @@ Overfull \vbox (32.36975pt too high) has occurred while \output is active []
 
 
 [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./AIM
-S_Logo.pdf>] [2] [3] [4
+S_Logo.pdf>]
+
+LaTeX Warning: Citation `Brener1999' on page 2 undefined on input line 198.
+
+
+LaTeX Warning: Citation `Herrero1998' on page 2 undefined on input line 198.
+
+
+LaTeX Warning: Citation `Nagai1997' on page 2 undefined on input line 198.
+
+
+LaTeX Warning: Citation `Othmer1997' on page 2 undefined on input line 198.
+
+
+LaTeX Warning: Citation `chalub2004kinetic' on page 2 undefined on input line 1
+98.
+
+
+LaTeX Warning: Citation `Hillen2009' on page 2 undefined on input line 198.
+
+
+LaTeX Warning: Citation `painter2002volume' on page 2 undefined on input line 1
+98.
+
+
+LaTeX Warning: Citation `murray2002introduction' on page 2 undefined on input l
+ine 206.
+
+
+LaTeX Warning: Citation `murray2003mathematical' on page 2 undefined on input l
+ine 206.
+
+
+LaTeX Warning: Reference `eq: starting model equation' on page 2 undefined on i
+nput line 206.
+
+
+LaTeX Warning: Citation `wrzosek2010volume' on page 2 undefined on input line 2
+06.
+
+
+LaTeX Warning: Citation `calvez2006volume' on page 2 undefined on input line 20
+6.
+
+
+LaTeX Warning: Citation `zheng2015boundedness' on page 2 undefined on input lin
+e 206.
+
+
+LaTeX Warning: Citation `painter2002volume' on page 2 undefined on input line 2
+06.
+
+
+LaTeX Warning: Citation `wang2010chemotaxis' on page 2 undefined on input line 
+206.
+
+
+LaTeX Warning: Citation `wrzosek2010volume' on page 2 undefined on input line 2
+06.
+
+
+LaTeX Warning: Citation `han2017pattern' on page 2 undefined on input line 206.
+
+
+
+LaTeX Warning: Citation `ma2012stationary' on page 2 undefined on input line 20
+6.
+
+
+LaTeX Warning: Citation `dolak2005keller' on page 2 undefined on input line 206
+.
+
+
+LaTeX Warning: Citation `ibrahim2014efficacy' on page 2 undefined on input line
+ 206.
+
+
+LaTeX Warning: Citation `Vital2011' on page 2 undefined on input line 206.
+
+
+LaTeX Warning: Reference `eq: starting model equation' on page 2 undefined on i
+nput line 206.
+
+
+LaTeX Warning: Citation `almeida2020treatment' on page 2 undefined on input lin
+e 206.
+
+
+LaTeX Warning: Citation `almeida2020treatment' on page 2 undefined on input lin
+e 206.
+
+
+LaTeX Warning: Citation `wang2007classical' on page 2 undefined on input line 2
+06.
+
+
+Underfull \vbox (badness 1975) has occurred while \output is active []
+
+ [2]
+
+LaTeX Warning: Citation `painter2002volume' on page 3 undefined on input line 2
+08.
+
+
+LaTeX Warning: Citation `Othmer1997' on page 3 undefined on input line 208.
+
+
+LaTeX Warning: Reference `eq: starting model equation' on page 3 undefined on i
+nput line 209.
+
+
+LaTeX Warning: Citation `othmer2002diffusion' on page 3 undefined on input line
+ 211.
+
+
+LaTeX Warning: Citation `othmer2000diffusion' on page 3 undefined on input line
+ 211.
+
+
+LaTeX Warning: Reference `eq: starting model equation' on page 3 undefined on i
+nput line 211.
+
+
+LaTeX Warning: Reference `theorem1' on page 3 undefined on input line 211.
+
+
+LaTeX Warning: Reference `sec:macroscopic derivation' on page 3 undefined on in
+put line 211.
+
+
+LaTeX Warning: Reference `eq: inital model without scaling' on page 3 undefined
+ on input line 214.
+
+
+LaTeX Warning: Reference `eq: inital model without scaling' on page 3 undefined
+ on input line 214.
+
+
+LaTeX Warning: Citation `othmer2002diffusion' on page 3 undefined on input line
+ 214.
+
+
+LaTeX Warning: Reference `remark' on page 3 undefined on input line 214.
+
+
+LaTeX Warning: Citation `othmer2002diffusion' on page 3 undefined on input line
+ 214.
+
+
+LaTeX Warning: Citation `othmer2000diffusion' on page 3 undefined on input line
+ 214.
+
+
+LaTeX Warning: Reference `eq: inital model without scaling' on page 3 undefined
+ on input line 216.
+
+
+LaTeX Warning: Reference `eq: inital model without scaling' on page 3 undefined
+ on input line 216.
+
+
+LaTeX Warning: Reference `eq: starting model equation' on page 3 undefined on i
+nput line 216.
+
+
+LaTeX Warning: Citation `Meacock2021' on page 3 undefined on input line 216.
+
+[3]
+
+LaTeX Warning: Citation `filbet2010class' on page 4 undefined on input line 218
+.
+
+
+LaTeX Warning: Citation `jin1999efficient' on page 4 undefined on input line 21
+8.
+
+
+LaTeX Warning: Citation `LemouMieussens' on page 4 undefined on input line 218.
+
+
+
+LaTeX Warning: Reference `sec:micro-macro' on page 4 undefined on input line 21
+8.
+
+
+LaTeX Warning: Reference `sec: implicit-explicit scheme' on page 4 undefined on
+ input line 218.
+
+
+LaTeX Warning: Citation `carrillo2013asymptotic' on page 4 undefined on input l
+ine 218.
+
+
+LaTeX Warning: Citation `emako2016well' on page 4 undefined on input line 219.
+
+
+LaTeX Warning: Citation `wang2019asymptotic' on page 4 undefined on input line 
+219.
+
+
+LaTeX Warning: Citation `jin2011class' on page 4 undefined on input line 219.
+
+
+LaTeX Warning: Citation `chertock2019high' on page 4 undefined on input line 21
+9.
+
+
+LaTeX Warning: Reference `sec:model' on page 4 undefined on input line 221.
+
+
+LaTeX Warning: Reference `eq: inital model without scaling' on page 4 undefined
+ on input line 221.
+
+
+LaTeX Warning: Citation `othmer2002diffusion' on page 4 undefined on input line
+ 221.
+
+
+LaTeX Warning: Reference `sec:micro-macro' on page 4 undefined on input line 22
+1.
+
+
+LaTeX Warning: Reference `sec: implicit-explicit scheme' on page 4 undefined on
+ input line 221.
+
+
+LaTeX Warning: Reference `numerical results' on page 4 undefined on input line 
+221.
+
+
+LaTeX Warning: Citation `Hillen2009' on page 4 undefined on input line 239.
+
+[4
 pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -464,6 +755,14 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
                                                   \__shipout_drop_firstpage_...
 l.240 \begin{equation*}
                        ]
+
+LaTeX Warning: Reference `expansion_psi' on page 5 undefined on input line 243.
+
+
+
+LaTeX Warning: Citation `Hillen2009' on page 5 undefined on input line 257.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
 ) has been already used, duplicate ignored
 <to be read again> 
@@ -488,6 +787,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
                    \relax 
 l.258 \begin{equation}
                       
+
+LaTeX Warning: Reference `eq: inital model without scaling' on page 5 undefined
+ on input line 261.
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
 ) has been already used, duplicate ignored
 <to be read again> 
@@ -511,7 +815,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3}
 <to be read again> 
                    \relax 
 l.262 \begin{equation}
-                       [5]
+                      
+
+LaTeX Warning: Reference `eq: scaled model' on page 5 undefined on input line 2
+69.
+
+[5]
 pdfTeX warning (ext4): destination with the same identifier (name{equation.2.4}
 ) has been already used, duplicate ignored
 <to be read again> 
@@ -535,7 +844,29 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.2.4}
 <to be read again> 
                    \relax 
 l.270 \begin{equation}
-                       [6
+                      
+
+LaTeX Warning: Reference `eq: inital model with scaling' on page 6 undefined on
+ input line 302.
+
+
+LaTeX Warning: Reference `expansion_psi' on page 6 undefined on input line 302.
+
+
+
+LaTeX Warning: Reference `hypo1' on page 6 undefined on input line 302.
+
+
+LaTeX Warning: Reference `hypo2' on page 6 undefined on input line 302.
+
+
+LaTeX Warning: Reference `TepsFeps' on page 6 undefined on input line 311.
+
+
+LaTeX Warning: Reference `expansion_psi' on page 6 undefined on input line 323.
+
+
+[6
 pdfTeX warning (ext4): destination with the same identifier (name{equation.2.7}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -547,12 +878,372 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.2.7}
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.326 \end{align}
-                 ] [7] [8] [9] [10] [11] [12] [13]
+                 ]
+
+LaTeX Warning: Reference `hypo1' on page 7 undefined on input line 327.
+
+
+LaTeX Warning: Reference `hypo2' on page 7 undefined on input line 327.
+
+
+LaTeX Warning: Reference `eq: inital model with scaling' on page 7 undefined on
+ input line 333.
+
+
+LaTeX Warning: Reference `eq: epsilon2' on page 7 undefined on input line 346.
+
+
+LaTeX Warning: Reference `hypo1' on page 7 undefined on input line 346.
+
+
+LaTeX Warning: Reference `eq: epsilon0' on page 7 undefined on input line 350.
+
+
+LaTeX Warning: Reference `eq: epsilon1' on page 7 undefined on input line 350.
+
+
+LaTeX Warning: Reference `eq: mean direction' on page 7 undefined on input line
+ 354.
+
+
+LaTeX Warning: Reference `eq: macroscopic equation' on page 7 undefined on inpu
+t line 354.
+
+
+LaTeX Warning: Reference `hypo2' on page 7 undefined on input line 359.
+
+
+LaTeX Warning: Reference `eq: macroscopic equation1' on page 7 undefined on inp
+ut line 359.
+
+
+LaTeX Warning: Reference `eq: macroscopic coefficients' on page 7 undefined on 
+input line 359.
+
+
+LaTeX Warning: Citation `wang2007classical' on page 7 undefined on input line 3
+64.
+
+
+LaTeX Warning: Reference `eq: macroscopic equation1' on page 7 undefined on inp
+ut line 364.
+
+
+LaTeX Warning: Citation `othmer2002diffusion' on page 7 undefined on input line
+ 367.
+
+
+LaTeX Warning: Reference `hypo2' on page 7 undefined on input line 367.
+
+[7]
+
+LaTeX Warning: Reference `eq: inital model without scaling' on page 8 undefined
+ on input line 371.
+
+
+LaTeX Warning: Reference `eq: macroscopic equation1' on page 8 undefined on inp
+ut line 376.
+
+
+LaTeX Warning: Reference `eq: macroscopic equation1' on page 8 undefined on inp
+ut line 377.
+
+
+LaTeX Warning: Citation `calvez2006volume' on page 8 undefined on input line 37
+9.
+
+
+LaTeX Warning: Citation `carrillo2001entropy' on page 8 undefined on input line
+ 379.
+
+
+LaTeX Warning: Citation `de2018energy' on page 8 undefined on input line 379.
+
+
+LaTeX Warning: Reference `eq: macroscopic equation1' on page 8 undefined on inp
+ut line 381.
+
+
+LaTeX Warning: Reference `elliptic_c' on page 8 undefined on input line 398.
+
+
+LaTeX Warning: Reference `eq: new version of macro' on page 8 undefined on inpu
+t line 398.
+
+
+LaTeX Warning: Reference `def:energy_macro' on page 8 undefined on input line 4
+02.
+
+
+LaTeX Warning: Reference `eq: new version of macro' on page 8 undefined on inpu
+t line 408.
+
+
+LaTeX Warning: Reference `prop:energy' on page 8 undefined on input line 422.
+
+
+LaTeX Warning: Reference `prop:energy' on page 8 undefined on input line 427.
+
+[8]
+
+LaTeX Warning: Reference `TepsFeps' on page 9 undefined on input line 438.
+
+
+LaTeX Warning: Reference `eq: F scaled' on page 9 undefined on input line 440.
+
+
+LaTeX Warning: Reference `eq: turning operator scaled' on page 9 undefined on i
+nput line 440.
+
+
+LaTeX Warning: Reference `theorem1' on page 9 undefined on input line 451.
+
+
+LaTeX Warning: Reference `eq:kinetic_approx' on page 9 undefined on input line 
+451.
+
+
+LaTeX Warning: Reference `eq: macroscopic equation1' on page 9 undefined on inp
+ut line 451.
+
+
+LaTeX Warning: Reference `def:f_decompose' on page 9 undefined on input line 46
+6.
+
+
+LaTeX Warning: Reference `eq:kinetic_approx' on page 9 undefined on input line 
+466.
+
+[9]
+
+LaTeX Warning: Reference `eq:kinetic_approx' on page 10 undefined on input line
+ 501.
+
+
+LaTeX Warning: Reference `def:f_decompose' on page 10 undefined on input line 5
+07.
+
+
+LaTeX Warning: Reference `eq:g_macro' on page 10 undefined on input line 525.
+
+
+LaTeX Warning: Reference `eq:rho_macro' on page 10 undefined on input line 534.
+
+
+
+LaTeX Warning: Reference `subsec:energy' on page 10 undefined on input line 543
+.
+
+
+LaTeX Warning: Reference `rem 6' on page 10 undefined on input line 543.
+
+
+LaTeX Warning: Reference `eq:macro_proliferation' on page 10 undefined on input
+ line 543.
+
+
+LaTeX Warning: Reference `sec:appendix-FD-2D' on page 10 undefined on input lin
+e 548.
+
+[10]
+
+LaTeX Warning: Citation `de2018energy' on page 11 undefined on input line 601.
+
+
+LaTeX Warning: Reference `eq: macroscopic equation1' on page 11 undefined on in
+put line 602.
+
+
+LaTeX Warning: Reference `eq:macro_micro' on page 11 undefined on input line 60
+3.
+
+
+LaTeX Warning: Reference `eq:macro_micro' on page 11 undefined on input line 60
+3.
+
+
+LaTeX Warning: Reference `eq:macro_micro' on page 11 undefined on input line 60
+6.
+
+[11]
+
+LaTeX Warning: Citation `LemouMieussens' on page 12 undefined on input line 630
+.
+
+
+LaTeX Warning: Reference `eq:scheme' on page 12 undefined on input line 630.
+
+
+LaTeX Warning: Reference `eq:scheme' on page 12 undefined on input line 631.
+
+
+LaTeX Warning: Reference `eq:tilde_g' on page 12 undefined on input line 647.
+
+
+LaTeX Warning: Reference `eq:tilde_g' on page 12 undefined on input line 663.
+
+
+LaTeX Warning: Reference `eq:scheme' on page 12 undefined on input line 663.
+
+
+LaTeX Warning: Reference `expression:g' on page 12 undefined on input line 664.
+
+
+
+LaTeX Warning: Reference `eq:scheme' on page 12 undefined on input line 664.
+
+[12]
+
+LaTeX Warning: Reference `eq:rho_n' on page 13 undefined on input line 683.
+
+
+LaTeX Warning: Reference `expression:g' on page 13 undefined on input line 684.
+
+
+
+LaTeX Warning: Reference `eq:scheme' on page 13 undefined on input line 685.
+
+
+LaTeX Warning: Reference `eq:scheme' on page 13 undefined on input line 688.
+
+
+LaTeX Warning: Reference `eq:kinetic_approx' on page 13 undefined on input line
+ 688.
+
+
+LaTeX Warning: Reference `eq: macroscopic equation1' on page 13 undefined on in
+put line 688.
+
+
+LaTeX Warning: Reference `eq:macro_proliferation' on page 13 undefined on input
+ line 688.
+
+
+LaTeX Warning: Reference `eq:scheme' on page 13 undefined on input line 689.
+
+
+LaTeX Warning: Reference `def:Dh' on page 13 undefined on input line 701.
+
+
+LaTeX Warning: Reference `qg_expression' on page 13 undefined on input line 701
+.
+
+
+LaTeX Warning: Reference `proof:qg_int' on page 13 undefined on input line 707.
+
+
+
+LaTeX Warning: Reference `eq:scheme' on page 13 undefined on input line 707.
+
+
+LaTeX Warning: Reference `eq:macro_proliferation' on page 13 undefined on input
+ line 717.
+
+
+LaTeX Warning: Reference `eq:scheme' on page 13 undefined on input line 718.
+
+
+LaTeX Warning: Reference `eq:rho_n' on page 13 undefined on input line 724.
+
+
+LaTeX Warning: Reference `scheme:limit' on page 13 undefined on input line 725.
+
+
+
+LaTeX Warning: Reference `cfl' on page 13 undefined on input line 738.
+
+
+LaTeX Warning: Reference `scheme:limit' on page 13 undefined on input line 739.
+
+
+
+LaTeX Warning: Reference `def:Phi' on page 13 undefined on input line 749.
+
+
+LaTeX Warning: Reference `scheme:limit' on page 13 undefined on input line 749.
+
+
+[13]
+
+LaTeX Warning: Reference `scheme:macro_matrix' on page 14 undefined on input li
+ne 777.
+
+
+LaTeX Warning: Reference `scheme:macro_matrix' on page 14 undefined on input li
+ne 783.
+
+
 Overfull \hbox (2.5124pt too wide) detected at line 790
 []
  []
 
-[14] [15]
+[14]
+
+LaTeX Warning: Reference `cfl1' on page 15 undefined on input line 816.
+
+
+LaTeX Warning: Reference `cfl2' on page 15 undefined on input line 816.
+
+
+LaTeX Warning: Reference `cfl' on page 15 undefined on input line 816.
+
+
+LaTeX Warning: Reference `eq:kinetic_approx' on page 15 undefined on input line
+ 824.
+
+
+LaTeX Warning: Reference `eq:scheme' on page 15 undefined on input line 824.
+
+
+LaTeX Warning: Reference `eq:macro_micro' on page 15 undefined on input line 82
+4.
+
+
+LaTeX Warning: Reference `eq:macro_proliferation' on page 15 undefined on input
+ line 824.
+
+
+LaTeX Warning: Reference `scheme:limit' on page 15 undefined on input line 824.
+
+
+
+LaTeX Warning: Reference `subsec:energy' on page 15 undefined on input line 826
+.
+
+
+LaTeX Warning: Citation `calvez2006volume' on page 15 undefined on input line 8
+26.
+
+
+LaTeX Warning: Citation `carrillo2001entropy' on page 15 undefined on input lin
+e 826.
+
+
+LaTeX Warning: Citation `de2018energy' on page 15 undefined on input line 826.
+
+
+LaTeX Warning: Reference `eq:macro_proliferation' on page 15 undefined on input
+ line 826.
+
+
+LaTeX Warning: Reference `functionPhi' on page 15 undefined on input line 831.
+
+
+LaTeX Warning: Reference `def:energy' on page 15 undefined on input line 835.
+
+
+LaTeX Warning: Reference `def:energy' on page 15 undefined on input line 836.
+
+
+LaTeX Warning: Reference `hypo1' on page 15 undefined on input line 847.
+
+
+LaTeX Warning: Reference `hypo2' on page 15 undefined on input line 847.
+
+[15]
+
+LaTeX Warning: Reference `eq:scheme' on page 16 undefined on input line 849.
+
 Package epstopdf Info: Source file: <stab_test.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 37869 bytes
@@ -563,7 +1254,7 @@ Package epstopdf Info: Source file: <stab_test.eps>
 .pdf stab_test.eps>
 (epstopdf)             \includegraphics on input line 856.
 Package epstopdf Info: Output file is already uptodate.
-<stab_test-eps-converted-to.pdf, id=446, 562.1pt x 421.575pt>
+<stab_test-eps-converted-to.pdf, id=158, 562.1pt x 421.575pt>
 File: stab_test-eps-converted-to.pdf Graphic file (type pdf)
 <use stab_test-eps-converted-to.pdf>
 Package pdftex.def Info: stab_test-eps-converted-to.pdf  used on input line 856
@@ -579,12 +1270,16 @@ Package epstopdf Info: Source file: <efficiency_test.eps>
 ted-to.pdf efficiency_test.eps>
 (epstopdf)             \includegraphics on input line 856.
 Package epstopdf Info: Output file is already uptodate.
-<efficiency_test-eps-converted-to.pdf, id=447, 562.1pt x 421.575pt>
+<efficiency_test-eps-converted-to.pdf, id=159, 562.1pt x 421.575pt>
 File: efficiency_test-eps-converted-to.pdf Graphic file (type pdf)
 <use efficiency_test-eps-converted-to.pdf>
 Package pdftex.def Info: efficiency_test-eps-converted-to.pdf  used on input li
 ne 856.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+
+LaTeX Warning: Reference `fig:density_eps_A_20' on page 16 undefined on input l
+ine 868.
+
 Package epstopdf Info: Source file: <check_A_20_T_5.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 89815 bytes
@@ -595,7 +1290,7 @@ Package epstopdf Info: Source file: <check_A_20_T_5.eps>
 ed-to.pdf check_A_20_T_5.eps>
 (epstopdf)             \includegraphics on input line 873.
 Package epstopdf Info: Output file is already uptodate.
-<check_A_20_T_5-eps-converted-to.pdf, id=449, 562.1pt x 421.575pt>
+<check_A_20_T_5-eps-converted-to.pdf, id=160, 562.1pt x 421.575pt>
 File: check_A_20_T_5-eps-converted-to.pdf Graphic file (type pdf)
 <use check_A_20_T_5-eps-converted-to.pdf>
 Package pdftex.def Info: check_A_20_T_5-eps-converted-to.pdf  used on input lin
@@ -611,7 +1306,7 @@ Package epstopdf Info: Source file: <check_A_20_T_20.eps>
 ted-to.pdf check_A_20_T_20.eps>
 (epstopdf)             \includegraphics on input line 873.
 Package epstopdf Info: Output file is already uptodate.
-<check_A_20_T_20-eps-converted-to.pdf, id=450, 562.1pt x 421.575pt>
+<check_A_20_T_20-eps-converted-to.pdf, id=161, 562.1pt x 421.575pt>
 File: check_A_20_T_20-eps-converted-to.pdf Graphic file (type pdf)
 <use check_A_20_T_20-eps-converted-to.pdf>
 Package pdftex.def Info: check_A_20_T_20-eps-converted-to.pdf  used on input li
@@ -627,7 +1322,7 @@ Package epstopdf Info: Source file: <check_A_20_T_32.eps>
 ted-to.pdf check_A_20_T_32.eps>
 (epstopdf)             \includegraphics on input line 876.
 Package epstopdf Info: Output file is already uptodate.
-<check_A_20_T_32-eps-converted-to.pdf, id=451, 562.1pt x 421.575pt>
+<check_A_20_T_32-eps-converted-to.pdf, id=162, 562.1pt x 421.575pt>
 File: check_A_20_T_32-eps-converted-to.pdf Graphic file (type pdf)
 <use check_A_20_T_32-eps-converted-to.pdf>
 Package pdftex.def Info: check_A_20_T_32-eps-converted-to.pdf  used on input li
@@ -643,16 +1338,65 @@ Package epstopdf Info: Source file: <check_A_20_T_40.eps>
 ted-to.pdf check_A_20_T_40.eps>
 (epstopdf)             \includegraphics on input line 876.
 Package epstopdf Info: Output file is already uptodate.
-<check_A_20_T_40-eps-converted-to.pdf, id=452, 562.1pt x 421.575pt>
+<check_A_20_T_40-eps-converted-to.pdf, id=163, 562.1pt x 421.575pt>
 File: check_A_20_T_40-eps-converted-to.pdf Graphic file (type pdf)
 <use check_A_20_T_40-eps-converted-to.pdf>
 Package pdftex.def Info: check_A_20_T_40-eps-converted-to.pdf  used on input li
 ne 876.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
- [16 <./stab_test-eps-converted-to.pdf> <./efficiency_test-eps-converted-to.pdf
->] [17 <./check_A_20_T_5-eps-converted-to.pdf> <./check_A_20_T_20-eps-converted
--to.pdf> <./check_A_20_T_32-eps-converted-to.pdf> <./check_A_20_T_40-eps-conver
-ted-to.pdf>]
+[16 <./stab_test-eps-converted-to.pdf> <./efficiency_test-eps-converted-to.pdf>
+]
+
+LaTeX Warning: Reference `fig:plot_energy_w_sol' on page 17 undefined on input 
+line 882.
+
+
+LaTeX Warning: Reference `def:energy' on page 17 undefined on input line 882.
+
+
+LaTeX Warning: Reference `subsec:energy' on page 17 undefined on input line 882
+.
+
+
+LaTeX Warning: Reference `def:energy' on page 17 undefined on input line 882.
+
+
+LaTeX Warning: Reference `fig:plot_energy_time' on page 17 undefined on input l
+ine 884.
+
+
+LaTeX Warning: Reference `fig:plot_energy_w_sol' on page 17 undefined on input 
+line 884.
+
+
+LaTeX Warning: Reference `fig:plot_energy_time' on page 17 undefined on input l
+ine 887.
+
+
+LaTeX Warning: Reference `fig:plot_energy_time' on page 17 undefined on input l
+ine 887.
+
+
+LaTeX Warning: Reference `fig:plot_energy_w_sol' on page 17 undefined on input 
+line 887.
+
+
+LaTeX Warning: Citation `Alt1980' on page 17 undefined on input line 887.
+
+
+LaTeX Warning: Citation `patlak1953random' on page 17 undefined on input line 8
+87.
+
+
+LaTeX Warning: Citation `Hillen2009' on page 17 undefined on input line 887.
+
+
+LaTeX Warning: Citation `painter2002volume' on page 17 undefined on input line 
+887.
+
+[17 <./check_A_20_T_5-eps-converted-to.pdf> <./check_A_20_T_20-eps-converted-to
+.pdf> <./check_A_20_T_32-eps-converted-to.pdf> <./check_A_20_T_40-eps-converted
+-to.pdf>]
 Package epstopdf Info: Source file: <energy_A_20_T_50_w_sol.eps>
 (epstopdf)                    date: 2025-03-27 07:44:12
 (epstopdf)                    size: 217665 bytes
@@ -664,7 +1408,7 @@ f>
 -converted-to.pdf energy_A_20_T_50_w_sol.eps>
 (epstopdf)             \includegraphics on input line 891.
 Package epstopdf Info: Output file is already uptodate.
-<energy_A_20_T_50_w_sol-eps-converted-to.pdf, id=502, 1428.33624pt x 547.04375p
+<energy_A_20_T_50_w_sol-eps-converted-to.pdf, id=198, 1428.33624pt x 547.04375p
 t>
 File: energy_A_20_T_50_w_sol-eps-converted-to.pdf Graphic file (type pdf)
 <use energy_A_20_T_50_w_sol-eps-converted-to.pdf>
@@ -682,7 +1426,7 @@ nverted-to.pdf>
 A_20_T_50-eps-converted-to.pdf l2_relative_err_evolution_A_20_T_50.eps>
 (epstopdf)             \includegraphics on input line 900.
 Package epstopdf Info: Output file is already uptodate.
-<l2_relative_err_evolution_A_20_T_50-eps-converted-to.pdf, id=503, 562.1pt x 42
+<l2_relative_err_evolution_A_20_T_50-eps-converted-to.pdf, id=199, 562.1pt x 42
 1.575pt>
 File: l2_relative_err_evolution_A_20_T_50-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -701,19 +1445,48 @@ o.pdf>
 -eps-converted-to.pdf check_l2_relative_err_A_20.eps>
 (epstopdf)             \includegraphics on input line 900.
 Package epstopdf Info: Output file is already uptodate.
-<check_l2_relative_err_A_20-eps-converted-to.pdf, id=504, 562.1pt x 421.575pt>
+<check_l2_relative_err_A_20-eps-converted-to.pdf, id=200, 562.1pt x 421.575pt>
 File: check_l2_relative_err_A_20-eps-converted-to.pdf Graphic file (type pdf)
 <use check_l2_relative_err_A_20-eps-converted-to.pdf>
 Package pdftex.def Info: check_l2_relative_err_A_20-eps-converted-to.pdf  used 
 on input line 900.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
 
+
+LaTeX Warning: Reference `fig:density_eps_A_20' on page 18 undefined on input l
+ine 901.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 901--901
 \OT1/cmr/m/sc/10 Figure 4.[]\OT1/cmr/m/n/10 Left: Evo-lu-tion of the rel-a-tive
  $\OML/cmm/m/it/10 L[]$\OT1/cmr/m/n/10 -error
  []
 
+
+LaTeX Warning: Reference `eq:macro_proliferation' on page 18 undefined on input
+ line 908.
+
+
+LaTeX Warning: Citation `almeida2020treatment' on page 18 undefined on input li
+ne 908.
+
+
+LaTeX Warning: Reference `eq:kinetic_approx' on page 18 undefined on input line
+ 912.
+
+
+LaTeX Warning: Reference `eq:macro_proliferation' on page 18 undefined on input
+ line 912.
+
 [18 <./energy_A_20_T_50_w_sol-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `subsec:energy_dissipation' on page 19 undefined on in
+put line 928.
+
+
+LaTeX Warning: Citation `almeida2020treatment' on page 19 undefined on input li
+ne 928.
+
 Package epstopdf Info: Source file: <compare_k_T_1.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 87542 bytes
@@ -724,7 +1497,7 @@ Package epstopdf Info: Source file: <compare_k_T_1.eps>
 d-to.pdf compare_k_T_1.eps>
 (epstopdf)             \includegraphics on input line 938.
 Package epstopdf Info: Output file is already uptodate.
-<compare_k_T_1-eps-converted-to.pdf, id=520, 562.1pt x 421.575pt>
+<compare_k_T_1-eps-converted-to.pdf, id=211, 562.1pt x 421.575pt>
 File: compare_k_T_1-eps-converted-to.pdf Graphic file (type pdf)
 <use compare_k_T_1-eps-converted-to.pdf>
 Package pdftex.def Info: compare_k_T_1-eps-converted-to.pdf  used on input line
@@ -740,15 +1513,73 @@ Package epstopdf Info: Source file: <compare_k_T_20.eps>
 ed-to.pdf compare_k_T_20.eps>
 (epstopdf)             \includegraphics on input line 938.
 Package epstopdf Info: Output file is already uptodate.
-<compare_k_T_20-eps-converted-to.pdf, id=521, 562.1pt x 421.575pt>
+<compare_k_T_20-eps-converted-to.pdf, id=212, 562.1pt x 421.575pt>
 File: compare_k_T_20-eps-converted-to.pdf Graphic file (type pdf)
 <use compare_k_T_20-eps-converted-to.pdf>
 Package pdftex.def Info: compare_k_T_20-eps-converted-to.pdf  used on input lin
 e 938.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
- [19 <./l2_relative_err_evolution_A_20_T_50-eps-converted-to.pdf> <./check_l2_r
-elative_err_A_20-eps-converted-to.pdf> <./compare_k_T_1-eps-converted-to.pdf> <
-./compare_k_T_20-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:k2_inv_compare' on page 19 undefined on input lin
+e 944.
+
+
+LaTeX Warning: Citation `almeida2020treatment' on page 19 undefined on input li
+ne 946.
+
+
+LaTeX Warning: Reference `fig:k2_inv_compare' on page 19 undefined on input lin
+e 950.
+
+
+LaTeX Warning: Citation `almeida2020treatment' on page 19 undefined on input li
+ne 952.
+
+[19 <./l2_relative_err_evolution_A_20_T_50-eps-converted-to.pdf> <./check_l2_re
+lative_err_A_20-eps-converted-to.pdf> <./compare_k_T_1-eps-converted-to.pdf> <.
+/compare_k_T_20-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `eq:scheme' on page 20 undefined on input line 956.
+
+
+LaTeX Warning: Reference `scheme:limit' on page 20 undefined on input line 956.
+
+
+
+LaTeX Warning: Reference `sec:appendix-FD-2D' on page 20 undefined on input lin
+e 956.
+
+
+LaTeX Warning: Reference `eq:kinetic_approx' on page 20 undefined on input line
+ 958.
+
+
+LaTeX Warning: Reference `eq:macro_proliferation' on page 20 undefined on input
+ line 958.
+
+
+LaTeX Warning: Reference `eq:kinetic_approx' on page 20 undefined on input line
+ 960.
+
+
+LaTeX Warning: Reference `hypo1' on page 20 undefined on input line 965.
+
+
+LaTeX Warning: Reference `hypo2' on page 20 undefined on input line 965.
+
+
+LaTeX Warning: Reference `fig:2D_macro' on page 20 undefined on input line 973.
+
+
+
+LaTeX Warning: Citation `almeida2020treatment' on page 20 undefined on input li
+ne 973.
+
+
+LaTeX Warning: Reference `fig:k2_inv_compare' on page 20 undefined on input lin
+e 973.
+
+
 Overfull \hbox (5.11835pt too wide) in paragraph at lines 971--974
 \OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 u\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT
 1/cmr/m/n/10 )$ is a ran-domly cho-sen uni-formly dis-tributed func-tion rang-i
@@ -756,7 +1587,23 @@ ng in $(\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10
 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 1)$.
  []
 
+
+LaTeX Warning: Reference `fig:2D_convergence_sol' on page 20 undefined on input
+ line 975.
+
+
+LaTeX Warning: Citation `painter2002volume' on page 20 undefined on input line 
+977.
+
 [20]
+
+LaTeX Warning: Reference `fig:2D_convergence' on page 21 undefined on input lin
+e 980.
+
+
+LaTeX Warning: Reference `fig:2D_convergence' on page 21 undefined on input lin
+e 980.
+
 Package epstopdf Info: Source file: <sol2D_A_6_T_5.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 79170 bytes
@@ -767,7 +1614,7 @@ Package epstopdf Info: Source file: <sol2D_A_6_T_5.eps>
 d-to.pdf sol2D_A_6_T_5.eps>
 (epstopdf)             \includegraphics on input line 987.
 Package epstopdf Info: Output file is already uptodate.
-<sol2D_A_6_T_5-eps-converted-to.pdf, id=569, 562.1pt x 421.575pt>
+<sol2D_A_6_T_5-eps-converted-to.pdf, id=240, 562.1pt x 421.575pt>
 File: sol2D_A_6_T_5-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_6_T_5-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_6_T_5-eps-converted-to.pdf  used on input line
@@ -783,7 +1630,7 @@ Package epstopdf Info: Source file: <sol2D_A_20_T_5.eps>
 ed-to.pdf sol2D_A_20_T_5.eps>
 (epstopdf)             \includegraphics on input line 987.
 Package epstopdf Info: Output file is already uptodate.
-<sol2D_A_20_T_5-eps-converted-to.pdf, id=570, 562.1pt x 421.575pt>
+<sol2D_A_20_T_5-eps-converted-to.pdf, id=241, 562.1pt x 421.575pt>
 File: sol2D_A_20_T_5-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_20_T_5-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_20_T_5-eps-converted-to.pdf  used on input lin
@@ -799,7 +1646,7 @@ Package epstopdf Info: Source file: <sol2D_A_50_T_5.eps>
 ed-to.pdf sol2D_A_50_T_5.eps>
 (epstopdf)             \includegraphics on input line 987.
 Package epstopdf Info: Output file is already uptodate.
-<sol2D_A_50_T_5-eps-converted-to.pdf, id=571, 562.1pt x 421.575pt>
+<sol2D_A_50_T_5-eps-converted-to.pdf, id=242, 562.1pt x 421.575pt>
 File: sol2D_A_50_T_5-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_50_T_5-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_50_T_5-eps-converted-to.pdf  used on input lin
@@ -815,7 +1662,7 @@ Package epstopdf Info: Source file: <sol2D_A_6_T_20.eps>
 ed-to.pdf sol2D_A_6_T_20.eps>
 (epstopdf)             \includegraphics on input line 992.
 Package epstopdf Info: Output file is already uptodate.
-<sol2D_A_6_T_20-eps-converted-to.pdf, id=572, 562.1pt x 421.575pt>
+<sol2D_A_6_T_20-eps-converted-to.pdf, id=243, 562.1pt x 421.575pt>
 File: sol2D_A_6_T_20-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_6_T_20-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_6_T_20-eps-converted-to.pdf  used on input lin
@@ -831,7 +1678,7 @@ Package epstopdf Info: Source file: <sol2D_A_20_T_20.eps>
 ted-to.pdf sol2D_A_20_T_20.eps>
 (epstopdf)             \includegraphics on input line 992.
 Package epstopdf Info: Output file is already uptodate.
-<sol2D_A_20_T_20-eps-converted-to.pdf, id=573, 562.1pt x 421.575pt>
+<sol2D_A_20_T_20-eps-converted-to.pdf, id=244, 562.1pt x 421.575pt>
 File: sol2D_A_20_T_20-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_20_T_20-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_20_T_20-eps-converted-to.pdf  used on input li
@@ -847,7 +1694,7 @@ Package epstopdf Info: Source file: <sol2D_A_50_T_20.eps>
 ted-to.pdf sol2D_A_50_T_20.eps>
 (epstopdf)             \includegraphics on input line 992.
 Package epstopdf Info: Output file is already uptodate.
-<sol2D_A_50_T_20-eps-converted-to.pdf, id=574, 562.1pt x 421.575pt>
+<sol2D_A_50_T_20-eps-converted-to.pdf, id=245, 562.1pt x 421.575pt>
 File: sol2D_A_50_T_20-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_50_T_20-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_50_T_20-eps-converted-to.pdf  used on input li
@@ -863,7 +1710,7 @@ Package epstopdf Info: Source file: <sol2D_A_6_T_50.eps>
 ed-to.pdf sol2D_A_6_T_50.eps>
 (epstopdf)             \includegraphics on input line 997.
 Package epstopdf Info: Output file is already uptodate.
-<sol2D_A_6_T_50-eps-converted-to.pdf, id=575, 562.1pt x 421.575pt>
+<sol2D_A_6_T_50-eps-converted-to.pdf, id=246, 562.1pt x 421.575pt>
 File: sol2D_A_6_T_50-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_6_T_50-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_6_T_50-eps-converted-to.pdf  used on input lin
@@ -879,7 +1726,7 @@ Package epstopdf Info: Source file: <sol2D_A_20_T_50.eps>
 ted-to.pdf sol2D_A_20_T_50.eps>
 (epstopdf)             \includegraphics on input line 997.
 Package epstopdf Info: Output file is already uptodate.
-<sol2D_A_20_T_50-eps-converted-to.pdf, id=576, 562.1pt x 421.575pt>
+<sol2D_A_20_T_50-eps-converted-to.pdf, id=247, 562.1pt x 421.575pt>
 File: sol2D_A_20_T_50-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_20_T_50-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_20_T_50-eps-converted-to.pdf  used on input li
@@ -895,7 +1742,7 @@ Package epstopdf Info: Source file: <sol2D_A_50_T_50.eps>
 ted-to.pdf sol2D_A_50_T_50.eps>
 (epstopdf)             \includegraphics on input line 997.
 Package epstopdf Info: Output file is already uptodate.
-<sol2D_A_50_T_50-eps-converted-to.pdf, id=577, 562.1pt x 421.575pt>
+<sol2D_A_50_T_50-eps-converted-to.pdf, id=248, 562.1pt x 421.575pt>
 File: sol2D_A_50_T_50-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_50_T_50-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_50_T_50-eps-converted-to.pdf  used on input li
@@ -912,7 +1759,7 @@ erted-to.pdf>
 _init_1-eps-converted-to.pdf Fig_2D_A_20_eps_1e-01_T_20_init_1.eps>
 (epstopdf)             \includegraphics on input line 1027.
 Package epstopdf Info: Output file is already uptodate.
-<Fig_2D_A_20_eps_1e-01_T_20_init_1-eps-converted-to.pdf, id=578, 514.92375pt x 
+<Fig_2D_A_20_eps_1e-01_T_20_init_1-eps-converted-to.pdf, id=249, 514.92375pt x 
 411.5375pt>
 File: Fig_2D_A_20_eps_1e-01_T_20_init_1-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -931,7 +1778,7 @@ erted-to.pdf>
 _init_1-eps-converted-to.pdf Fig_2D_A_20_eps_1e-02_T_20_init_1.eps>
 (epstopdf)             \includegraphics on input line 1027.
 Package epstopdf Info: Output file is already uptodate.
-<Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-converted-to.pdf, id=579, 514.92375pt x 
+<Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-converted-to.pdf, id=250, 514.92375pt x 
 411.5375pt>
 File: Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -950,7 +1797,7 @@ erted-to.pdf>
 _init_1-eps-converted-to.pdf Fig_2D_A_20_eps_1e-03_T_20_init_1.eps>
 (epstopdf)             \includegraphics on input line 1027.
 Package epstopdf Info: Output file is already uptodate.
-<Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-converted-to.pdf, id=580, 514.92375pt x 
+<Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-converted-to.pdf, id=251, 514.92375pt x 
 411.5375pt>
 File: Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -969,7 +1816,7 @@ f>
 -converted-to.pdf sol2D_A_20_T_20_init_1.eps>
 (epstopdf)             \includegraphics on input line 1027.
 Package epstopdf Info: Output file is already uptodate.
-<sol2D_A_20_T_20_init_1-eps-converted-to.pdf, id=581, 562.1pt x 421.575pt>
+<sol2D_A_20_T_20_init_1-eps-converted-to.pdf, id=252, 562.1pt x 421.575pt>
 File: sol2D_A_20_T_20_init_1-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_20_T_20_init_1-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_20_T_20_init_1-eps-converted-to.pdf  used on i
@@ -986,7 +1833,7 @@ erted-to.pdf>
 _init_1-eps-converted-to.pdf Fig_2D_A_50_eps_1e-01_T_20_init_1.eps>
 (epstopdf)             \includegraphics on input line 1034.
 Package epstopdf Info: Output file is already uptodate.
-<Fig_2D_A_50_eps_1e-01_T_20_init_1-eps-converted-to.pdf, id=582, 514.92375pt x 
+<Fig_2D_A_50_eps_1e-01_T_20_init_1-eps-converted-to.pdf, id=253, 514.92375pt x 
 411.5375pt>
 File: Fig_2D_A_50_eps_1e-01_T_20_init_1-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1005,7 +1852,7 @@ erted-to.pdf>
 _init_1-eps-converted-to.pdf Fig_2D_A_50_eps_1e-02_T_20_init_1.eps>
 (epstopdf)             \includegraphics on input line 1034.
 Package epstopdf Info: Output file is already uptodate.
-<Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-converted-to.pdf, id=583, 514.92375pt x 
+<Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-converted-to.pdf, id=254, 514.92375pt x 
 411.5375pt>
 File: Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1024,7 +1871,7 @@ erted-to.pdf>
 _init_1-eps-converted-to.pdf Fig_2D_A_50_eps_1e-03_T_20_init_1.eps>
 (epstopdf)             \includegraphics on input line 1034.
 Package epstopdf Info: Output file is already uptodate.
-<Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-converted-to.pdf, id=584, 514.92375pt x 
+<Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-converted-to.pdf, id=255, 514.92375pt x 
 411.5375pt>
 File: Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1043,7 +1890,7 @@ f>
 -converted-to.pdf sol2D_A_50_T_20_init_1.eps>
 (epstopdf)             \includegraphics on input line 1034.
 Package epstopdf Info: Output file is already uptodate.
-<sol2D_A_50_T_20_init_1-eps-converted-to.pdf, id=585, 562.1pt x 421.575pt>
+<sol2D_A_50_T_20_init_1-eps-converted-to.pdf, id=256, 562.1pt x 421.575pt>
 File: sol2D_A_50_T_20_init_1-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_50_T_20_init_1-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_50_T_20_init_1-eps-converted-to.pdf  used on i
@@ -1060,7 +1907,7 @@ verted-to.pdf>
 _init_10-eps-converted-to.pdf Fig_2D_A_20_eps_1e-01_T_20_init_10.eps>
 (epstopdf)             \includegraphics on input line 1041.
 Package epstopdf Info: Output file is already uptodate.
-<Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-converted-to.pdf, id=586, 514.92375pt x
+<Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-converted-to.pdf, id=257, 514.92375pt x
  411.5375pt>
 File: Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1079,7 +1926,7 @@ verted-to.pdf>
 _init_10-eps-converted-to.pdf Fig_2D_A_20_eps_1e-02_T_20_init_10.eps>
 (epstopdf)             \includegraphics on input line 1041.
 Package epstopdf Info: Output file is already uptodate.
-<Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-converted-to.pdf, id=587, 514.92375pt x
+<Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-converted-to.pdf, id=258, 514.92375pt x
  411.5375pt>
 File: Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1098,7 +1945,7 @@ verted-to.pdf>
 _init_10-eps-converted-to.pdf Fig_2D_A_20_eps_1e-03_T_20_init_10.eps>
 (epstopdf)             \includegraphics on input line 1041.
 Package epstopdf Info: Output file is already uptodate.
-<Fig_2D_A_20_eps_1e-03_T_20_init_10-eps-converted-to.pdf, id=588, 514.92375pt x
+<Fig_2D_A_20_eps_1e-03_T_20_init_10-eps-converted-to.pdf, id=259, 514.92375pt x
  411.5375pt>
 File: Fig_2D_A_20_eps_1e-03_T_20_init_10-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1117,7 +1964,7 @@ df>
 s-converted-to.pdf sol2D_A_20_T_20_init_10.eps>
 (epstopdf)             \includegraphics on input line 1041.
 Package epstopdf Info: Output file is already uptodate.
-<sol2D_A_20_T_20_init_10-eps-converted-to.pdf, id=589, 562.1pt x 421.575pt>
+<sol2D_A_20_T_20_init_10-eps-converted-to.pdf, id=260, 562.1pt x 421.575pt>
 File: sol2D_A_20_T_20_init_10-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_20_T_20_init_10-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_20_T_20_init_10-eps-converted-to.pdf  used on 
@@ -1134,7 +1981,7 @@ verted-to.pdf>
 _init_10-eps-converted-to.pdf Fig_2D_A_50_eps_1e-01_T_20_init_10.eps>
 (epstopdf)             \includegraphics on input line 1048.
 Package epstopdf Info: Output file is already uptodate.
-<Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-converted-to.pdf, id=590, 514.92375pt x
+<Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-converted-to.pdf, id=261, 514.92375pt x
  411.5375pt>
 File: Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1153,7 +2000,7 @@ verted-to.pdf>
 _init_10-eps-converted-to.pdf Fig_2D_A_50_eps_1e-02_T_20_init_10.eps>
 (epstopdf)             \includegraphics on input line 1048.
 Package epstopdf Info: Output file is already uptodate.
-<Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-converted-to.pdf, id=591, 514.92375pt x
+<Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-converted-to.pdf, id=262, 514.92375pt x
  411.5375pt>
 File: Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1172,7 +2019,7 @@ verted-to.pdf>
 _init_10-eps-converted-to.pdf Fig_2D_A_50_eps_1e-03_T_20_init_10.eps>
 (epstopdf)             \includegraphics on input line 1048.
 Package epstopdf Info: Output file is already uptodate.
-<Fig_2D_A_50_eps_1e-03_T_20_init_10-eps-converted-to.pdf, id=592, 514.92375pt x
+<Fig_2D_A_50_eps_1e-03_T_20_init_10-eps-converted-to.pdf, id=263, 514.92375pt x
  411.5375pt>
 File: Fig_2D_A_50_eps_1e-03_T_20_init_10-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -1191,7 +2038,7 @@ df>
 s-converted-to.pdf sol2D_A_50_T_20_init_10.eps>
 (epstopdf)             \includegraphics on input line 1048.
 Package epstopdf Info: Output file is already uptodate.
-<sol2D_A_50_T_20_init_10-eps-converted-to.pdf, id=593, 562.1pt x 421.575pt>
+<sol2D_A_50_T_20_init_10-eps-converted-to.pdf, id=264, 562.1pt x 421.575pt>
 File: sol2D_A_50_T_20_init_10-eps-converted-to.pdf Graphic file (type pdf)
 <use sol2D_A_50_T_20_init_10-eps-converted-to.pdf>
 Package pdftex.def Info: sol2D_A_50_T_20_init_10-eps-converted-to.pdf  used on 
@@ -1208,7 +2055,7 @@ ed-to.pdf>
 T_20-eps-converted-to.pdf l2_relative_error_2D_A_20_T_20.eps>
 (epstopdf)             \includegraphics on input line 1057.
 Package epstopdf Info: Output file is already uptodate.
-<l2_relative_error_2D_A_20_T_20-eps-converted-to.pdf, id=594, 562.1pt x 421.575
+<l2_relative_error_2D_A_20_T_20-eps-converted-to.pdf, id=265, 562.1pt x 421.575
 pt>
 File: l2_relative_error_2D_A_20_T_20-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1226,30 +2073,45 @@ Package epstopdf Info: Source file: <convergence_vep_2D.eps>
 verted-to.pdf convergence_vep_2D.eps>
 (epstopdf)             \includegraphics on input line 1057.
 Package epstopdf Info: Output file is already uptodate.
-<convergence_vep_2D-eps-converted-to.pdf, id=595, 562.1pt x 421.575pt>
+<convergence_vep_2D-eps-converted-to.pdf, id=266, 562.1pt x 421.575pt>
 File: convergence_vep_2D-eps-converted-to.pdf Graphic file (type pdf)
 <use convergence_vep_2D-eps-converted-to.pdf>
 Package pdftex.def Info: convergence_vep_2D-eps-converted-to.pdf  used on input
  line 1057.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
- [21 <./sol2D_A_6_T_5-eps-converted-to.pdf> <./sol2D_A_20_T_5-eps-converted-to.
-pdf> <./sol2D_A_50_T_5-eps-converted-to.pdf> <./sol2D_A_6_T_20-eps-converted-to
-.pdf> <./sol2D_A_20_T_20-eps-converted-to.pdf> <./sol2D_A_50_T_20-eps-converted
--to.pdf> <./sol2D_A_6_T_50-eps-converted-to.pdf> <./sol2D_A_20_T_50-eps-convert
-ed-to.pdf> <./sol2D_A_50_T_50-eps-converted-to.pdf>] [22 <./Fig_2D_A_20_eps_1e-
-01_T_20_init_1-eps-converted-to.pdf> <./Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-c
-onverted-to.pdf> <./Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-converted-to.pdf> <./
-sol2D_A_20_T_20_init_1-eps-converted-to.pdf> <./Fig_2D_A_50_eps_1e-01_T_20_init
-_1-eps-converted-to.pdf> <./Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-converted-to.
-pdf> <./Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-converted-to.pdf> <./sol2D_A_50_T
-_20_init_1-eps-converted-to.pdf> <./Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-conv
-erted-to.pdf> <./Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-converted-to.pdf> <./Fi
-g_2D_A_20_eps_1e-03_T_20_init_10-eps-converted-to.pdf> <./sol2D_A_20_T_20_init_
-10-eps-converted-to.pdf> <./Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-converted-to
-.pdf> <./Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-converted-to.pdf> <./Fig_2D_A_5
-0_eps_1e-03_T_20_init_10-eps-converted-to.pdf> <./sol2D_A_50_T_20_init_10-eps-c
-onverted-to.pdf> <./l2_relative_error_2D_A_20_T_20-eps-converted-to.pdf> <./con
-vergence_vep_2D-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `LemouMieussens' on page 21 undefined on input line 106
+7.
+
+[21 <./sol2D_A_6_T_5-eps-converted-to.pdf> <./sol2D_A_20_T_5-eps-converted-to.p
+df> <./sol2D_A_50_T_5-eps-converted-to.pdf> <./sol2D_A_6_T_20-eps-converted-to.
+pdf> <./sol2D_A_20_T_20-eps-converted-to.pdf> <./sol2D_A_50_T_20-eps-converted-
+to.pdf> <./sol2D_A_6_T_50-eps-converted-to.pdf> <./sol2D_A_20_T_50-eps-converte
+d-to.pdf> <./sol2D_A_50_T_50-eps-converted-to.pdf>] [22 <./Fig_2D_A_20_eps_1e-0
+1_T_20_init_1-eps-converted-to.pdf> <./Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-co
+nverted-to.pdf> <./Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-converted-to.pdf> <./s
+ol2D_A_20_T_20_init_1-eps-converted-to.pdf> <./Fig_2D_A_50_eps_1e-01_T_20_init_
+1-eps-converted-to.pdf> <./Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-converted-to.p
+df> <./Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-converted-to.pdf> <./sol2D_A_50_T_
+20_init_1-eps-converted-to.pdf> <./Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-conve
+rted-to.pdf> <./Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-converted-to.pdf> <./Fig
+_2D_A_20_eps_1e-03_T_20_init_10-eps-converted-to.pdf> <./sol2D_A_20_T_20_init_1
+0-eps-converted-to.pdf> <./Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-converted-to.
+pdf> <./Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-converted-to.pdf> <./Fig_2D_A_50
+_eps_1e-03_T_20_init_10-eps-converted-to.pdf> <./sol2D_A_50_T_20_init_10-eps-co
+nverted-to.pdf> <./l2_relative_error_2D_A_20_T_20-eps-converted-to.pdf> <./conv
+ergence_vep_2D-eps-converted-to.pdf>]
+
+LaTeX Warning: Citation `stevens2000derivation' on page 23 undefined on input l
+ine 1073.
+
+
+LaTeX Warning: Reference `eq:scheme' on page 23 undefined on input line 1079.
+
+
+LaTeX Warning: Reference `fig:grid_illstration' on page 23 undefined on input l
+ine 1091.
+
 Package epstopdf Info: Source file: <grid_illustration_1D.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 58052 bytes
@@ -1261,7 +2123,7 @@ Package epstopdf Info: Source file: <grid_illustration_1D.eps>
 onverted-to.pdf grid_illustration_1D.eps>
 (epstopdf)             \includegraphics on input line 1097.
 Package epstopdf Info: Output file is already uptodate.
-<grid_illustration_1D-eps-converted-to.pdf, id=765, 562.1pt x 421.575pt>
+<grid_illustration_1D-eps-converted-to.pdf, id=435, 562.1pt x 421.575pt>
 File: grid_illustration_1D-eps-converted-to.pdf Graphic file (type pdf)
 <use grid_illustration_1D-eps-converted-to.pdf>
 Package pdftex.def Info: grid_illustration_1D-eps-converted-to.pdf  used on inp
@@ -1278,12 +2140,16 @@ Package epstopdf Info: Source file: <grid_illustration_2D.eps>
 onverted-to.pdf grid_illustration_2D.eps>
 (epstopdf)             \includegraphics on input line 1097.
 Package epstopdf Info: Output file is already uptodate.
-<grid_illustration_2D-eps-converted-to.pdf, id=766, 562.1pt x 421.575pt>
+<grid_illustration_2D-eps-converted-to.pdf, id=436, 562.1pt x 421.575pt>
 File: grid_illustration_2D-eps-converted-to.pdf Graphic file (type pdf)
 <use grid_illustration_2D-eps-converted-to.pdf>
 Package pdftex.def Info: grid_illustration_2D-eps-converted-to.pdf  used on inp
 ut line 1097.
 (pdftex.def)             Requested size: 168.6313pt x 126.47346pt.
+
+LaTeX Warning: Reference `eq:kinetic_approx' on page 23 undefined on input line
+ 1102.
+
 
 Overfull \hbox (56.15863pt too wide) detected at line 1116
 []
@@ -1299,34 +2165,55 @@ Overfull \hbox (23.43816pt too wide) detected at line 1143
 
 [24 <./grid_illustration_1D-eps-converted-to.pdf> <./grid_illustration_2D-eps-c
 onverted-to.pdf>]
+
+LaTeX Warning: Reference `eq:scheme_2D' on page 25 undefined on input line 1158
+.
+
+
 Overfull \hbox (4.99797pt too wide) detected at line 1171
 []
  []
+
+
+LaTeX Warning: Reference `eq:scheme_2D' on page 25 undefined on input line 1172
+.
 
 
 Overfull \hbox (25.91447pt too wide) detected at line 1186
 []
  []
 
-(./AIMS_VFPKS.bbl [25] [26]) [27] (./AIMS_VFPKS.aux)
+[25] [26] (./AIMS_VFPKS.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `AIMS_VFPKS.out' has not changed.
-(rerunfilecheck)             Checksum: A78811AC5F1D8EB30C410F96F13A077F;3859.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `AIMS_VFPKS.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `AIMS_VFPKS.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  A78811AC5F1D8EB30C410F96F13A077F;3859.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 887 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10658 strings out of 476025
- 174091 string characters out of 5790017
+ 10571 strings out of 476025
+ 172246 string characters out of 5790017
  1885388 words of memory out of 5000000
- 30590 multiletter control sequences out of 15000+600000
+ 30541 multiletter control sequences out of 15000+600000
  523931 words of font info for 75 fonts, out of 8000000 for 9000
  1308 hyphenation exceptions out of 8191
- 72i,17n,76p,2540b,733s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,17n,76p,2540b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/ruanxinran/Library/texlive/2023/texmf-var/fonts/pk/ljf
 our/public/ifsym/ifsym10.420pk></usr/local/texlive/2023/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/p
@@ -1350,10 +2237,10 @@ fb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
 sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/
 local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AIMS_VFPKS.pdf (27 pages, 2203411 bytes).
+Output written on AIMS_VFPKS.pdf (26 pages, 2178900 bytes).
 PDF statistics:
- 927 PDF objects out of 1000 (max. 8388607)
- 718 compressed objects within 8 object streams
- 149 named destinations out of 1000 (max. 500000)
- 342 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 599 PDF objects out of 1000 (max. 8388607)
+ 395 compressed objects within 4 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 206 words of extra memory for PDF output out of 10000 (max. 10000000)
 
