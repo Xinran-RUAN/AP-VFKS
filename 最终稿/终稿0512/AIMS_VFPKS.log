@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.30)  13 MAY 2025 17:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.30)  13 MAY 2025 17:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1631,9 +1631,6 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `AIMS_VFPKS.out' has not changed.
 (rerunfilecheck)             Checksum: A78811AC5F1D8EB30C410F96F13A077F;3859.
  )
@@ -1642,10 +1639,10 @@ Package rerunfilecheck Info: File `AIMS_VFPKS.out' has not changed.
 ### simple group (level 1) entered at line 887 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10576 strings out of 476025
- 172444 string characters out of 5790017
+ 10567 strings out of 476025
+ 172416 string characters out of 5790017
  1885388 words of memory out of 5000000
- 30554 multiletter control sequences out of 15000+600000
+ 30545 multiletter control sequences out of 15000+600000
  523931 words of font info for 75 fonts, out of 8000000 for 9000
  1308 hyphenation exceptions out of 8191
  72i,17n,76p,2540b,635s stack positions out of 10000i,1000n,20000p,200000b,200000s
