@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.30)  15 MAY 2025 15:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.30)  15 MAY 2025 15:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -557,7 +557,7 @@ Package epstopdf Info: Source file: <stab_test.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 37869 bytes
 (epstopdf)             Output file: <stab_test-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:25
+(epstopdf)                    date: 2025-05-15 15:18:01
 (epstopdf)                    size: 9647 bytes
 (epstopdf)             Command: <repstopdf --outfile=stab_test-eps-converted-to
 .pdf stab_test.eps>
@@ -573,7 +573,7 @@ Package epstopdf Info: Source file: <efficiency_test.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 31114 bytes
 (epstopdf)             Output file: <efficiency_test-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:25
+(epstopdf)                    date: 2025-05-15 15:18:01
 (epstopdf)                    size: 16042 bytes
 (epstopdf)             Command: <repstopdf --outfile=efficiency_test-eps-conver
 ted-to.pdf efficiency_test.eps>
@@ -589,7 +589,7 @@ Package epstopdf Info: Source file: <check_A_20_T_5.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 89815 bytes
 (epstopdf)             Output file: <check_A_20_T_5-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:26
+(epstopdf)                    date: 2025-05-15 15:18:01
 (epstopdf)                    size: 49458 bytes
 (epstopdf)             Command: <repstopdf --outfile=check_A_20_T_5-eps-convert
 ed-to.pdf check_A_20_T_5.eps>
@@ -605,7 +605,7 @@ Package epstopdf Info: Source file: <check_A_20_T_20.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 89575 bytes
 (epstopdf)             Output file: <check_A_20_T_20-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:26
+(epstopdf)                    date: 2025-05-15 15:18:01
 (epstopdf)                    size: 49125 bytes
 (epstopdf)             Command: <repstopdf --outfile=check_A_20_T_20-eps-conver
 ted-to.pdf check_A_20_T_20.eps>
@@ -621,7 +621,7 @@ Package epstopdf Info: Source file: <check_A_20_T_32.eps>
 (epstopdf)                    date: 2025-03-27 07:44:12
 (epstopdf)                    size: 90484 bytes
 (epstopdf)             Output file: <check_A_20_T_32-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:26
+(epstopdf)                    date: 2025-05-15 15:18:01
 (epstopdf)                    size: 49672 bytes
 (epstopdf)             Command: <repstopdf --outfile=check_A_20_T_32-eps-conver
 ted-to.pdf check_A_20_T_32.eps>
@@ -637,7 +637,7 @@ Package epstopdf Info: Source file: <check_A_20_T_40.eps>
 (epstopdf)                    date: 2025-03-27 07:44:12
 (epstopdf)                    size: 88853 bytes
 (epstopdf)             Output file: <check_A_20_T_40-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:26
+(epstopdf)                    date: 2025-05-15 15:18:02
 (epstopdf)                    size: 48541 bytes
 (epstopdf)             Command: <repstopdf --outfile=check_A_20_T_40-eps-conver
 ted-to.pdf check_A_20_T_40.eps>
@@ -658,7 +658,7 @@ Package epstopdf Info: Source file: <energy_A_20_T_50_w_sol.eps>
 (epstopdf)                    size: 217665 bytes
 (epstopdf)             Output file: <energy_A_20_T_50_w_sol-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2025-05-13 17:31:26
+(epstopdf)                    date: 2025-05-15 15:18:02
 (epstopdf)                    size: 123449 bytes
 (epstopdf)             Command: <repstopdf --outfile=energy_A_20_T_50_w_sol-eps
 -converted-to.pdf energy_A_20_T_50_w_sol.eps>
@@ -676,7 +676,7 @@ Package epstopdf Info: Source file: <l2_relative_err_evolution_A_20_T_50.eps>
 (epstopdf)                    size: 128895 bytes
 (epstopdf)             Output file: <l2_relative_err_evolution_A_20_T_50-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:27
+(epstopdf)                    date: 2025-05-15 15:18:02
 (epstopdf)                    size: 55331 bytes
 (epstopdf)             Command: <repstopdf --outfile=l2_relative_err_evolution_
 A_20_T_50-eps-converted-to.pdf l2_relative_err_evolution_A_20_T_50.eps>
@@ -695,7 +695,7 @@ Package epstopdf Info: Source file: <check_l2_relative_err_A_20.eps>
 (epstopdf)                    size: 121103 bytes
 (epstopdf)             Output file: <check_l2_relative_err_A_20-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:27
+(epstopdf)                    date: 2025-05-15 15:18:02
 (epstopdf)                    size: 61744 bytes
 (epstopdf)             Command: <repstopdf --outfile=check_l2_relative_err_A_20
 -eps-converted-to.pdf check_l2_relative_err_A_20.eps>
@@ -718,7 +718,7 @@ Package epstopdf Info: Source file: <compare_k_T_1.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 87542 bytes
 (epstopdf)             Output file: <compare_k_T_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:27
+(epstopdf)                    date: 2025-05-15 15:18:03
 (epstopdf)                    size: 39896 bytes
 (epstopdf)             Command: <repstopdf --outfile=compare_k_T_1-eps-converte
 d-to.pdf compare_k_T_1.eps>
@@ -734,7 +734,7 @@ Package epstopdf Info: Source file: <compare_k_T_20.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 89295 bytes
 (epstopdf)             Output file: <compare_k_T_20-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:27
+(epstopdf)                    date: 2025-05-15 15:18:03
 (epstopdf)                    size: 41050 bytes
 (epstopdf)             Command: <repstopdf --outfile=compare_k_T_20-eps-convert
 ed-to.pdf compare_k_T_20.eps>
@@ -761,7 +761,7 @@ Package epstopdf Info: Source file: <sol2D_A_6_T_5.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 79170 bytes
 (epstopdf)             Output file: <sol2D_A_6_T_5-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:28
+(epstopdf)                    date: 2025-05-15 15:18:03
 (epstopdf)                    size: 53208 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_6_T_5-eps-converte
 d-to.pdf sol2D_A_6_T_5.eps>
@@ -777,7 +777,7 @@ Package epstopdf Info: Source file: <sol2D_A_20_T_5.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 82257 bytes
 (epstopdf)             Output file: <sol2D_A_20_T_5-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:28
+(epstopdf)                    date: 2025-05-15 15:18:03
 (epstopdf)                    size: 58249 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_20_T_5-eps-convert
 ed-to.pdf sol2D_A_20_T_5.eps>
@@ -793,7 +793,7 @@ Package epstopdf Info: Source file: <sol2D_A_50_T_5.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 77592 bytes
 (epstopdf)             Output file: <sol2D_A_50_T_5-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:28
+(epstopdf)                    date: 2025-05-15 15:18:03
 (epstopdf)                    size: 53140 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_50_T_5-eps-convert
 ed-to.pdf sol2D_A_50_T_5.eps>
@@ -809,7 +809,7 @@ Package epstopdf Info: Source file: <sol2D_A_6_T_20.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 78191 bytes
 (epstopdf)             Output file: <sol2D_A_6_T_20-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:28
+(epstopdf)                    date: 2025-05-15 15:18:04
 (epstopdf)                    size: 50821 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_6_T_20-eps-convert
 ed-to.pdf sol2D_A_6_T_20.eps>
@@ -825,7 +825,7 @@ Package epstopdf Info: Source file: <sol2D_A_20_T_20.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 79795 bytes
 (epstopdf)             Output file: <sol2D_A_20_T_20-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:28
+(epstopdf)                    date: 2025-05-15 15:18:04
 (epstopdf)                    size: 55508 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_20_T_20-eps-conver
 ted-to.pdf sol2D_A_20_T_20.eps>
@@ -841,7 +841,7 @@ Package epstopdf Info: Source file: <sol2D_A_50_T_20.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 74717 bytes
 (epstopdf)             Output file: <sol2D_A_50_T_20-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:29
+(epstopdf)                    date: 2025-05-15 15:18:04
 (epstopdf)                    size: 47068 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_50_T_20-eps-conver
 ted-to.pdf sol2D_A_50_T_20.eps>
@@ -857,7 +857,7 @@ Package epstopdf Info: Source file: <sol2D_A_6_T_50.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 76502 bytes
 (epstopdf)             Output file: <sol2D_A_6_T_50-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:29
+(epstopdf)                    date: 2025-05-15 15:18:04
 (epstopdf)                    size: 49037 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_6_T_50-eps-convert
 ed-to.pdf sol2D_A_6_T_50.eps>
@@ -873,7 +873,7 @@ Package epstopdf Info: Source file: <sol2D_A_20_T_50.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 76057 bytes
 (epstopdf)             Output file: <sol2D_A_20_T_50-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:29
+(epstopdf)                    date: 2025-05-15 15:18:05
 (epstopdf)                    size: 49418 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_20_T_50-eps-conver
 ted-to.pdf sol2D_A_20_T_50.eps>
@@ -889,7 +889,7 @@ Package epstopdf Info: Source file: <sol2D_A_50_T_50.eps>
 (epstopdf)                    date: 2025-03-27 07:44:14
 (epstopdf)                    size: 69512 bytes
 (epstopdf)             Output file: <sol2D_A_50_T_50-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:29
+(epstopdf)                    date: 2025-05-15 15:18:05
 (epstopdf)                    size: 42376 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_50_T_50-eps-conver
 ted-to.pdf sol2D_A_50_T_50.eps>
@@ -906,8 +906,8 @@ Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-01_T_20_init_1.eps>
 (epstopdf)                    size: 61394 bytes
 (epstopdf)             Output file: <Fig_2D_A_20_eps_1e-01_T_20_init_1-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:30
-(epstopdf)                    size: 48622 bytes
+(epstopdf)                    date: 2025-05-15 15:18:05
+(epstopdf)                    size: 48620 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-01_T_20
 _init_1-eps-converted-to.pdf Fig_2D_A_20_eps_1e-01_T_20_init_1.eps>
 (epstopdf)             \includegraphics on input line 1027.
@@ -925,7 +925,7 @@ Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-02_T_20_init_1.eps>
 (epstopdf)                    size: 62586 bytes
 (epstopdf)             Output file: <Fig_2D_A_20_eps_1e-02_T_20_init_1-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:30
+(epstopdf)                    date: 2025-05-15 15:18:05
 (epstopdf)                    size: 49089 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-02_T_20
 _init_1-eps-converted-to.pdf Fig_2D_A_20_eps_1e-02_T_20_init_1.eps>
@@ -944,7 +944,7 @@ Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-03_T_20_init_1.eps>
 (epstopdf)                    size: 63524 bytes
 (epstopdf)             Output file: <Fig_2D_A_20_eps_1e-03_T_20_init_1-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:30
+(epstopdf)                    date: 2025-05-15 15:18:05
 (epstopdf)                    size: 49440 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-03_T_20
 _init_1-eps-converted-to.pdf Fig_2D_A_20_eps_1e-03_T_20_init_1.eps>
@@ -963,7 +963,7 @@ Package epstopdf Info: Source file: <sol2D_A_20_T_20_init_1.eps>
 (epstopdf)                    size: 63552 bytes
 (epstopdf)             Output file: <sol2D_A_20_T_20_init_1-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2025-05-13 17:31:30
+(epstopdf)                    date: 2025-05-15 15:18:06
 (epstopdf)                    size: 49803 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_20_T_20_init_1-eps
 -converted-to.pdf sol2D_A_20_T_20_init_1.eps>
@@ -980,7 +980,7 @@ Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-01_T_20_init_1.eps>
 (epstopdf)                    size: 56352 bytes
 (epstopdf)             Output file: <Fig_2D_A_50_eps_1e-01_T_20_init_1-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:30
+(epstopdf)                    date: 2025-05-15 15:18:06
 (epstopdf)                    size: 38633 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-01_T_20
 _init_1-eps-converted-to.pdf Fig_2D_A_50_eps_1e-01_T_20_init_1.eps>
@@ -999,7 +999,7 @@ Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-02_T_20_init_1.eps>
 (epstopdf)                    size: 57480 bytes
 (epstopdf)             Output file: <Fig_2D_A_50_eps_1e-02_T_20_init_1-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:31
+(epstopdf)                    date: 2025-05-15 15:18:06
 (epstopdf)                    size: 39508 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-02_T_20
 _init_1-eps-converted-to.pdf Fig_2D_A_50_eps_1e-02_T_20_init_1.eps>
@@ -1018,7 +1018,7 @@ Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-03_T_20_init_1.eps>
 (epstopdf)                    size: 58263 bytes
 (epstopdf)             Output file: <Fig_2D_A_50_eps_1e-03_T_20_init_1-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:31
+(epstopdf)                    date: 2025-05-15 15:18:06
 (epstopdf)                    size: 40229 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-03_T_20
 _init_1-eps-converted-to.pdf Fig_2D_A_50_eps_1e-03_T_20_init_1.eps>
@@ -1037,7 +1037,7 @@ Package epstopdf Info: Source file: <sol2D_A_50_T_20_init_1.eps>
 (epstopdf)                    size: 58400 bytes
 (epstopdf)             Output file: <sol2D_A_50_T_20_init_1-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2025-05-13 17:31:31
+(epstopdf)                    date: 2025-05-15 15:18:07
 (epstopdf)                    size: 40540 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_50_T_20_init_1-eps
 -converted-to.pdf sol2D_A_50_T_20_init_1.eps>
@@ -1054,7 +1054,7 @@ Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-01_T_20_init_10.eps>
 (epstopdf)                    size: 59216 bytes
 (epstopdf)             Output file: <Fig_2D_A_20_eps_1e-01_T_20_init_10-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:31
+(epstopdf)                    date: 2025-05-15 15:18:07
 (epstopdf)                    size: 44001 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-01_T_20
 _init_10-eps-converted-to.pdf Fig_2D_A_20_eps_1e-01_T_20_init_10.eps>
@@ -1073,7 +1073,7 @@ Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-02_T_20_init_10.eps>
 (epstopdf)                    size: 59934 bytes
 (epstopdf)             Output file: <Fig_2D_A_20_eps_1e-02_T_20_init_10-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:32
+(epstopdf)                    date: 2025-05-15 15:18:07
 (epstopdf)                    size: 44162 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-02_T_20
 _init_10-eps-converted-to.pdf Fig_2D_A_20_eps_1e-02_T_20_init_10.eps>
@@ -1092,7 +1092,7 @@ Package epstopdf Info: Source file: <Fig_2D_A_20_eps_1e-03_T_20_init_10.eps>
 (epstopdf)                    size: 60811 bytes
 (epstopdf)             Output file: <Fig_2D_A_20_eps_1e-03_T_20_init_10-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:32
+(epstopdf)                    date: 2025-05-15 15:18:07
 (epstopdf)                    size: 44532 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_20_eps_1e-03_T_20
 _init_10-eps-converted-to.pdf Fig_2D_A_20_eps_1e-03_T_20_init_10.eps>
@@ -1111,7 +1111,7 @@ Package epstopdf Info: Source file: <sol2D_A_20_T_20_init_10.eps>
 (epstopdf)                    size: 60831 bytes
 (epstopdf)             Output file: <sol2D_A_20_T_20_init_10-eps-converted-to.p
 df>
-(epstopdf)                    date: 2025-05-13 17:31:32
+(epstopdf)                    date: 2025-05-15 15:18:07
 (epstopdf)                    size: 44923 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_20_T_20_init_10-ep
 s-converted-to.pdf sol2D_A_20_T_20_init_10.eps>
@@ -1128,7 +1128,7 @@ Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-01_T_20_init_10.eps>
 (epstopdf)                    size: 53909 bytes
 (epstopdf)             Output file: <Fig_2D_A_50_eps_1e-01_T_20_init_10-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:32
+(epstopdf)                    date: 2025-05-15 15:18:08
 (epstopdf)                    size: 37155 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-01_T_20
 _init_10-eps-converted-to.pdf Fig_2D_A_50_eps_1e-01_T_20_init_10.eps>
@@ -1147,7 +1147,7 @@ Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-02_T_20_init_10.eps>
 (epstopdf)                    size: 53447 bytes
 (epstopdf)             Output file: <Fig_2D_A_50_eps_1e-02_T_20_init_10-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:32
+(epstopdf)                    date: 2025-05-15 15:18:08
 (epstopdf)                    size: 36459 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-02_T_20
 _init_10-eps-converted-to.pdf Fig_2D_A_50_eps_1e-02_T_20_init_10.eps>
@@ -1166,7 +1166,7 @@ Package epstopdf Info: Source file: <Fig_2D_A_50_eps_1e-03_T_20_init_10.eps>
 (epstopdf)                    size: 54548 bytes
 (epstopdf)             Output file: <Fig_2D_A_50_eps_1e-03_T_20_init_10-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:33
+(epstopdf)                    date: 2025-05-15 15:18:08
 (epstopdf)                    size: 36785 bytes
 (epstopdf)             Command: <repstopdf --outfile=Fig_2D_A_50_eps_1e-03_T_20
 _init_10-eps-converted-to.pdf Fig_2D_A_50_eps_1e-03_T_20_init_10.eps>
@@ -1185,7 +1185,7 @@ Package epstopdf Info: Source file: <sol2D_A_50_T_20_init_10.eps>
 (epstopdf)                    size: 54560 bytes
 (epstopdf)             Output file: <sol2D_A_50_T_20_init_10-eps-converted-to.p
 df>
-(epstopdf)                    date: 2025-05-13 17:31:33
+(epstopdf)                    date: 2025-05-15 15:18:08
 (epstopdf)                    size: 37179 bytes
 (epstopdf)             Command: <repstopdf --outfile=sol2D_A_50_T_20_init_10-ep
 s-converted-to.pdf sol2D_A_50_T_20_init_10.eps>
@@ -1202,7 +1202,7 @@ Package epstopdf Info: Source file: <l2_relative_error_2D_A_20_T_20.eps>
 (epstopdf)                    size: 150011 bytes
 (epstopdf)             Output file: <l2_relative_error_2D_A_20_T_20-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:33
+(epstopdf)                    date: 2025-05-15 15:18:08
 (epstopdf)                    size: 70704 bytes
 (epstopdf)             Command: <repstopdf --outfile=l2_relative_error_2D_A_20_
 T_20-eps-converted-to.pdf l2_relative_error_2D_A_20_T_20.eps>
@@ -1220,7 +1220,7 @@ Package epstopdf Info: Source file: <convergence_vep_2D.eps>
 (epstopdf)                    date: 2025-03-27 07:44:12
 (epstopdf)                    size: 100044 bytes
 (epstopdf)             Output file: <convergence_vep_2D-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-05-13 17:31:33
+(epstopdf)                    date: 2025-05-15 15:18:09
 (epstopdf)                    size: 51078 bytes
 (epstopdf)             Command: <repstopdf --outfile=convergence_vep_2D-eps-con
 verted-to.pdf convergence_vep_2D.eps>
@@ -1255,7 +1255,7 @@ Package epstopdf Info: Source file: <grid_illustration_1D.eps>
 (epstopdf)                    size: 58052 bytes
 (epstopdf)             Output file: <grid_illustration_1D-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2025-05-13 17:44:52
+(epstopdf)                    date: 2025-05-15 15:18:09
 (epstopdf)                    size: 23336 bytes
 (epstopdf)             Command: <repstopdf --outfile=grid_illustration_1D-eps-c
 onverted-to.pdf grid_illustration_1D.eps>
@@ -1272,8 +1272,8 @@ Package epstopdf Info: Source file: <grid_illustration_2D.eps>
 (epstopdf)                    size: 149975 bytes
 (epstopdf)             Output file: <grid_illustration_2D-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2025-05-13 17:44:52
-(epstopdf)                    size: 54670 bytes
+(epstopdf)                    date: 2025-05-15 15:18:09
+(epstopdf)                    size: 54668 bytes
 (epstopdf)             Command: <repstopdf --outfile=grid_illustration_2D-eps-c
 onverted-to.pdf grid_illustration_2D.eps>
 (epstopdf)             \includegraphics on input line 1097.
@@ -1351,7 +1351,7 @@ sr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></us
 r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/
 local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/lo
 cal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on AIMS_VFPKS.pdf (27 pages, 2201903 bytes).
+Output written on AIMS_VFPKS.pdf (27 pages, 2201876 bytes).
 PDF statistics:
  933 PDF objects out of 1000 (max. 8388607)
  722 compressed objects within 8 object streams
